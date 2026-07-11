@@ -1,0 +1,239 @@
+AETERIS TITLE-NAMING RULES
+==========================
+
+Purpose
+-------
+These rules define a coherent naming language for Aeteris titles and settlements.
+The desired sound lies between the elevated place-names of Numenor, Gondor, and
+Arnor and historical Turkic-Iranian phonology. It must evoke both sources without
+copying a Tolkien name or using a real modern Turkish or Iranian personal/place
+name unchanged.
+
+
+1. WHAT THE EXISTING AETERIS NAMES ALREADY DO
+----------------------------------------------
+
+The names in map_data/definition.csv use two related registers:
+
+  A. Courtly / old imperial:
+     Annoras, Arzanor, Elanar, Belaras, Rovandar, Talgaron, Valoras, Rethanor,
+     Voramir, Calduran, Malethor, Eranzir, Torvazan, Avelkar.
+
+     These favor three syllables, liquid consonants, and endings such as -anor,
+     -aras, -iran, -amir, -uran, -ethor, -zir, and -azan.
+
+  B. Frontier / successor-realm:
+     Tir-Valen, Dar-Moren, Tor-Veyr, Val-Adar, Dar-Kalen, Val-Soren, Ar-Veyr,
+     Tir-Sarun, Tor-Kharan, Kar-Noral.
+
+     These combine a one-syllable geographic element with a two-syllable root.
+     Short unprefixed forms such as Varen, Mareth, Ordan, Sareth, Velan, and
+     Selkar belong to the same layer.
+
+Future names should preserve both registers. Old capitals, kingdoms, and ancient
+duchies normally use the courtly register. Marches, forts, valleys, and younger
+counties normally use the compound frontier register.
+
+
+2. SOUND INVENTORY
+------------------
+
+Preferred consonants:
+  b, d, f, g, h, k, kh, l, m, n, r, s, sh, t, v, y, z
+
+Use sparingly:
+  c (always a hard k-like sound), th, ph
+
+Avoid:
+  j, ch, soft g, w, x, q, and dense consonant clusters
+
+Preferred vowels:
+  a, e, i, o, u
+
+Common vowel movement:
+  a-a, a-e, a-i, e-a, e-i, o-a, o-e, u-a
+
+Most names should alternate consonants and vowels. Permit at most one marked
+cluster per name: kh, sh, th, nd, ld, rn, rz, or rv. This keeps the Iranian-
+Turkic color without losing the smooth Numenorean cadence.
+
+Stress should usually fall on the first or penultimate syllable:
+  VA-lo-ras, re-THA-nor, TOR-va-zan, SE-lkar.
+
+
+3. BUILDING ROOTS
+-----------------
+
+Construct a root from two invented sound units. Do not begin with a complete real
+name and merely change its spelling.
+
+Opening units:
+  Ael-, Arv-, Azel-, Bel-, Cal-, Darv-, Elv-, Er-, Far-, Ilar-, Kal-, Khar-,
+  Mal-, Marv-, Nar-, Nem-, Orv-, Reth-, Rov-, Sarv-, Sel-, Talv-, Tir-, Torv-,
+  Val-, Vel-, Vor-, Zarv-
+
+Middle units:
+  -ad-, -al-, -an-, -ar-, -az-, -el-, -en-, -er-, -esh-, -eth-, -ir-, -or-,
+  -un-, -ur-, -uz-
+
+Root endings:
+  -an, -ar, -as, -ath, -az, -en, -er, -eth, -ir, -is, -on, -or, -un, -ur
+
+Examples of constructed roots:
+  Arvel, Belzuran, Calreth, Elvar, Ilarun, Kharven, Marveth, Nemraz, Orvel,
+  Rethun, Sarvel, Talvaz, Velrath, Vorzen, Zarvun.
+
+Reject a root if it is already a familiar modern Turkish/Iranian name, surname,
+city, province, ethnonym, dynasty, or common title.
+
+
+4. GEOGRAPHIC PREFIXES
+----------------------
+
+These are Aeteric naming particles, not literal borrowings. Use them consistently:
+
+  Ar-    royal, high, first, or founded by the crown
+  Dar-   enclosed settlement, citadel, or seat of administration
+  Kar-   rocky stronghold or mountain ward
+  Tir-   watch, tower, beacon, or guarded height
+  Tor-   hill, ridge, or fortified rise
+  Val-   vale, river basin, fertile lowland, or sheltered country
+
+Write the particle and root with a hyphen for transparent younger names:
+  Tir-Orvel, Dar-Calreth, Tor-Sarvel, Val-Ilarun.
+
+Fuse them in ancient names when centuries of use would have obscured the compound:
+  Ar + vel + anor -> Arvelanor
+  Tor + vaz + an  -> Torvazan
+  Val + or + as   -> Valoras
+
+Do not attach a prefix to a root beginning with the same sound. Avoid forms such
+as Tor-Torven, Val-Valen, or Dar-Darun.
+
+
+5. RANK AND REGISTER
+--------------------
+
+Empire / kingdom:
+  Use one ancient, fused name of three or four syllables. Favor -anor, -aras,
+  -eron, -oria, or -uran, but never copy Arnor, Gondor, Numenor, or their exact
+  compounds.
+  Patterns: ROOT + imperial ending; fused PARTICLE + ROOT + ending.
+  Examples: Arvelanor, Belzuran, Calveras, Ilareron, Zarvethor.
+
+Duchy / major principality:
+  Use a strong three-syllable name or a prestigious geographic compound.
+  Patterns: ROOT + -ar/-as/-on/-or; Tir-/Dar-/Val- + ROOT.
+  Examples: Marvethor, Nemrazan, Rovelar, Tir-Orvel, Val-Calreth.
+
+County:
+  Use two or three syllables. Favor a plain root, a softened ending, or a fused
+  old compound.
+  Examples: Arvel, Belzaran, Elvaren, Rethun, Selvar, Talveth.
+
+Barony / settlement:
+  Use a short root or a transparent geographic compound. Neighboring baronies
+  may share one root family, but must not repeat the county name mechanically.
+  Examples: Velrath, Orven, Dar-Nemir, Kar-Zarvun, Tor-Beles, Tir-Marven.
+
+
+6. IRANIAN-TURKIC COLOR WITHOUT DIRECT BORROWING
+------------------------------------------------
+
+Draw inspiration from sound features, not from whole words or living names:
+
+  - Use kh, sh, z, v, and final -r/-n/-d in moderation.
+  - Use open a vowels beside narrower e/i vowels.
+  - Allow endings reminiscent of -dar, -zar, -mir, -van, or -stan only after
+    changing both their form and their implied meaning: e.g. -daran, -zarel,
+    -miran, -var, -astan. Never use -stan as the default country suffix.
+  - Balance a hard Iranian-Turkic element with a liquid or elevated element:
+    Khar + el + on = Kharelon; Zarv + eth + or = Zarvethor.
+  - Avoid strings that are merely two recognizable real words joined together.
+
+Names to avoid reusing unchanged include obvious real forms already present or
+suggested by the draft palette: Yashar/Yasar, Sarim, Shahmir, Temur, Mirza,
+Kadesh, Aman, Aram, Salar, Tairan, and modern country/city/region names. Existing
+map names can remain as legacy material, but new titles should not extend this
+direct-borrowing habit.
+
+
+7. TOLKIEN-DISTANCE RULE
+------------------------
+
+A new name must pass all of these tests:
+
+  1. It is not an attested Tolkien name with one letter changed.
+  2. It does not use a famous stem plus a famous ending (for example Gond- + -or).
+  3. It does not reproduce Quenya/Sindarin grammar unless that grammar is part of
+     an explicitly defined Aeteric borrowing.
+  4. It shares atmosphere and cadence, not exact vocabulary.
+
+Therefore prefer Arvelanor over a form like Arnumenor, and Calveras over a form
+like Gondaras.
+
+
+8. DUPLICATION AND QUALITY CHECK
+--------------------------------
+
+Before accepting a name:
+
+  1. Search the entire mod case-insensitively for the complete name.
+  2. Search for its root without the prefix and ending.
+  3. Check that no sibling title begins and ends with the same units.
+  4. Check it against a list of modern Turkish and Iranian given names, surnames,
+     and major place-names.
+  5. Say it aloud three times. Reject it if pronunciation is unclear.
+  6. Ensure it is visually distinct from its liege and capital.
+  7. Use lowercase ASCII for CK3 title keys even when the display name contains a
+     hyphen: display "Tir-Orvel" -> key d_tir_orvel.
+
+Within one duchy, use no more than:
+  - one name ending in -anor;
+  - one name ending in -mir/-miran;
+  - two names beginning with the same letter;
+  - two hyphenated particle names.
+
+
+9. QUICK GENERATION FORMULAS
+----------------------------
+
+Ancient realm:
+  opening + middle + imperial ending
+  Arv + el + anor = Arvelanor
+
+Old noble province:
+  opening + middle + rank ending
+  Zarv + eth + or = Zarvethor
+
+Frontier duchy:
+  geographic particle + invented root
+  Tir + Orvel = Tir-Orvel
+
+Fortified county:
+  geographic particle + two-syllable root
+  Dar + Calreth = Dar-Calreth
+
+Small settlement:
+  opening + short ending
+  Nem + ir = Nemir
+
+
+10. SAMPLE NEW TITLE SET
+------------------------
+
+The following illustrate the rules and are not automatically assigned:
+
+  Kingdom:   k_arvelanor     "Arvelanor"
+  Duchy:     d_zarvethor     "Zarvethor"
+  Duchy:     d_tir_orvel     "Tir-Orvel"
+  County:    c_calreth       "Calreth"
+  County:    c_belzaran      "Belzaran"
+  County:    c_rethun        "Rethun"
+  Barony:    b_dar_nemir     "Dar-Nemir"
+  Barony:    b_tor_sarvel    "Tor-Sarvel"
+  Barony:    b_kar_zarvun    "Kar-Zarvun"
+  Barony:    b_velrath       "Velrath"
+
+The central principle: invent the root first, apply Aeteric geography second,
+and test against both real-world and Tolkien names last.
