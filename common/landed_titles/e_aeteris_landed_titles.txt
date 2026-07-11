@@ -774,4 +774,308 @@ e_aeteris = {
             }
         }
     }
+
+    k_arvelor = {
+        color = { 153 151 151 }
+        capital = c_calreth
+
+        d_zarvethor = {
+            color = { 153 151 151 }
+            capital = c_calreth
+
+            c_calreth = {
+                color = { 153 151 151 }
+
+                b_calreth = {
+                    province = 13417
+                    color = { 153 151 151 }
+                }
+                b_arvel = {
+                    province = 13418
+                    color = { 153 151 152 }
+                }
+                b_tor_sarvel = {
+                    province = 13419
+                    color = { 153 151 153 }
+                }
+            }
+            c_belzaran = {
+                color = { 153 151 151 }
+
+                b_belzaran = {
+                    province = 13420
+                    color = { 153 151 154 }
+                }
+                b_dar_nemir = {
+                    province = 13421
+                    color = { 153 151 155 }
+                }
+                b_velrath = {
+                    province = 13422
+                    color = { 153 151 156 }
+                }
+            }
+            c_rethun = {
+                color = { 153 151 151 }
+
+                b_rethun = {
+                    province = 13423
+                    color = { 153 151 157 }
+                }
+                b_kar_zarvun = {
+                    province = 13424
+                    color = { 153 151 158 }
+                }
+                b_elvaren = {
+                    province = 13425
+                    color = { 153 151 159 }
+                }
+            }
+        }
+        d_tir_orvel = {
+            color = { 153 152 151 }
+            capital = c_tir_orvel
+
+            c_tir_orvel = {
+                color = { 153 152 151 }
+
+                b_tir_orvel = {
+                    province = 13426
+                    color = { 153 152 160 }
+                }
+                b_marven = {
+                    province = 13427
+                    color = { 153 152 161 }
+                }
+                b_azeler = {
+                    province = 13428
+                    color = { 153 152 162 }
+                }
+            }
+            c_selvar = {
+                color = { 153 152 151 }
+
+                b_selvar = {
+                    province = 13429
+                    color = { 153 152 151 }
+                }
+                b_dar_arven = {
+                    province = 13430
+                    color = { 153 152 152 }
+                }
+                b_kharvel = {
+                    province = 13431
+                    color = { 153 152 153 }
+                }
+                b_nemerath = {
+                    province = 13432
+                    color = { 153 152 154 }
+                }
+            }
+            c_marveth = {
+                color = { 153 152 151 }
+
+                b_marveth = {
+                    province = 13433
+                    color = { 153 152 155 }
+                }
+                b_val_erun = {
+                    province = 13434
+                    color = { 153 152 156 }
+                }
+                b_torzarel = {
+                    province = 13435
+                    color = { 153 152 157 }
+                }
+                b_belven = {
+                    province = 13436
+                    color = { 153 152 158 }
+                }
+            }
+        }
+        d_val_ilarun = {
+            color = { 153 153 151 }
+            capital = c_val_ilarun
+
+            c_val_ilarun = {
+                color = { 153 153 151 }
+
+                b_val_ilarun = {
+                    province = 13437
+                    color = { 153 153 159 }
+                }
+                b_aelvar = {
+                    province = 13438
+                    color = { 153 153 160 }
+                }
+                b_roveth = {
+                    province = 13439
+                    color = { 153 153 161 }
+                }
+                b_dar_selun = {
+                    province = 13440
+                    color = { 153 153 162 }
+                }
+            }
+            c_kharven = {
+                color = { 153 153 151 }
+
+                b_kharven = {
+                    province = 13441
+                    color = { 153 153 151 }
+                }
+                b_tor_nemraz = {
+                    province = 13442
+                    color = { 153 153 152 }
+                }
+                b_belath = {
+                    province = 13443
+                    color = { 153 153 153 }
+                }
+            }
+            c_orvelas = {
+                color = { 153 153 151 }
+
+                b_orvelas = {
+                    province = 13444
+                    color = { 153 153 154 }
+                }
+                b_zarveth = {
+                    province = 13445
+                    color = { 153 153 155 }
+                }
+                b_tir_calven = {
+                    province = 13446
+                    color = { 153 153 156 }
+                }
+            }
+        }
+        d_dar_calreth = {
+            color = { 153 154 151 }
+            capital = c_dar_calreth
+
+            c_dar_calreth = {
+                color = { 153 154 151 }
+
+                b_dar_calreth = {
+                    province = 13447
+                    color = { 153 154 157 }
+                }
+                b_vorzen = {
+                    province = 13448
+                    color = { 153 154 158 }
+                }
+                b_ilarven = {
+                    province = 13449
+                    color = { 153 154 159 }
+                }
+                b_tor_rethar = {
+                    province = 13450
+                    color = { 153 154 160 }
+                }
+                b_malver = {
+                    province = 13451
+                    color = { 153 154 161 }
+                }
+                b_sarveth = {
+                    province = 13452
+                    color = { 153 154 162 }
+                }
+            }
+            c_nemraz = {
+                color = { 153 154 151 }
+
+                b_nemraz = {
+                    province = 13453
+                    color = { 153 154 151 }
+                }
+                b_kar_orvun = {
+                    province = 13454
+                    color = { 153 154 152 }
+                }
+                b_azravel = {
+                    province = 13455
+                    color = { 153 154 153 }
+                }
+            }
+            c_talveth = {
+                color = { 153 154 151 }
+
+                b_talveth = {
+                    province = 13456
+                    color = { 153 154 154 }
+                }
+                b_dar_velun = {
+                    province = 13457
+                    color = { 153 154 155 }
+                }
+                b_rovazar = {
+                    province = 13458
+                    color = { 153 154 156 }
+                }
+            }
+        }
+        d_belzuran = {
+            color = { 153 155 151 }
+            capital = c_belzuran
+
+            c_belzuran = {
+                color = { 153 155 151 }
+
+                b_belzuran = {
+                    province = 13459
+                    color = { 153 155 157 }
+                }
+                b_arveth = {
+                    province = 13460
+                    color = { 153 155 158 }
+                }
+                b_tir_zarven = {
+                    province = 13461
+                    color = { 153 155 159 }
+                }
+                b_calvor = {
+                    province = 13462
+                    color = { 153 155 160 }
+                }
+            }
+            c_velrathan = {
+                color = { 153 155 151 }
+
+                b_velrathan = {
+                    province = 13463
+                    color = { 153 155 161 }
+                }
+                b_dar_ileth = {
+                    province = 13464
+                    color = { 153 155 162 }
+                }
+                b_kharunel = {
+                    province = 13465
+                    color = { 153 155 151 }
+                }
+                b_selvor = {
+                    province = 13466
+                    color = { 153 155 152 }
+                }
+            }
+            c_zarvun = {
+                color = { 153 155 151 }
+
+                b_zarvun = {
+                    province = 13467
+                    color = { 153 155 153 }
+                }
+                b_tor_azel = {
+                    province = 13468
+                    color = { 153 155 154 }
+                }
+                b_maruzeth = {
+                    province = 13469
+                    color = { 153 155 155 }
+                }
+            }
+        }
+    }
+
 }
