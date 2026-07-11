@@ -1,0 +1,777 @@
+e_aeteris = {
+
+	color = { 151 151 151 }
+	capital = c_annoras 
+
+	k_annoras = {
+
+		color = { 151 151 151 }
+		capital = c_annoras 
+
+		d_annoras = {
+
+			color = { 151 151 151 }
+			capital = c_annoras 
+
+			c_annoras = {
+				color = { 151 151 151 }
+
+				b_annoras = {
+
+					province = 13311
+					color = { 151 151 151 }
+				}
+			}
+
+            c_arzanor = {
+				color = { 151 151 151 }
+
+                b_arzanor = {
+
+					province = 13312
+					color = { 151 151 152 }
+				}
+                b_tairan = {
+
+					province = 13313
+					color = { 151 151 153 }
+				}
+			}
+
+            c_norvaz = {
+				color = { 151 151 151 }
+
+                b_norvaz = {
+
+					province = 13314
+					color = { 151 151 154 }
+				}
+                b_sarim = {
+
+					province = 13315
+					color = { 151 151 155 }
+				}
+			}
+
+            c_elanar = {
+				color = { 151 151 151 }
+
+                b_elanar = {
+
+					province = 13316
+					color = { 151 151 156 }
+				}
+                b_kayrasar = {
+
+					province = 13317
+					color = { 151 151 157 }
+				}
+			}
+
+            c_merash = {
+				color = { 151 151 151 }
+
+                b_merash = {
+
+					province = 13318
+					color = { 151 151 158 }
+				}
+                b_azram = {
+
+					province = 13319
+					color = { 151 151 159 }
+				}
+			}
+		}
+
+        d_belaras = {
+
+			color = { 151 152 151 }
+			capital = c_belaras 
+
+			c_belaras = {
+				color = { 151 152 151 }
+
+				b_belaras = {
+
+					province = 13320
+					color = { 151 152 151 }
+				}
+                b_rovandar = {
+
+					province = 13321
+					color = { 151 152 152 }
+				}
+                b_kalzar = {
+
+					province = 13322
+					color = { 151 152 153 }
+				}
+                b_asteran = {
+
+					province = 13323
+					color = { 151 152 154 }
+				}
+			}
+
+            c_saraydar = {
+				color = { 151 152 151 }
+
+				b_saraydar = {
+
+					province = 13324
+					color = { 151 152 155 }
+				}
+                b_turaz = {
+
+					province = 13326
+					color = { 151 152 157 }
+				}
+                
+			}
+
+            c_shahmir = {
+				color = { 151 152 158 }
+
+				b_shahmir = {
+
+					province = 13327
+					color = { 151 152 158 }
+				}
+                b_arkasar = {
+
+					province = 13328
+					color = { 151 152 159 }
+				}
+                b_narshad = {
+
+					province = 13329
+					color = { 151 152 160 }
+				}
+                b_akmeran = {
+
+					province = 13325
+					color = { 151 152 156 }
+				}
+			}
+		}
+
+        d_karaves = {
+
+			color = { 151 153 151 }
+			capital = c_karaves 
+
+			c_karaves = {
+				color = { 151 153 151 }
+
+				b_karaves = {
+
+					province = 13330
+					color = { 151 153 151 }
+				}
+                b_samarin = {
+
+					province = 13331
+					color = { 151 153 152 }
+				}
+                b_talgaron = {
+
+					province = 13332
+					color = { 151 153 153 }
+				}
+                b_farand = {
+
+					province = 13333
+					color = { 151 153 154 }
+				}
+			}
+
+            c_ordaz = {
+				color = { 151 153 151 }
+
+				b_ordaz = {
+
+					province = 13334
+					color = { 151 153 155 }
+				}
+                b_mirzat = {
+
+					province = 13335
+					color = { 151 153 157 }
+				}
+                
+			}
+
+            c_yashar = {
+				color = { 151 153 158 }
+
+				b_yashar = {
+
+					province = 13336
+					color = { 151 153 158 }
+				}
+                b_karanor = {
+
+					province = 13337
+					color = { 151 153 159 }
+				}
+                b_temiraz = {
+
+					province = 13338
+					color = { 151 153 160 }
+				}
+                b_arkasher = {
+
+					province = 13339
+					color = { 151 153 156 }
+				}
+			}
+		}
+
+        d_valoras = {
+
+			color = { 151 153 151 }
+			capital = c_valoras 
+
+			c_valoras = {
+				color = { 151 153 151 }
+
+				b_valoras = {
+
+					province = 13340
+					color = { 151 153 151 }
+				}
+                b_mardun = {
+
+					province = 13341
+					color = { 151 153 152 }
+				}
+                b_ankazar = {
+
+					province = 13342
+					color = { 151 153 153 }
+				}
+                b_velkar = {
+
+					province = 13343
+					color = { 151 153 154 }
+				}
+			}
+
+            c_tiramar = {
+				color = { 151 153 151 }
+
+				b_tiramar = {
+
+					province = 13344
+					color = { 151 153 155 }
+				}
+                b_azkalen = {
+
+					province = 13345
+					color = { 151 153 157 }
+				}
+                
+			}
+
+            c_rethanor = {
+				color = { 151 153 158 }
+
+				b_rethanor = {
+
+					province = 13346
+					color = { 151 153 158 }
+				}
+                b_belmiran = {
+
+					province = 13347
+					color = { 151 153 159 }
+				}
+                b_ordelan = {
+
+					province = 13348
+					color = { 151 153 160 }
+				}
+                b_nemeris = {
+
+					province = 13349
+					color = { 151 153 156 }
+				}
+			}
+		}
+
+        d_isharas = {
+
+			color = { 151 153 151 }
+			capital = c_isharas 
+
+			c_isharas = {
+				color = { 151 153 151 }
+
+				b_isharas = {
+
+					province = 13350
+					color = { 151 153 151 }
+				}
+                b_voramir = {
+
+					province = 13351
+					color = { 151 153 152 }
+				}
+                b_calduran = {
+
+					province = 13352
+					color = { 151 153 153 }
+				}
+                b_zarephon = {
+
+					province = 13353
+					color = { 151 153 154 }
+				}
+			}
+
+            c_malethor = {
+				color = { 151 153 151 }
+
+				b_malethor = {
+
+					province = 13354
+					color = { 151 153 155 }
+				}
+                b_eranzir = {
+
+					province = 13355
+					color = { 151 153 157 }
+				}
+                
+			}
+
+            c_torvazan = {
+				color = { 151 153 158 }
+
+				b_torvazan = {
+
+					province = 13356
+					color = { 151 153 158 }
+				}
+                b_avelkar = {
+
+					province = 13357
+					color = { 151 153 159 }
+				}
+                b_khurazan = {
+
+					province = 13358
+					color = { 151 153 160 }
+				}
+                b_temurad = {
+
+					province = 13359
+					color = { 151 153 156 }
+				}
+			}
+		}
+	}
+
+    k_temp_1 = {
+
+        color = { 151 151 151 }
+	    capital = c_Tir-Valen 
+
+        d_Tir-Valen = {
+
+			color = { 151 151 151 }
+			capital = c_Tir-Valen 
+
+			c_Tir-Valen = {
+				color = { 151 151 151 }
+
+				b_Tir-Valen = {
+
+					province = 13360
+					color = { 151 151 151 }
+				}
+                b_Kalen = {
+
+					province = 13361
+					color = { 151 151 151 }
+				}
+                b_Dar-Moren = {
+
+					province = 13362
+					color = { 151 151 151 }
+				}
+                b_Velor = {
+
+					province = 13363
+					color = { 151 151 151 }
+				}
+                b_Ar-Tiran = {
+
+					province = 13364
+					color = { 151 151 151 }
+				}
+			}
+
+            c_Saren = {
+				color = { 151 151 151 }
+
+                b_Saren = {
+
+					province = 13365
+					color = { 151 151 151 }
+				}
+                b_Tor-Veyr = {
+
+					province = 13366
+					color = { 151 151 151 }
+				}
+                b_Nareth = {
+
+					province = 13367
+					color = { 151 151 151 }
+				}
+                b_Val-Adar = {
+
+					province = 13368
+					color = { 151 151 151 }
+				}
+                b_Moren = {
+
+					province = 13369
+					color = { 151 151 151 }
+				}
+            }
+
+            c_Tir-Oren = {
+				color = { 151 151 151 }
+
+                b_Tir-Oren = {
+
+					province = 13370
+					color = { 151 151 151 }
+				}
+                b_Avarn = {
+
+					province = 13371
+					color = { 151 151 151 }
+				}
+                b_Dar-Kalen = {
+
+					province = 13372
+					color = { 151 151 151 }
+				}
+                b_Othar = {
+
+					province = 13373
+					color = { 151 151 151 }
+				}
+                b_Tor-Melas = {
+
+					province = 13374
+					color = { 151 151 151 }
+				}
+                b_Rovan = {
+
+					province = 13375
+					color = { 151 151 151 }
+				}
+            }
+        }
+
+        d_Val-Soren = {
+
+			color = { 151 151 151 }
+			capital = c_Val-Soren 
+
+			c_Val-Soren = {
+				color = { 151 151 151 }
+
+				b_Val-Soren = {
+
+					province = 13376
+					color = { 151 151 151 }
+				}
+                b_Adaran = {
+
+					province = 13377
+					color = { 151 151 151 }
+				}
+                b_Tir-Mardun = {
+
+					province = 13378
+					color = { 151 151 151 }
+				}
+                b_Belaren = {
+
+					province = 13379
+					color = { 151 151 151 }
+				}
+                b_Ar-Veyr = {
+
+					province = 13380
+					color = { 151 151 151 }
+				}
+			}
+
+            c_Salar = {
+				color = { 151 151 151 }
+
+                b_Salar = {
+
+					province = 13381
+					color = { 151 151 151 }
+				}
+                b_Dar-Velor = {
+
+					province = 13382
+					color = { 151 151 151 }
+				}
+                b_Meren = {
+
+					province = 13383
+					color = { 151 151 151 }
+				}
+                b_Tor-Aram = {
+
+					province = 13384
+					color = { 151 151 151 }
+				}
+                b_Noral = {
+
+					province = 13385
+					color = { 151 151 151 }
+				}
+            }
+
+            c_Val-Tiren = {
+				color = { 151 151 151 }
+
+                b_Val-Tiren = {
+
+					province = 13386
+					color = { 151 151 151 }
+				}
+                b_Khador = {
+
+					province = 13387
+					color = { 151 151 151 }
+				}
+                b_Tir-Sarun = {
+
+					province = 13388
+					color = { 151 151 151 }
+				}
+                b_Aster = {
+
+					province = 13389
+					color = { 151 151 151 }
+				}
+            }
+        }
+
+		d_Dar-Avar = {
+
+			color = { 151 151 151 }
+			capital = c_Dar-Avar
+
+			c_Dar-Avar = {
+				color = { 151 151 151 }
+
+				b_Dar-Avar = {
+
+					province = 13390
+					color = { 151 151 151 }
+				}
+                b_Valenor = {
+
+					province = 13391
+					color = { 151 151 151 }
+				}
+			}
+
+            c_Tir-Kadesh = {
+				color = { 151 151 151 }
+
+                b_Tir-Kadesh = {
+
+					province = 13392
+					color = { 151 151 151 }
+				}
+                b_Ar-Medan = {
+
+					province = 13393
+					color = { 151 151 151 }
+				}
+                b_Tor-Naren = {
+
+					province = 13394
+					color = { 151 151 151 }
+				}
+            }
+
+            c_Soreth = {
+				color = { 151 151 151 }
+
+                b_Soreth = {
+
+					province = 13395
+					color = { 151 151 151 }
+				}
+                b_Dar-Aman = {
+
+					province = 13396
+					color = { 151 151 151 }
+				}
+                b_Val-Oren = {
+
+					province = 13397
+					color = { 151 151 151 }
+				}
+
+            }
+
+			c_Tor-Kharan = {
+				color = { 151 151 151 }
+
+				b_Tor-Kharan = {
+
+					province = 13398
+					color = { 151 151 151 }
+				}
+                b_Kar-Noral = {
+
+					province = 13399
+					color = { 151 151 151 }
+				}
+			}
+        }
+
+		d_Varen = {
+
+			color = { 151 151 151 }
+			capital = c_Varen
+
+			c_Varen = {
+				color = { 151 151 151 }
+
+				b_Varen = {
+
+					province = 13400
+					color = { 151 151 151 }
+				}
+                b_Karad = {
+
+					province = 13401
+					color = { 151 151 151 }
+				}
+				b_Mareth = {
+
+					province = 13402
+					color = { 151 151 151 }
+				}
+			}
+
+            c_Talar = {
+				color = { 151 151 151 }
+
+                b_Talar = {
+
+					province = 13403
+					color = { 151 151 151 }
+				}
+                b_Nemer = {
+
+					province = 13404
+					color = { 151 151 151 }
+				}
+            }
+
+            c_Ordan = {
+				color = { 151 151 151 }
+
+                b_Ordan = {
+
+					province = 13405
+					color = { 151 151 151 }
+				}
+                b_Sareth = {
+
+					province = 13406
+					color = { 151 151 151 }
+				}
+                b_Velan = {
+
+					province = 13407
+					color = { 151 151 151 }
+				}
+				b_Tirak = {
+
+					province = 13408
+					color = { 151 151 151 }
+				}
+            }
+        }
+
+		d_Arenor = {
+
+			color = { 151 151 151 }
+			capital = c_Arenor
+
+			c_Arenor = {
+				color = { 151 151 151 }
+
+				b_Arenor = {
+
+					province = 13409
+					color = { 151 151 151 }
+				}
+                b_Belvar = {
+
+					province = 13410
+					color = { 151 151 151 }
+				}
+				b_Caldor = {
+
+					province = 13411
+					color = { 151 151 151 }
+				}
+			}
+
+            c_Narym = {
+				color = { 151 151 151 }
+
+                b_Narym = {
+
+					province = 13412
+					color = { 151 151 151 }
+				}
+                b_Orenas = {
+
+					province = 13413
+					color = { 151 151 151 }
+				}
+				b_Talmar = {
+
+					province = 13414
+					color = { 151 151 151 }
+				}
+            }
+
+            c_Vardun = {
+				color = { 151 151 151 }
+
+                b_Vardun = {
+
+					province = 13415
+					color = { 151 151 151 }
+				}
+                b_Selkar = {
+
+					province = 13416
+					color = { 151 151 151 }
+				}
+            }
+        }
+    }
+}

@@ -1,0 +1,1125 @@
+e_zulakar = {
+	color = { 15 105 125 }
+
+	capital = c_JAV_mataram
+
+	k_zul_khakar = {
+		color = { 109 216 219 }
+
+		capital = c_JAV_mataram
+
+		d_JAV_amak = {
+			color = { 125 199 184 }
+
+			capital = c_JAV_mataram
+
+			c_JAV_mataram = {
+				color = { 124 153 140 }
+
+				b_JAV_Mataram = {
+					province = 11343
+
+					color = { 91 112 98 }
+				}
+				b_JAV_Mamrati = {
+					province = 11342
+
+					color = { 96 160 137 }
+				}
+				b_JAV_Borobodur = {
+					province = 11341
+
+					color = { 87 140 112 }
+				}
+				b_JAV_Wwatan = {
+					province = 11350
+
+					color = { 137 187 156 }
+				}
+				b_JAV_Bagaluhan = {
+					province = 11340
+
+					color = { 147 191 175 }
+				}
+				b_JAV_Kampak = {
+					province = 11351
+
+					color = { 78 152 126 }
+				}
+			}
+
+			c_JAV_kalingga = {
+				color = { 119 169 160 }
+
+				b_JAV_Dieng = {
+					province = 11344
+
+					color = { 104 128 119 }
+				}
+				b_JAV_Poh_Pitu = {
+					province = 11345
+
+					color = { 102 142 136 }
+				}
+				b_JAV_Lwaram = {
+					province = 11348
+
+					color = { 96 189 172 }
+				}
+				b_JAV_Kuwu = {
+					province = 11347
+
+					color = { 90 170 167 }
+				}
+				b_JAV_Keling = {
+					province = 11346
+
+					color = { 139 184 175 }
+				}
+			}
+
+			c_JAV_janggala = {
+				color = { 103 222 197 }
+
+				b_JAV_Kahuripan = {
+					province = 11356
+
+					color = { 113 181 153 }
+				}
+				b_JAV_Hujung_Galuh = {
+					province = 11354
+
+					color = { 104 195 178 }
+				}
+				b_JAV_Daha = {
+					province = 11355
+
+					color = { 78 242 207 }
+				}
+				b_JAV_Tamwlang = {
+					province = 11353
+
+					color = { 77 223 214 }
+				}
+				b_JAV_Kambang_Putih = {
+					province = 11349
+
+					color = { 136 237 213 }
+				}
+				b_JAV_Anjukladang = {
+					province = 11352
+
+					color = { 120 251 206 }
+				}
+			}
+
+			c_JAV_lumajang = {
+				color = { 99 200 197 }
+
+				b_JAV_Blambangan = {
+					province = 11359
+
+					color = { 104 159 147 }
+				}
+				b_JAV_Situbondo = {
+					province = 11360
+
+					color = { 97 173 173 }
+				}
+				b_JAV_Pasuruhan = {
+					province = 11357
+
+					color = { 77 220 215 }
+				}
+				b_JAV_Tumapel = {
+					province = 11358
+
+					color = { 76 186 201 }
+				}
+			}
+		}
+
+		d_JAV_gurash = {
+			color = { 113 213 250 }
+
+			capital = c_JAV_sunda
+
+			c_JAV_sunda = {
+				color = { 129 202 204 }
+
+				b_JAV_Pakuan_Pajajaran = {
+					province = 11330
+
+					color = { 129 163 157 }
+				}
+				b_JAV_Banten = {
+					province = 11326
+
+					color = { 124 174 177 }
+				}
+				b_JAV_Tangaram = {
+					province = 11327
+
+					color = { 116 191 187 }
+				}
+				b_JAV_Tugu = {
+					province = 11328
+
+					color = { 105 188 205 }
+				}
+				b_JAV_Cicatih = {
+					province = 11331
+
+					color = { 162 219 219 }
+				}
+				b_JAV_Ujung_Kulon = {
+					province = 11325
+
+					color = { 98 184 181 }
+				}
+			}
+
+			c_JAV_galuh = {
+				color = { 116 188 220 }
+
+				b_JAV_Kawali = {
+					province = 11337
+
+					color = { 123 173 179 }
+				}
+				b_JAV_Cirebon = {
+					province = 11336
+
+					color = { 173 216 255 }
+				}
+				b_JAV_Pangandaran = {
+					province = 11338
+
+					color = { 92 196 240 }
+				}
+				b_JAV_Purwokerto = {
+					province = 11339
+
+					color = { 90 161 221 }
+				}
+				b_JAV_Limbangan = {
+					province = 11332
+
+					color = { 149 211 235 }
+				}
+			}
+
+			c_JAV_cimanuk = {
+				color = { 74 208 255 }
+
+				b_JAV_Cimanuk = {
+					province = 11335
+
+					color = { 96 207 214 }
+				}
+				b_JAV_Batujaya = {
+					province = 11333
+
+					color = { 82 186 228 }
+				}
+				b_JAV_Bojang_Menje = {
+					province = 11334
+
+					color = { 37 200 255 }
+				}
+			}
+		}
+
+		d_IDO_tshekar = {
+			color = { 68 150 172 }
+
+			capital = c_IDO_bali
+
+			c_IDO_bali = {
+				color = { 73 126 125 }
+
+				b_IDO_Bedulu = {
+					province = 11366
+
+					color = { 63 85 80 }
+				}
+				b_IDO_Buleleng = {
+					province = 11365
+
+					color = { 64 99 99 }
+				}
+				b_IDO_Jembrana = {
+					province = 11364
+
+					color = { 64 146 144 }
+				}
+			}
+
+			c_JAV_madura = {
+				color = { 122 178 217 }
+
+				b_JAV_Sampang = {
+					province = 11361
+
+					color = { 127 166 176 }
+				}
+				b_JAV_Sumenep = {
+					province = 11362
+
+					color = { 182 212 255 }
+				}
+				b_JAV_Kangean = {
+					province = 11363
+
+					color = { 99 182 237 }
+				}
+			}
+
+			c_IDO_lombok_and_sumbawa = {
+				color = { 45 165 195 }
+
+				b_IDO_Bima = {
+					province = 11369
+
+					color = { 60 154 154 }
+				}
+				b_IDO_Lombok = {
+					province = 11367
+
+					color = { 50 141 168 }
+				}
+				b_IDO_Taliwang = {
+					province = 11368
+
+					color = { 19 177 215 }
+				}
+			}
+
+		}
+	}
+
+	k_zul_gurat = {	#Sumatra
+		color = { 221 14 12 }
+
+		capital = c_SUM_palembang
+
+		d_SUM_mazrul = {
+			color = { 89 19 18 }
+
+			capital = c_SUM_palembang
+
+			c_SUM_palembang = {
+				color = { 110 21 15 }
+
+				b_SUM_Palembang = {
+					province = 11296
+
+					color = { 87 26 22 }
+				}
+				b_SUM_Minanga_Tamwan = {
+					province = 11302
+
+					color = { 128 37 11 }
+				}
+				b_SUM_Baros = {
+					province = 11303
+
+					color = { 140 22 2 }
+				}
+				b_SUM_Salekar = {
+					province = 11297
+
+					color = { 152 37 29 }
+				}
+				b_SUM_Musi = {
+					province = 11298
+
+					color = { 152 60 28 }
+				}
+			}
+
+			c_SUM_lampung = {
+				color = { 147 63 31 }
+
+				b_SUM_Tulangbawang = {
+					province = 11306
+
+					color = { 87 40 22 }
+				}
+				b_SUM_Menggala = {
+					province = 11307
+
+					color = { 128 62 11 }
+				}
+				b_SUM_Palas_Pasemah = {
+					province = 11308
+
+					color = { 111 44 12 }
+				}
+				b_SUM_Batu_Betil = {
+					province = 11309
+
+					color = { 140 49 1 }
+				}
+				b_SUM_Pugong = {
+					province = 11310
+
+					color = { 152 86 28 }
+				}
+			}
+
+			c_SUM_bangka-belitung = {
+				color = { 132 18 1 }
+
+				b_SUM_Kota_Kapur = {
+					province = 11322
+
+					color = { 87 30 22 }
+				}
+				b_SUM_Bangka = {
+					province = 11323
+
+					color = { 128 45 11 }
+				}
+				b_SUM_Belitung = {
+					province = 11324
+
+					color = { 111 29 12 }
+				}
+			}
+
+			c_SUM_pasemah = {
+				color = { 143 26 24 }
+
+				b_SUM_Batu_Brak = {
+					province = 11300
+
+					color = { 87 23 22 }
+				}
+				b_SUM_Tanah_Abang = {
+					province = 11299
+
+					color = { 128 31 11 }
+				}
+				b_SUM_Pedamaran = {
+					province = 11301
+
+					color = { 111 18 12 }
+				}
+			}
+
+			c_SUM_east_sumatra = {
+				color = { 114 41 20 }
+
+				b_SUM_Mesuji = {
+					province = 11305
+
+					color = { 87 36 22 }
+				}
+				b_SUM_FIC_Rawatimur = {
+					province = 11304
+
+					color = { 128 56 11 }
+				}
+			}
+		}
+
+		d_SUM_karjin = {
+			color = { 139 64 21 }
+
+			capital = c_SUM_jambi
+
+			c_SUM_jambi = {
+				color = { 84 42 19 }
+
+				b_SUM_Jambi = {
+					province = 11294
+
+					color = { 116 56 18 }
+				}
+				b_SUM_Votabura = {
+					province = 11295
+
+					color = { 128 71 11 }
+				}
+				b_SUM_Tungkal = {
+					province = 11288
+
+					color = { 157 101 37 }
+				}
+				b_SUM_Tumbesi = {
+					province = 11293
+
+					color = { 152 73 29 }
+				}
+				b_SUM_Jamongas = {
+					province = 11289
+
+					color = { 146 60 11 }
+				}
+			}
+
+			c_SUM_dharmasraya = {
+				color = { 121 74 9 }
+
+				b_SUM_Dharmasraya = {
+					province = 11285
+
+					color = { 87 59 22 }
+				}
+				b_SUM_Gudahiri = {
+					province = 11286
+
+					color = { 99 75 18 }
+				}
+				b_SUM_Kuala_Kuantan = {
+					province = 11287
+
+					color = { 140 93 2 }
+				}
+			}
+
+			c_SUM_indragiri = {
+				color = { 106 51 10 }
+
+				b_SUM_Indragiri = {
+					province = 11282
+
+					color = { 87 49 22 }
+				}
+				b_SUM_Karitang = {
+					province = 11280
+
+					color = { 128 79 11 }
+				}
+				b_SUM_Rengat = {
+					province = 11281
+
+					color = { 157 110 37 }
+				}
+			}
+
+			c_SUM_lingga = {
+				color = { 146 100 29 }
+
+				b_SUM_Lingga = {
+					province = 11278
+
+					color = { 87 61 22 }
+				}
+				b_SUM_Kampe = {
+					province = 11279
+
+					color = { 99 77 18 }
+				}
+				b_SUM_Tanjungpinang = {
+					province = 11277
+
+					color = { 140 97 2 }
+				}
+			}
+
+			c_SUM_karang_brahi = {
+				color = { 138 84 5 }
+
+				b_SUM_Karang_Brahi = {
+					province = 11291
+
+					color = { 87 60 22 }
+				}
+				b_SUM_Teba = {
+					province = 11290
+
+					color = { 99 76 18 }
+				}
+				b_SUM_Lahat = {
+					province = 11292
+
+					color = { 157 130 37 }
+				}
+			}
+		}
+
+		d_SUM_rakha = {
+			color = { 136 14 11 }
+
+			capital = c_SUM_muara_takus
+
+			c_SUM_muara_takus = {
+				color = { 84 20 19 }
+
+				b_SUM_Muara_Takus = {
+					province = 11270
+
+					color = { 116 23 18 }
+				}
+				b_SUM_Pagaruyung = {
+					province = 11284
+
+					color = { 157 63 38 }
+				}
+				b_SUM_Kahwas = {
+					province = 11271
+
+					color = { 140 15 2 }
+				}
+				b_SUM_Kuntu = {
+					province = 11283
+
+					color = { 152 32 29 }
+				}
+			}
+
+			c_SUM_kampar = {
+				color = { 121 35 9 }
+
+				b_SUM_Kampar = {
+					province = 11272
+
+					color = { 87 37 22 }
+				}
+				b_SUM_Siak = {
+					province = 11273
+
+					color = { 128 57 11 }
+				}
+				b_SUM_Boron = {
+					province = 11276
+
+					color = { 157 87 37 }
+				}
+			}
+
+			c_SUM_rokan = {
+				color = { 106 18 10 }
+
+				b_SUM_Rokan = {
+					province = 11267
+
+					color = { 87 27 22 }
+				}
+				b_SUM_Bengkalis = {
+					province = 11268
+
+					color = { 128 39 11 }
+				}
+				b_SUM_Kalowang = {
+					province = 11266
+
+					color = { 140 25 2 }
+				}
+			}
+
+			c_SUM_pekanbaru = {
+				color = { 143 28 24 }
+
+				b_SUM_Pekanbaru = {
+					province = 11269
+
+					color = { 87 24 22 }
+				}
+				b_SUM_Rokan_Hilir = {
+					province = 11265
+
+					color = { 128 33 11 }
+				}
+			}
+
+			c_SUM_meranti = {
+				color = { 142 57 23 }
+
+				b_SUM_Suir = {
+					province = 11274
+
+					color = { 87 40 22 }
+				}
+				b_SUM_Selat_Panjang = {
+					province = 11275
+
+					color = { 157 95 38 }
+				}
+			}
+		}
+
+		d_SUM_naskesh = {
+			color = { 116 44 2 }
+
+			capital = c_SUM_lambri
+
+			c_SUM_lambri = {
+				color = { 84 43 19 }
+
+				b_SUM_Lamuri = {
+					province = 11254
+
+					color = { 116 58 18 }
+				}
+				b_SUM_Barat = {
+					province = 11253
+
+					color = { 128 73 11 }
+				}
+				b_SUM_Samudra = {
+					province = 11255
+
+					color = { 157 103 37 }
+				}
+				b_SUM_Pasai = {
+					province = 11256
+
+					color = { 152 75 29 }
+				}
+			}
+
+			c_SUM_barus = {
+				color = { 121 74 9 }
+
+				b_SUM_Barus = {
+					province = 11318
+
+					color = { 87 59 22 }
+				}
+				b_SUM_Singkil = {
+					province = 11319
+
+					color = { 99 75 18 }
+				}
+				b_SUM_Tripa = {
+					province = 11320
+
+					color = { 140 93 2 }
+				}
+				b_SUM_Calang = {
+					province = 11321
+
+					color = { 152 101 29 }
+				}
+			}
+
+			c_SUM_panai = {
+				color = { 147 102 30 }
+
+				b_SUM_Panai = {
+					province = 11263
+
+					color = { 87 62 22 }
+				}
+				b_SUM_Kemang = {
+					province = 11261
+
+					color = { 99 78 18 }
+				}
+				b_SUM_Bahal = {
+					province = 11264
+
+					color = { 140 98 2 }
+				}
+				b_SUM_Tanjung = {
+					province = 11262
+
+					color = { 156 131 35 }
+				}
+			}
+
+			c_SUM_perlak = {
+				color = { 143 69 24 }
+
+				b_SUM_Perlak = {
+					province = 11257
+
+					color = { 87 46 22 }
+				}
+				b_SUM_Medan = {
+					province = 11259
+
+					color = { 128 74 11 }
+				}
+				b_SUM_Aru = {
+					province = 11260
+
+					color = { 111 54 12 }
+				}
+				b_SUM_Tamiang = {
+					province = 11258
+
+					color = { 156 103 35 }
+				}
+			}
+		}
+
+		d_SUM_umruk = {
+			color = { 140 9 8 }
+
+			capital = c_SUM_minangkabau
+
+			c_SUM_minangkabau = {
+				color = { 84 19 19 }
+
+				b_SUM_Padang = {
+					province = 11315
+
+					color = { 116 22 18 }
+				}
+				b_SUM_Batan = {
+					province = 11317
+
+					color = { 157 61 38 }
+				}
+				b_SUM_Tiku = {
+					province = 11316
+
+					color = { 140 13 2 }
+				}
+			}
+
+			c_SUM_bengkulu = {
+				color = { 121 34 9 }
+
+				b_SUM_Bengkulu = {
+					province = 11312
+
+					color = { 87 36 22 }
+				}
+				b_SUM_Andalas = {
+					province = 11311
+
+					color = { 128 56 11 }
+				}
+			}
+
+			c_SUM_riak_nan_berbedur = {
+				color = { 106 17 10 }
+
+				b_SUM_Inderajati = {
+					province = 11314
+
+					color = { 87 26 22 }
+				}
+				b_SUM_Muko_Muko = {
+					province = 11313
+
+					color = { 128 38 11 }
+				}
+			}
+		}
+
+		d_niguraz = {
+			capital = c_nias
+			color = { 136 35 25 }
+
+			c_nias = {
+				color = { 121 43 9 }
+
+				b_nias = {
+					province = 11251
+
+					color = { 87 41 22 }
+				}
+				b_simeulue = {
+					province = 11252
+
+					color = { 128 65 11 }
+				}
+			}
+
+			c_mentawai = {
+				color = { 84 24 19 }
+
+				b_siberut = {
+					province = 12824
+
+					color = { 116 29 18 }
+				}
+				b_sipura = {
+					province = 12825
+
+					color = { 157 70 38 }
+				}
+				b_batu = {
+					province = 12823
+
+					color = { 140 24 2 }
+				}
+			}
+		}
+
+		d_handumar = {
+			capital = c_andamans
+			color = { 140 9 8 }
+
+			c_andamans = {
+				color = { 84 19 19 }
+
+				b_marakele = {
+					province = 11248
+				}
+				b_onge = {
+					province = 1468
+				}
+				b_diglipur = {
+					province = 12848
+				}
+			}
+			c_nakkavaram = {
+				color = { 121 34 9 }
+
+				b_nakkavaram = {
+					province = 12849
+				}
+				b_muot = {
+					province = 9676
+				}
+			}
+		}
+	}
+
+	k_zul_heck = { #Malay Peninsula
+		color = { 15 55 75 }
+
+		capital = c_MAL_patani
+
+		d_MAL_langasush = {
+			color = { 29 81 87 }
+
+			capital = c_MAL_patani
+
+			c_MAL_patani = {
+				color = { 35 69 64 }
+
+				b_MAL_Patani = {
+					province = 11414
+
+					color = { 59 107 94 }
+				}
+				b_MAL_Saiburi = {
+					province = 11415
+
+					color = { 50 88 83 }
+				}
+				b_MAL_Menara = {
+					province = 11413
+
+					color = { 49 135 122 }
+				}
+			}
+
+			c_MAL_kelantan = {
+				color = { 34 102 122 }
+
+				b_MAL_Kelantan = {
+					province = 11412
+
+					color = { 36 80 81 }
+				}
+				b_MAL_Dungun = {
+					province = 11411
+
+					color = { 70 125 162 }
+				}
+				b_MAL_Tinggano = {
+					province = 11410
+
+					color = { 19 115 142 }
+				}
+			}
+
+			c_MAL_kedah = {
+				color = { 30 100 100 }
+
+				b_MAL_Kedah = {
+					province = 11417
+
+					color = { 34 74 66 }
+				}
+				b_MAL_Terang = {
+					province = 11416
+
+					color = { 30 112 121 }
+				}
+				b_MAL_Bujang = {
+					province = 11418
+
+					color = { 21 135 134 }
+				}
+				b_MAL_Bukit_Batu_Pahat = {
+					province = 11419
+
+					color = { 57 149 132 }
+				}
+			}
+
+			c_THAI_tambralinga = {
+				color = { 65 153 143 }
+
+				b_THAI_Ligor = {	#aka Nakhon Si Thammarat
+					province = 11424
+
+					color = { 66 112 98 }
+				}
+				b_THAI_Kanchanadit = {
+					province = 11425
+
+					color = { 62 126 121 }
+				}
+				b_THAI_Mardelang = {
+					province = 11423
+
+					color = { 49 173 158 }
+				}
+				b_THAI_Trang = {
+					province = 11426
+
+					color = { 47 150 154 }
+				}
+			}
+
+			c_THAI_takua_pa = {
+				color = { 60 126 131 }
+
+				b_THAI_Chaiya = {
+					province = 11429
+
+					color = { 56 90 86 }
+				}
+				b_THAI_Takua_Pa = {
+					province = 11428
+
+					color = { 55 99 104 }
+				}
+				b_THAI_Ranang = {
+					province = 11430
+
+					color = { 48 145 151 }
+				}
+				b_THAI_Gerbi = {
+					province = 11427
+
+					color = { 89 165 157 }
+				}
+			}
+		}
+
+		d_MAL_paharush = {
+			color = { 2 79 156 }
+
+			capital = c_MAL_pahang
+
+			c_MAL_pahang = {
+				color = { 21 87 110 }
+
+				b_MAL_Pekan = {
+					province = 11406
+
+					color = { 26 71 74 }
+				}
+				b_MAL_Inderapura = {
+					province = 11407
+
+					color = { 53 111 155 }
+				}
+				b_MAL_Kiuli = {
+					province = 11405
+
+					color = { 6 103 135 }
+				}
+				b_MAL_Saimwang = {
+					province = 11409
+
+					color = { 8 72 116 }
+				}
+			}
+
+			c_MAL_gelanggi = {
+				color = { 11 65 126 }
+
+				b_MAL_Gelanggi = {
+					province = 11402
+
+					color = { 21 64 85 }
+				}
+				b_MAL_Muar = {
+					province = 11403
+
+					color = { 39 77 166 }
+				}
+				b_MAL_Endau = {
+					province = 11400
+
+					color = { 0 70 146 }
+				}
+				b_MAL_Kundur = {
+					province = 11401
+
+					color = { 0 41 127 }
+				}
+			}
+
+			c_MAL_johor = {
+				color = { 0 91 179 }
+
+				b_MAL_Tumasik = {
+					province = 11397
+
+					color = { 22 104 138 }
+				}
+				b_MAL_Johor = {
+					province = 11398
+
+					color = { 10 79 152 }
+				}
+				b_MAL_Penawar = {
+					province = 11399
+
+					color = { 0 103 199 }
+				}
+			}
+
+			c_riau = {
+				color = { 0 51 157 }
+				b_riau = {
+					color = { 19 70 116 }
+					province = 12526
+				}
+				b_siantan = {
+					color = { 9 45 130 }
+					province = 9681
+				}
+			}
+
+			c_MAL_gangganegara = {
+				color = { 23 103 173 }
+
+				b_MAL_Beruas = {
+					province = 11420
+
+					color = { 39 107 132 }
+				}
+				b_MAL_Kelang = {
+					province = 11421
+
+					color = { 29 88 146 }
+				}
+				b_MAL_Sungei_Ujong = {
+					province = 11422
+
+					color = { 0 105 193 }
+				}
+			}
+
+			c_MAL_semantan = {
+				color = { 6 126 188 }
+
+				b_MAL_Semantan = {
+					province = 11408
+
+					color = { 28 130 147 }
+				}
+				b_MAL_Segamat = {
+					province = 11404
+
+					color = { 16 108 161 }
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,2483 @@
+e_silvarin = {
+	color = { 255 100 0 }
+
+	capital = c_kanyakubja # Kanyakubja
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_sindh = {
+		color = { 225 135 20 }
+
+		capital = c_debul # Debul
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:sindhi
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_sauvira = {
+			color = { 230 135 20 }
+
+			capital = c_debul # Debul
+
+			c_debul = {
+				color = { 230 155 20 }
+
+				b_debul = {
+					province = 1297
+
+					color = { 230 155 20 }
+				}
+				b_thatta = {
+					province = 3402
+
+					color = { 230 155 20 }
+				}
+				b_shahbandar = {
+					province = 3400
+
+					color = { 230 155 20 }
+				}
+				b_nirun = {
+					province = 3401
+
+					color = { 230 155 20 }
+				}
+				b_kolachi = {
+					province = 3403
+
+					color = { 230 155 20 }
+				}
+			}
+			c_sonda = {
+				color = { 230 115 20 }
+
+				b_sonda = {
+					province = 1331
+
+					color = { 230 115 20 }
+				}
+				b_amarkot = {
+					province = 3398
+
+					color = { 230 115 20 }
+				}
+				b_badin = {
+					province = 3399
+
+					color = { 230 115 20 }
+				}
+				b_karoonjar = {
+					province = 3971
+
+					color = { 230 115 20 }
+				}
+			}
+			c_mansura = {
+				color = { 230 155 40 }
+
+				b_mansura = {
+					province = 1137
+
+					color = { 230 155 40 }
+				}
+				b_mirpur_khas = {
+					province = 3395
+
+					color = { 230 155 40 }
+				}
+				b_matiari = {
+					province = 3397
+
+					color = { 230 155 40 }
+				}
+				b_nasarpur = {
+					province = 3396
+
+					color = { 230 155 40 }
+				}
+			}
+			c_ranikot = {
+				color = { 210 155 40 }
+
+				b_ranikot = {
+					province = 1303
+
+					color = { 210 155 40 }
+				}
+				b_sharusan = {
+					province = 3404
+
+					color = { 210 155 40 }
+				}
+				b_khudabad = {
+					province = 3405
+
+					color = { 210 155 40 }
+				}
+			}
+			c_siwistan = {
+				color = { 250 155 40 }
+
+				b_siwistan = {
+					province = 1333
+
+					color = { 250 155 40 }
+				}
+				b_mir_rukan = {
+					province = 3394
+
+					color = { 250 155 40 }
+				}
+			}
+		}
+
+		d_bhakkar = {
+			color = { 200 105 18 }
+
+			capital = c_bhakkar # Bhakkar
+
+			c_bhakkar = {
+				color = { 220 105 18 }
+
+				b_bhakkar = {
+					province = 1138
+
+					color = { 220 105 18 }
+				}
+				b_shikarpur = {
+					province = 3406
+
+					color = { 220 105 18 }
+				}
+				b_larkana = {
+					province = 1371
+
+					color = { 220 105 18 }
+				}
+				b_mohenjo_daro = {
+					province = 1370
+
+					color = { 220 105 18 }
+				}
+			}
+			c_aror = {
+				color = { 180 105 18 }
+
+				b_aror = {
+					province = 1175
+
+					color = { 180 105 18 }
+				}
+				b_siraj_ji_takri = {
+					province = 3392
+
+					color = { 180 105 18 }
+				}
+			}
+			c_rajanpur = {
+				color = { 200 115 18 }
+
+				b_rajanpur = {
+					province = 1339
+
+					color = { 200 115 18 }
+				}
+				b_rojhan = {
+					province = 1374
+
+					color = { 200 115 18 }
+				}
+				b_dajal = {
+					province = 3407
+
+					color = { 200 115 18 }
+				}
+				b_badah = {
+					province = 1372
+
+					color = { 200 105 38 }
+				}
+			}
+			c_vijnot = {
+				color = { 150 60 50 }
+
+				b_vijnot = {
+					province = 1336
+
+					color = { 150 60 50 }
+				}
+				b_ghotki = {
+					province = 3393
+
+					color = { 150 60 50 }
+				}
+				b_bhatiya = {
+					province = 3391
+
+					color = { 150 60 50 }
+				}
+			}
+			
+		}
+	}
+
+	k_punjab = {
+		color = { 255 90 20 }
+
+		capital = c_lahur # Lahur
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:punjabi
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_multan = {
+			color = { 234 100 21 }
+
+			capital = c_multan # Multan
+
+			c_multan = {
+				color = { 234 110 21 }
+
+				b_multan = {
+					province = 1338
+
+					color = { 234 110 21 }
+				}
+				b_kabirwala = {
+					province = 3413
+
+					color = { 234 110 21 }
+				}
+				b_tulamba = {
+					province = 3412
+
+					color = { 234 110 21 }
+				}
+				b_alipur = {
+					province = 3414
+
+					color = { 234 110 21 }
+				}
+			}
+			c_kafirkot = {
+				color = { 234 90 21 }
+
+				b_kafirkot = {
+					province = 1375
+
+					color = { 234 90 21 }
+				}
+				b_dera_ghazi_khan = {
+					province = 3417
+
+					color = { 234 90 21 }
+				}
+				b_daraban = {
+					province = 1376
+
+					color = { 234 90 21 }
+				}
+			}
+			c_uch = {
+				color = { 234 80 21 }
+
+				b_uch = {
+					province = 1337
+
+					color = { 234 80 21 }
+				}
+				b_derawar = {
+					province = 3409
+
+					color = { 234 80 21 }
+				}
+				b_chachran = {
+					province = 3408
+
+					color = { 234 80 21 }
+				}
+			}
+			c_karur = {
+				color = { 234 50 11 }
+
+				b_karur = {
+					province = 1178
+
+					color = { 234 50 11 }
+				}
+				b_askhanda = {
+					province = 3410
+
+					color = { 234 50 11 }
+				}
+				b_vehari = {
+					province = 3411
+
+					color = { 234 50 11 }
+				}
+			}
+			c_karor = {
+				color = { 255 120 21 }
+
+				b_karor = {
+					province = 1340
+
+					color = { 255 120 21 }
+				}
+				b_mankera = {
+					province = 3415
+
+					color = { 255 120 21 }
+				}
+				b_wan_bhachran = {
+					province = 3416
+
+					color = { 255 120 21 }
+				}
+			}
+			c_kalat = {
+				color = { 152 185 96 }
+
+				b_loralai = {
+					province = 4517
+
+					color = { 152 185 96 }
+				}
+				b_kohlu = {
+					province = 4518
+
+					color = { 152 185 96 }
+				}
+				b_mekhtar = {
+					province = 4519
+
+					color = { 152 185 96 }
+				}
+				b_zhob = {
+					province = 4520
+
+					color = { 152 185 96 }
+				}
+			}
+		}
+		d_lahore = {
+			color = { 180 110 41 }
+
+			capital = c_lahur # Lahur
+
+			c_lahur = {
+				color = { 180 130 41 }
+
+				b_lahur = {
+					province = 1362
+
+					color = { 180 130 41 }
+				}
+				b_kasur = {
+					province = 3418
+
+					color = { 180 130 41 }
+				}
+				b_sangla = {
+					province = 3420
+
+					color = { 180 130 41 }
+				}
+				b_chunian = {
+					province = 3419
+
+					color = { 180 130 41 }
+				}
+			}
+			c_dipalpur = {
+				color = { 190 100 41 }
+
+				b_pancapura = {
+					province = 3421
+
+					color = { 190 100 41 }
+				}
+				b_dipalpur = {
+					province = 1363
+
+					color = { 190 100 41 }
+				}
+				b_ajodhan = {
+					province = 3424
+
+					color = { 190 100 41 }
+				}
+				b_abohar = {
+					province = 3423
+
+					color = { 190 100 41 }
+				}
+				b_satghara = {
+					province = 3422
+
+					color = { 190 100 41 }
+				}
+			}
+			c_bhera = {
+				color = { 160 110 41 }
+
+				b_bhera = {
+					province = 1192
+
+					color = { 160 110 41 }
+				}
+				b_katasraj = {
+					province = 3428
+
+					color = { 160 110 41 }
+				}
+				b_phalia = {
+					province = 3425
+
+					color = { 160 110 41 }
+				}
+			}
+			c_shorkot = {
+				color = { 180 110 61 }
+
+				b_bhirr = {
+					province = 3427
+
+					color = { 180 110 61 }
+				}
+				b_shorkot = {
+					province = 1361
+
+					color = { 180 110 61 }
+				}
+				b_kamalia = {
+					province = 3426
+
+					color = { 180 110 61 }
+				}
+			}
+			c_sakala = {
+				color = { 180 120 21 }
+
+				b_sakala = {
+					province = 1179
+
+					color = { 180 120 21 }
+				}
+				b_jammu = {
+					province = 3430
+
+					color = { 180 120 21 }
+				}
+				b_bhuttar = {
+					province = 3429
+
+					color = { 180 120 21 }
+				}
+			}
+			c_trigarta = {
+				color = { 190 100 31 }
+
+				b_jalandhar = {
+					province = 1193
+
+					color = { 190 100 31 }
+				}
+				b_rahon = {
+					province = 3431
+
+					color = { 190 100 31 }
+				}
+				b_pathankot = {
+					province = 3432
+
+					color = { 190 100 31 }
+				}
+				b_kahlur = {
+					province = 3433
+
+					color = { 190 100 31 }
+				}
+			}
+			c_kangra = {
+				color = { 140 120 41 }
+
+				b_kangra = {
+					province = 3434
+
+					color = { 190 100 31 }
+				}
+				b_brahmapura = {
+					province = 7945
+
+					color = { 190 100 31 }
+				}
+				b_campa2 = {
+					province = 7946
+
+					color = { 180 120 21 }
+				}
+
+			}
+			c_gurjaratra = {
+				color = { 140 120 41 }
+
+				b_gurjaratra = {
+					province = 1190
+
+					color = { 140 120 41 }
+				}
+				b_jhelum = {
+					province = 3435
+
+					color = { 140 120 41 }
+				}
+				b_kunjah = {
+					province = 3436
+
+					color = { 140 120 41 }
+				}
+			}
+		}
+		d_gandhara = {
+			color = { 255 150 31 }
+
+			capital = c_udabhanda # Udabhanda
+
+			c_udabhanda = {
+				color = { 255 130 31 }
+
+				b_udabhanda = {
+					province = 1180
+
+					color = { 255 130 31 }
+				}
+				b_attak = {
+					province = 3437
+
+					color = { 255 130 31 }
+				}
+				b_oddiyana = {
+					province = 3438
+
+					color = { 255 130 31 }
+				}
+				b_mankiala = {
+					province = 3439
+
+					color = { 255 130 31 }
+				}
+			}
+			c_purushapura = {
+				color = { 235 150 31 }
+
+				b_purushapura = {
+					province = 1342
+
+					color = { 235 150 31 }
+				}
+				b_nowshera = {
+					province = 3441
+
+					color = { 235 150 31 }
+				}
+				b_shergarh = {
+					province = 3440
+
+					color = { 235 150 31 }
+				}
+			}
+			c_nandana = {
+				color = { 255 150 11 }
+
+				b_nandana = {
+					province = 1341
+
+					color = { 255 150 11 }
+				}
+				b_lund_nandana = {
+					province = 3442
+
+					color = { 255 150 11 }
+				}
+			}
+			c_bannu = {
+				color = { 9 150 51 }
+
+				b_bannu = {
+					province = 1191
+
+					color = { 9 150 51 }
+				}
+				b_kalabagh = {
+					province = 3443
+
+					color = { 9 150 51 }
+				}
+				b_hangu = {
+					province = 3444
+
+					color = { 9 150 51 }
+				}
+			}
+			c_urgun = {
+				color = { 0 155 55 }
+
+				b_urgun = {
+					province = 4521
+
+					color = { 0 155 55 }
+				}
+				b_shakin = {
+					province = 4522
+
+					color = { 0 155 55 }
+				}
+				b_khost = {
+					province = 4523
+
+					color = { 0 155 55 }
+				}
+			}
+		}
+	}
+
+	k_delhi = {
+		color = { 220 150 75 }
+
+		capital = c_delhi # Delhi
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:hindustani
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_kuru = {
+			color = { 210 65 12 }
+
+			capital = c_delhi # Delhi
+
+			c_delhi = {
+				color = { 230 65 12 }
+
+				b_indraprastha = {
+					province = 1365
+
+					color = { 230 65 12 }
+				}
+				b_dhilika = {
+					province = 3447
+
+					color = { 230 65 12 }
+				}
+				b_jahanpanah = {
+					province = 3448
+
+					color = { 230 65 12 }
+				}
+				b_rohtak = {
+					province = 3475
+
+					color = { 230 65 12 }
+				}
+			}
+			c_hastinapura = {
+				color = { 190 65 12 }
+
+				b_hastinapura = {
+					province = 1368
+
+					color = { 190 65 12 }
+				}
+				b_mirath = {
+					province = 3449
+
+					color = { 190 65 12 }
+				}
+				b_indrasthana = {
+					province = 3450
+
+					color = { 190 65 12 }
+				}
+				b_hapur = {
+					province = 3451
+
+					color = { 190 65 12 }
+				}
+			}
+			c_sthanisvara = {
+				color = { 210 65 12 }
+
+				b_saharanpur = {
+					province = 1367
+
+					color = { 210 65 12 }
+				}
+				b_sthanisvara = {
+					province = 3453
+
+					color = { 210 65 12 }
+				}
+				b_sirhind = {
+					province = 3452
+
+					color = { 210 65 12 }
+				}
+				b_samana = {
+					province = 3454
+
+					color = { 210 65 12 }
+				}
+				b_sadhaura = {
+					province = 7944
+
+					color = { 210 65 12 }
+				}
+			}
+		}
+
+		d_haritanaka = {
+			color = { 100 25 3 }
+
+			capital = c_tribandapura # Tribandapura
+
+			c_tribandapura = {
+				color = { 130 25 3 }
+
+				b_tribandapura = {
+					province = 1364
+
+					color = { 130 25 3 }
+				}
+				b_sunam = {
+					province = 3457
+
+					color = { 130 25 3 }
+				}
+				b_jajjanir = {
+					province = 3458
+
+					color = { 100 55 3 }
+				}
+			}
+			c_hisar = {
+				color = { 100 25 23 }
+
+				b_asigarh = {
+					province = 1366
+
+					color = { 100 25 23 }
+				}
+				b_asika = {
+					province = 3455
+
+					color = { 100 25 23 }
+				}
+				b_narabhata = {
+					province = 3456
+
+					color = { 100 25 23 }
+				}
+			}
+			c_sarasvati = {
+				color = { 100 55 3 }
+
+				b_sarasvati = {
+					province = 1352
+
+					color = { 100 55 3 }
+				}
+				b_bhatnir = {
+					province = 3459
+
+					color = { 100 55 3 }
+				}
+			}
+		}
+
+		d_mathura = {
+			color = { 150 45 10 }
+
+			capital = c_mathura # Mathura
+
+			c_mathura = {
+				color = { 170 45 20 }
+
+				b_mathura = {
+					province = 1359
+
+					color = { 170 45 20 }
+				}
+				b_krishnajanmabhoomi = {
+					province = 3460
+
+					color = { 170 45 20 }
+				}
+				b_govardhan = {
+					province = 3461
+
+					color = { 170 45 20 }
+				}
+				b_agra = {
+					province = 3462
+
+					color = { 170 45 20 }
+				}
+			}
+			c_kol = {
+				color = { 150 65 10 }
+
+				b_kol = {
+					province = 1141
+
+					color = { 150 65 10 }
+				}
+				b_soron = {
+					province = 3463
+
+					color = { 150 65 10 }
+				}
+				b_etah = {
+					province = 3464
+
+					color = { 150 65 10 }
+				}
+			}
+			c_sripatha = {
+				color = { 110 45 10 }
+
+				b_sripatha = {
+					province = 1357
+
+					color = { 110 45 10 }
+				}
+				b_bayana = {
+					province = 3466
+
+					color = { 110 45 10 }
+				}
+				b_dhavalapuri = {
+					province = 3465
+
+					color = { 110 45 10 }
+				}
+			}
+		}
+		d_vodamayutja = {
+			color = { 195 90 0 }
+
+			capital = c_vodamayutja # Vodamayuta
+
+			c_vodamayutja = {
+				color = { 195 90 10 }
+
+				b_vodamayutja = {
+					province = 1358
+
+					color = { 195 90 10 }
+				}
+				b_ahichatra = {
+					province = 3469
+
+					color = { 195 90 10 }
+				}
+				b_tilokpur = {
+					province = 3468
+
+					color = { 195 90 10 }
+				}
+				b_bareily = {
+					province = 3467
+
+					color = { 195 90 10 }
+				}
+			}
+			c_sambhal = {
+				color = { 195 90 30 }
+
+				b_sambhal = {
+					province = 1173
+
+					color = { 195 90 30 }
+				}
+				b_amroha = {
+					province = 3471
+
+					color = { 195 90 30 }
+				}
+				b_ujhani = {
+					province = 3470
+
+					color = { 195 90 30 }
+				}
+				b_bachhraon = {
+					province = 3472
+
+					color = { 195 90 30 }
+				}
+			}
+			c_katehar = {
+				color = { 165 90 0 }
+
+				b_mandawar = {
+					province = 1168
+
+					color = { 165 90 0 }
+				}
+				b_bijnor = {
+					province = 3474
+
+					color = { 165 90 0 }
+				}
+				b_gangadvara = {
+					province = 3473
+
+					color = { 165 90 0 }
+				}
+			}
+		}
+	}
+
+	k_gujarat = {
+		color = { 155 80 28 }
+
+		capital = c_sarasvata_mandala # Sarasvata Mandala
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:gujarati
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_gurjara_mandala = {
+			color = { 175 80 20 }
+
+			capital = c_sarasvata_mandala # Sarasvata Mandala
+
+			c_sarasvata_mandala = {
+				color = { 155 80 20 }
+
+				b_anahilapataka = {
+					province = 1292
+
+					color = { 155 80 20 }
+				}
+				b_vadnagar = {
+					province = 3371
+
+					color = { 155 80 20 }
+				}
+				b_siddhapura = {
+					province = 3372
+
+					color = { 155 80 20 }
+				}
+				b_modhera = {
+					province = 3370
+
+					color = { 155 80 20 }
+				}
+				b_kamboika = {
+					province = 3369
+
+					color = { 155 80 20 }
+				}
+			}
+			c_khetaka = {
+				color = { 175 80 40 }
+
+				b_khetaka = {
+					province = 1290
+
+					color = { 175 80 40 }
+				}
+				b_khambhat = {
+					province = 3375
+
+					color = { 175 80 40 }
+				}
+				b_dholka = {
+					province = 3377
+
+					color = { 175 80 40 }
+				}
+				b_ashaval = {
+					province = 3376
+
+					color = { 175 80 40 }
+				}
+			}
+			c_mohadavasaka = {
+				color = { 175 100 20 }
+
+				b_mohadavasaka = {
+					province = 1291
+
+					color = { 175 100 20 }
+				}
+				b_jhalod = {
+					province = 3374
+
+					color = { 175 100 20 }
+				}
+				b_idar = {
+					province = 3373
+
+					color = { 175 100 20 }
+				}
+			}
+		}
+
+		d_anartta = {
+			color = { 195 50 10 }
+
+			capital = c_dvaraka # Dvaraka
+
+			c_dvaraka = {
+				color = { 175 50 10 }
+
+				b_dvaraka = {
+					province = 1136
+
+					color = { 175 50 10 }
+				}
+				b_lalpur = {
+					province = 3352
+
+					color = { 175 50 10 }
+				}
+				b_bhanvad = {
+					province = 3353
+
+					color = { 175 50 10 }
+				}
+			}
+			c_dhamalpur = {
+				color = { 195 50 30 }
+
+				b_dhamalpur = {
+					province = 1268
+
+					color = { 195 50 30 }
+				}
+				b_morvi = {
+					province = 3355
+
+					color = { 195 50 30 }
+				}
+				b_lakhota = {
+					province = 3354
+
+					color = { 195 50 30 }
+				}
+				b_halvad = {
+					province = 3356
+
+					color = { 240 100 50 }
+				}
+			}
+			c_kutch = {
+				color = { 195 70 10 }
+
+				b_kanthakota = {
+					province = 1295
+
+					color = { 195 70 10 }
+				}
+				b_bhuj = {
+					province = 3350
+
+					color = { 195 70 10 }
+				}
+				b_anjar_kutch = {
+					province = 3351
+
+					color = { 195 70 10 }
+				}
+			}
+		}
+
+		d_saurashtra = {
+			color = { 220 100 50 }
+
+			capital = c_bhumilka # Bhumilka
+
+			c_bhumilka = {
+				color = { 220 120 50 }
+
+				b_vamanasthali = {
+					province = 1134
+
+					color = { 220 120 50 }
+				}
+				b_bhumilka = {
+					province = 3360
+
+					color = { 220 120 50 }
+				}
+				b_shrinagar = {
+					province = 3361
+
+					color = { 220 120 50 }
+				}
+				b_mangrol = {
+					province = 3362
+
+					color = { 220 120 50 }
+				}
+				b_uperkot = {
+					province = 3359
+
+					color = { 220 120 50 }
+				}
+			}
+			c_somnath = {
+				color = { 220 32 50 }
+
+				b_somnath = {
+					province = 1266
+
+					color = { 220 32 50 }
+				}
+				b_delvada = {
+					province = 3364
+
+					color = { 220 32 50 }
+				}
+				b_saymur = {
+					province = 3363
+
+					color = { 220 32 50 }
+				}
+				b_moherak = {
+					province = 3365
+
+					color = { 220 32 50 }
+				}
+			}
+			c_vardhamana = {
+				color = { 240 100 50 }
+
+				b_vardhamana = {
+					province = 1267
+
+					color = { 240 100 50 }
+				}
+				b_ranpur = {
+					province = 3357
+
+					color = { 240 100 50 }
+				}
+				b_amarvalli = {
+					province = 3358
+
+					color = { 240 100 50 }
+				}
+
+			}
+			c_valabhi = {
+				color = { 200 100 60 }
+
+				b_valabhi = {
+					province = 1135
+
+					color = { 200 100 60 }
+				}
+				b_shatrunjaya = {
+					province = 3366
+
+					color = { 200 100 60 }
+				}
+				b_dhandhuka = {
+					province = 3367
+
+					color = { 200 100 60 }
+				}
+				b_sihor = {
+					province = 3368
+
+					color = { 200 100 60 }
+				}
+			}
+		}
+
+		d_lata = {
+			color = { 200 150 90 }
+
+			capital = c_vadodara # Vadodara
+
+			c_vadodara = {
+				color = { 200 150 110 }
+
+				b_vadodara = {
+					province = 1133
+
+					color = { 200 150 110 }
+				}
+				b_kayavarohan = {
+					province = 3379
+
+					color = { 200 150 110 }
+				}
+				b_darbhavati = {
+					province = 3378
+
+					color = { 200 150 110 }
+				}
+			}
+			c_navasarika = {
+				color = { 200 120 90 }
+
+				b_akruresvara = {
+					province = 1127
+
+					color = { 200 120 90 }
+				}
+				b_navasarika = {
+					province = 3383
+
+					color = { 200 120 90 }
+				}
+				b_bharuch = {
+					province = 3380
+
+					color = { 200 120 90 }
+				}
+				b_tadkeshwar = {
+					province = 3381
+
+					color = { 200 120 90 }
+				}
+				b_rajpipla = {
+					province = 3382
+
+					color = { 200 120 90 }
+				}
+				b_nandurbar = {
+					province = 1264
+
+					color = { 200 120 90 }
+				}
+			}
+			c_daman = {
+				color = { 220 150 90 }
+
+				b_daman = {
+					province = 1126
+
+					color = { 220 150 90 }
+				}
+				b_sanjan = {
+					province = 3384
+
+					color = { 220 150 90 }
+				}
+			}
+		}
+	}
+
+	k_rajputana = {
+		color = { 200 70 0 }
+
+		capital = c_ajayameru # Ajayameru
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:rajput
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_maru = {
+			color = { 194 67 10 }
+
+			capital = c_mandavyapura # Mandavyapura
+
+			c_mandavyapura = {
+				color = { 194 87 10 }
+
+				b_mandavyapura = {
+					province = 1130
+
+					color = { 194 87 10 }
+				}
+				b_siwana = {
+					province = 3486
+
+					color = { 194 87 10 }
+				}
+				b_osian = {
+					province = 3484
+
+					color = { 194 87 10 }
+				}
+				b_sanderaka = {
+					province = 3485
+
+					color = { 194 87 10 }
+				}
+			}
+			c_medantaka = {
+				color = { 194 67 30 }
+
+				b_medantaka = {
+					province = 1176
+
+					color = { 194 67 30 }
+				}
+				b_purnatallakapura = {
+					province = 3487
+
+					color = { 194 67 30 }
+				}
+			}
+			c_godwad = {
+				color = { 174 67 10 }
+
+				b_candravati = {
+					province = 1174
+
+					color = { 174 67 10 }
+				}
+				b_bhillamala = {
+					province = 3489
+
+					color = { 174 67 10 }
+				}
+				b_jalor = {
+					province = 3488
+
+					color = { 174 67 10 }
+				}
+				b_achalgarh = {
+					province = 3490
+
+					color = { 174 67 10 }
+				}
+			}
+			c_naddula = {
+				color = { 174 67 10 }
+
+				b_naddula = {
+					province = 3342
+
+					color = { 174 67 10 }
+				}
+				b_ranakpur = {
+					province = 3343
+
+					color = { 174 67 10 }
+				}
+				b_bhilwara = {
+					province = 3345
+
+					color = { 174 67 10 }
+				}
+			}
+		}
+
+		d_jangladesh = {
+			color = { 144 47 0 }
+
+			capital = c_nagauda # Nagauda
+
+			c_nagauda = {
+				color = { 144 67 0 }
+
+				b_nagauda = {
+					province = 1354
+
+					color = { 144 67 0 }
+				}
+				b_ladnu = {
+					province = 3478
+
+					color = { 144 67 0 }
+				}
+				b_makrana = {
+					province = 3480
+
+					color = { 144 67 0 }
+				}
+				b_kuchaman = {
+					province = 3479
+
+					color = { 144 67 0 }
+				}
+			}
+			c_vikramapura = {
+				color = { 144 47 20 }
+
+				b_vikramapura = {
+					province = 1349
+
+					color = { 144 47 20 }
+				}
+				b_kolayat = {
+					province = 3476
+
+					color = { 144 47 20 }
+				}
+			}
+			c_reni = {
+				color = { 124 47 0 }
+
+				b_reni = {
+					province = 1350
+
+					color = { 124 47 0 }
+				}
+				b_dadrewa = {
+					province = 3477
+
+					color = { 124 47 0 }
+				}
+			}
+		}
+
+		d_stravani = {
+			color = { 150 60 30 }
+
+			capital = c_ludrava # Ludrava
+
+			c_ludrava = {
+				color = { 170 60 30 }
+
+				b_ludrava = {
+					province = 1304
+
+					color = { 170 60 30 }
+				}
+				b_jaisalmer = {
+					province = 3387
+
+					color = { 170 60 30 }
+				}
+				b_phalavardhika = {
+					province = 3388
+
+					color = { 170 60 30 }
+				}
+				b_juna_barmer = {
+					province = 3389
+
+					color = { 170 60 30 }
+				}
+			}
+			c_satyapura = {
+				color = { 150 40 30 }
+
+				b_satyapura = {
+					province = 1294
+
+					color = { 150 40 30 }
+				}
+				b_kiratakupa = {
+					province = 3386
+
+					color = { 150 40 30 }
+				}
+				b_kasara = {
+					province = 3385
+
+					color = { 150 40 30 }
+				}
+			}
+		}
+
+		d_medapata = {
+			color = { 136 66 32 }
+
+			capital = c_medapata # Medapata
+
+			c_medapata = {
+				color = { 136 86 32 }
+
+				b_aghata = {
+					province = 1345
+
+					color = { 136 86 32 }
+				}
+				b_eklingji = {
+					province = 3491
+
+					color = { 136 86 32 }
+				}
+				b_nagahrada = {
+					province = 3492
+
+					color = { 136 86 32 }
+				}
+				b_jagadamba = {
+					province = 3494
+
+					color = { 136 86 32 }
+				}
+				b_rishabhdeo = {
+					province = 3493
+
+					color = { 136 86 32 }
+				}
+			}
+			c_chitrakut = {
+				color = { 136 66 52 }
+
+				b_chitrakut = {
+					province = 1302
+
+					color = { 136 66 52 }
+				}
+				b_rampura = {
+					province = 3495
+
+					color = { 136 66 52 }
+				}
+				b_baroli = {
+					province = 3496
+
+					color = { 136 66 52 }
+				}
+				b_bhainsrorgarh = {
+					province = 3497
+
+					color = { 136 66 52 }
+				}
+			}
+			c_kota = {
+				color = { 156 66 32 }
+
+				b_kota = {
+					province = 1300
+
+					color = { 156 66 32 }
+				}
+				b_ramgarh = {
+					province = 3498
+
+					color = { 156 66 32 }
+				}
+				b_bundi = {
+					province = 3499
+
+					color = { 156 66 32 }
+				}
+			}
+		}
+
+		d_ajmer = {
+			color = { 230 190 51 }
+
+			capital = c_ajayameru # Ajayameru
+
+			c_ajayameru = {
+				color = { 210 190 51 }
+
+				b_shakambhari = {
+					province = 1346
+
+					color = { 210 190 51 }
+				}
+				b_pushkar = {
+					province = 3349
+
+					color = { 210 190 51 }
+				}
+				b_ajayameru = {
+					province = 3347
+
+					color = { 210 190 51 }
+				}
+				b_dhanop = {
+					province = 3348
+
+					color = { 210 190 51 }
+				}
+			}
+			c_ranthambore = {
+				color = { 230 170 51 }
+
+				b_ranthambore = {
+					province = 1355
+
+					color = { 230 170 51 }
+				}
+				b_mandrael = {
+					province = 3346
+
+					color = { 230 170 51 }
+				}
+				b_gangapur = {
+					province = 3344
+
+					color = { 230 170 51 }
+				}
+				b_sheopur = {
+					province = 3338
+
+					color = { 230 170 51 }
+				}
+			}
+			c_vairata = {
+				color = { 230 190 71 }
+
+				b_harshnath = {
+					province = 1353
+
+					color = { 230 190 71 }
+				}
+				b_vairata = {
+					province = 3481
+
+					color = { 230 190 71 }
+				}
+				b_sanganer = {
+					province = 3482
+
+					color = { 230 190 71 }
+				}
+				b_amer = {
+					province = 3483
+
+					color = { 230 190 71 }
+				}
+			}
+			c_sakarai = {
+				color = { 220 180 41 }
+
+				b_sakarai = {
+					province = 3968
+
+					color = { 100 25 23 }
+				}
+				b_khaluvana = {
+					province = 3969
+
+					color = { 100 25 23 }
+				}
+			}
+		}
+	}
+
+	k_malwa = {
+		color = { 255 200 25 }
+
+		capital = c_ujjayini # Ujjayini
+
+		d_dadhipadra = { # Avanti
+			color = { 245 200 20 }
+
+			capital = c_ujjayini # Ujjayini
+
+			c_ujjayini = {
+				color = { 205 200 30 }
+
+				b_ujjayini = {
+					province = 1288
+
+					color = { 205 200 30 }
+				}
+				b_agar = {
+					province = 3337
+
+					color = { 205 200 30 }
+				}
+				b_mehidpur = {
+					province = 3336
+
+					color = { 205 200 30 }
+				}
+				b_maksi = {
+					province = 3335
+
+					color = { 205 200 30 }
+				}
+				b_dewas = {
+					province = 3334
+
+					color = { 205 200 30 }
+				}
+			}
+			c_dadhipadra = {
+				color = { 245 200 40 }
+
+				b_dadhipadra = {
+					province = 1289
+
+					color = { 245 200 40 }
+				}
+				b_champaner = {
+					province = 3333
+
+					color = { 245 200 40 }
+				}
+			}
+			c_dhara = {
+				color = { 225 200 20 }
+
+				b_dhara = {
+					province = 1149
+
+					color = { 225 200 20 }
+				}
+				b_dharampuri = {
+					province = 3332
+
+					color = { 225 200 20 }
+				}
+				b_depalpur = {
+					province = 3331
+
+					color = { 225 200 20 }
+				}
+				b_betma = {
+					province = 3330
+
+					color = { 225 200 20 }
+				}
+			}
+			c_dasapura = {
+				color = { 225 180 20 }
+
+				b_dasapura = {
+					province = 1148
+
+					color = { 225 180 20 }
+				}
+				b_dharmrajeshwar = {
+					province = 3328
+
+					color = { 225 180 20 }
+				}
+				b_vatapadraka = {
+					province = 3329
+
+					color = { 225 180 20 }
+				}
+			}
+		}
+
+		d_akara_dasarna = {
+			color = { 210 150 15 }
+
+			capital = c_vidisa # Vidisa
+
+			c_vidisa = {
+				color = { 190 150 15 }
+
+				b_vidisa = {
+					province = 1170
+
+					color = { 190 150 15 }
+				}
+				b_raisin = {
+					province = 3321
+
+					color = { 190 150 15 }
+				}
+				b_sironj = {
+					province = 3322
+
+					color = { 190 150 15 }
+				}
+				b_sanchi = {
+					province = 3323
+
+					color = { 190 150 15 }
+				}
+				b_bhojpur = {
+					province = 3324
+
+					color = { 190 150 15 }
+				}
+			}
+			c_sarangpur = {
+				color = { 210 150 35 }
+
+				b_sarangpur = {
+					province = 1150
+
+					color = { 210 150 35 }
+				}
+				b_ashta = {
+					province = 3325
+
+					color = { 210 150 35 }
+				}
+				b_gagraun = {
+					province = 3327
+
+					color = { 210 150 35 }
+				}
+				b_jhalawar = {
+					province = 3326
+
+					color = { 210 150 35 }
+				}
+			}
+			c_chanderi = {
+				color = { 210 130 15 }
+
+				b_chanderi = {
+					province = 1298
+
+					color = { 210 130 15 }
+				}
+				b_jhansi = {
+					province = 3315
+
+					color = { 210 130 15 }
+				}
+				b_luacchagiri = {
+					province = 3316 #2 - TEMPLE
+
+					color = { 210 130 15 }
+				}
+				b_garh_kundar = {
+					province = 3318
+
+					color = { 210 130 15 }
+				}
+				b_jarai_ka_math = {
+					province = 3319
+
+					color = { 210 130 15 }
+				}
+			}
+			c_candhoba = {
+				color = { 210 160 25 }
+
+				b_candhoba = {
+					province = 1299
+
+					color = { 210 160 25 }
+				}
+				b_guna = {
+					province = 3317
+
+					color = { 210 160 25 }
+				}
+				b_kadwaya = {
+					province = 3320
+
+					color = { 210 160 25 }
+				}
+			}
+			c_chauragarh = {
+				color = { 30 125 35 }
+
+				b_chauragarh = {
+					province = 1164
+
+					color = { 30 125 35 }
+				}
+				b_barman = {
+					province = 917
+
+					color = { 30 125 35 }
+				}
+				b_hoshangabad = {
+					province = 918
+
+					color = { 30 125 35 }
+				}
+				b_handia = {
+					province = 919
+
+					color = { 30 125 35 }
+				}
+			}
+			c_gwalior = {
+				color = { 220 180 41 }
+
+				b_gwalior = {
+					province = 1172
+
+					color = { 220 180 41 }
+				}
+				b_dabra = {
+					province = 3341
+
+					color = { 220 180 41 }
+				}
+				b_narwar = {
+					province = 3339
+
+					color = { 220 180 41 }
+				}
+				b_sabalgarh = {
+					province = 3340
+
+					color = { 220 180 41 }
+				}
+			}
+		}
+
+		d_anupa = {
+			color = { 150 110 5 }
+
+			capital = c_mandapika # Mandapika
+
+			c_mandapika = {
+				color = { 150 130 5 }
+
+				b_mandapika = {
+					province = 1147
+
+					color = { 150 130 5 }
+				}
+				b_bawangaja = {
+					province = 1182
+
+					color = { 150 130 5 }
+				}
+				b_borgarh = {
+					province = 1183
+
+					color = { 150 130 5 }
+				}
+			}
+			c_asirgarh = {
+				color = { 140 110 15 }
+
+				b_asirgarh = {
+					province = 1287
+
+					color = { 140 110 15 }
+				}
+				b_khandwa = {
+					province = 1185
+
+					color = { 140 110 15 }
+				}
+				b_khargone = {
+					province = 1184
+
+					color = { 140 110 15 }
+				}
+			}
+			c_burhanpur = {
+				color = { 150 90 5 }
+
+				b_burhanpur = {
+					province = 1263
+
+					color = { 150 90 5 }
+				}
+				b_erandol = {
+					province = 1188
+
+					color = { 150 90 5 }
+				}
+				b_changdev = {
+					province = 1187
+
+					color = { 150 90 5 }
+				}
+			}
+			c_thalner = {
+				color = { 160 100 15 }
+
+				b_thalner = {
+					province = 1262
+
+					color = { 160 100 15 }
+				}
+				b_sindkheda = {
+					province = 1194
+
+					color = { 160 100 15 }
+				}
+				b_bhamer = {
+					province = 1195
+
+					color = { 160 100 15 }
+				}
+				b_amalner = {
+					province = 1189
+
+					color = { 160 100 15 }
+				}
+			}
+		}
+	}
+
+	k_kosala = {
+		color = { 205 60 10 }
+
+		capital = c_kanyakubja # Kanyakubja
+
+		d_kanyakubja = {
+			color = { 225 155 77 }
+
+			capital = c_kanyakubja # Kanyakubja
+
+			c_kanyakubja = {
+				color = { 225 135 77 }
+
+				b_kanyakubja = {
+					province = 1356
+
+					color = { 225 135 77 }
+				}
+				b_jajmau = {
+					province = 1275
+
+					color = { 225 135 77 }
+				}
+				b_etawah = {
+					province = 1215
+
+					color = { 225 135 77 }
+				}
+			}
+			c_lakhnau = {
+				color = { 235 155 67 }
+
+				b_lakhnau = {
+					province = 1167
+
+					color = { 235 155 67 }
+				}
+				b_jasnaul = {
+					province = 1377
+
+					color = { 235 155 67 }
+				}
+				b_hardoi = {
+					province = 1279
+
+					color = { 235 155 67 }
+				}
+			}
+			c_kalpi = {
+				color = { 205 155 77 }
+
+				b_kalpi = {
+					province = 1169
+
+					color = { 205 155 77 }
+				}
+				b_jalaun = {
+					province = 3972
+
+					color = { 205 155 77 }
+				}
+			}
+			c_manikpur = {
+				color = { 225 135 77 }
+
+				b_manikpur = {
+					province = 1284
+
+					color = { 225 135 77 }
+				}
+				b_lalganj = {
+					province = 1282
+
+					color = { 225 135 77 }
+				}
+			}
+			c_asni = {
+				color = { 225 155 97 }
+
+				b_asni = {
+					province = 1283
+
+					color = { 225 155 97 }
+				}
+				b_kora = {
+					province = 1414
+
+					color = { 225 155 97 }
+				}
+				b_musanagar = {
+					province = 1139
+
+					color = { 225 155 97 }
+				}
+			}
+			c_prayaga = {
+				color = { 215 165 67 }
+
+				b_prayaga = {
+					province = 1328
+
+					color = { 215 165 67 }
+				}
+				b_kara = {
+					province = 1113
+
+					color = { 215 165 67 }
+				}
+			}
+		}
+
+		d_saryupara = {
+			color = { 180 110 40 }
+
+			capital = c_ayodhya # Ayodhya
+
+			c_ayodhya = {
+				color = { 180 130 60 }
+
+				b_ayodhya = {
+					province = 1250
+
+					color = { 180 130 60 }
+				}
+				b_faizabad = {
+					province = 3953
+
+					color = { 180 130 60 }
+				}
+				b_gonda = {
+					province = 3954
+
+					color = { 180 130 60 }
+				}
+			}
+			c_naimisa = {
+				color = { 180 110 60 }
+
+				b_naimisa = {
+					province = 1422
+
+					color = { 180 110 60 }
+				}
+				b_bahraich = {
+					province = 3955
+
+					color = { 180 110 60 }
+				}
+				b_lakhimpur = {
+					province = 3956
+
+					color = { 180 110 60 }
+				}
+			}
+			c_sravasti = {
+				color = { 160 110 60 }
+
+				b_sravasti = {
+					province = 1421
+
+					color = { 160 110 60 }
+				}
+				b_amorha = {
+					province = 904
+
+					color = { 160 110 60 }
+				}
+				b_gorakhpur = {
+					province = 3958
+
+					color = { 160 110 60 }
+				}
+			}
+		}
+
+		d_jejakabhukti = {
+			color = { 120 50 10 }
+
+			capital = c_mahoba # Mahoba
+
+			c_mahoba = {
+				color = { 140 50 10 }
+
+				b_mahoba = {
+					province = 1301
+
+					color = { 140 50 10 }
+				}
+				b_ajaigarh = {
+					province = 3959
+
+					color = { 140 50 10 }
+				}
+				b_chitrakuta = {
+					province = 3960
+
+					color = { 140 50 10 }
+				}
+				b_rath = {
+					province = 3961
+
+					color = { 140 50 10 }
+				}
+			}
+			c_kalanjara = {
+				color = { 120 70 10 }
+
+				b_kalinjar = {
+					province = 1171
+
+					color = { 120 70 10 }
+				}
+				b_khajuraho = {
+					province = 3962
+
+					color = { 120 70 10 }
+				}
+				b_bhatta = {
+					province = 3963
+
+					color = { 120 70 10 }
+				}
+				b_umri = {
+					province = 3964
+
+					color = { 120 70 10 }
+				}
+			}
+			c_damoh = {
+				color = { 110 50 30 }
+
+				b_damoh = {
+					province = 1274
+
+					color = { 110 50 30 }
+				}
+				b_dhamoni = {
+					province = 3965
+
+					color = { 110 50 30 }
+				}
+				b_nohta = {
+					province = 3966
+
+					color = { 110 50 30 }
+				}
+			}
+		}
+	}
+
+	k_himalaya = {
+		color = { 250 40 0 }
+
+		capital = c_kathmandu
+
+		d_kurmanchal = {
+			color = { 255 100 5 }
+
+			capital = c_kumaon
+
+			c_kumaon = {
+				color = { 255 100 5 }
+
+				b_kartikeyapura = {
+					province = 9091
+
+					color = { 255 100 5 }
+				}
+				b_almora = {
+					province = 9093
+
+					color = { 255 100 5 }
+				}
+				b_askot = {
+					province = 9097
+
+					color = { 255 100 5 }
+				}
+			}
+			c_garwhal = {
+				color = { 225 110 20 }
+
+				b_devalgarh = {
+					province = 9090
+
+					color = { 225 110 20 }
+				}
+				b_srinagar = {
+					province = 9089
+
+					color = { 225 110 20 }
+				}
+				b_dehradun = {
+					province = 9087
+
+					color = { 225 110 20 }
+				}
+				b_uttarkashi = {
+					province = 9088
+
+					color = { 225 110 20 }
+				}
+			}
+			c_kali_kumaon = {
+				color = { 230 90 40 }
+
+				b_champawat = {
+					province = 9092
+
+					color = { 230 90 40 }
+				}
+				b_bhimtal = {
+					province = 9094
+
+					color = { 230 90 40 }
+				}
+			}
+			c_doti = {
+				color = { 225 105 50 }
+
+				b_doti = {
+					province = 9095
+
+					color = { 225 105 50 }
+				}
+				b_godawari = {
+					province = 9096
+
+					color = { 225 105 50 }
+				}
+				b_baitadi = {
+					province = 9098
+
+					color = { 225 105 50 }
+				}
+			}
+			c_kamru = {
+				color = { 217 225 178 }
+
+				b_kamru = {
+					province = 9050
+
+					color = { 21 21 87 }
+				}
+				b_kalpa = {
+					province = 9049
+
+					color = { 21 21 87 }
+				}
+				b_poo = {
+					province = 9048
+
+					color = { 21 21 87 }
+				}
+				b_nako = {
+					province = 9044
+
+					color = { 21 21 87 }
+				}
+			}
+		}
+
+		d_khasa = {
+			color = { 255 20 20 }
+
+			capital = c_jumla
+
+			c_jumla = {
+				color = { 245 10 10 }
+
+				b_sinja = {
+					province = 9101
+
+					color = { 245 10 10 }
+				}
+				b_jumla = {
+					province = 9102
+
+					color = {245 10 10 }
+				}
+				b_dullu = {
+					province = 9103
+
+					color = { 245 10 10 }
+				}
+			}
+			c_bajura = {
+				color = { 245 20 0 }
+
+				b_bajura = {
+					province = 9099
+
+					color = { 245 20 0 }
+				}
+				b_simikot = {
+					province = 9100
+
+					color = { 245 20 0 }
+				}
+			}
+			c_jagatipur = {
+				color = { 200 0 0 }
+
+				b_jagatipur = {
+					province = 9104
+
+					color = { 200 0 0 }
+				}
+				b_rukum = {
+					province = 9106
+
+					color = { 200 0 0 }
+				}
+				b_gautamkot = {
+					province = 9105
+
+					color = { 200 0 0 }
+				}
+			}
+			c_dang = {
+				color = { 200 40 20 }
+
+				b_dang = {
+					province = 9108
+
+					color = { 200 40 20 }
+				}
+				b_gulariya = {
+					province = 9107
+
+					color = { 200 40 20 }
+				}
+			}
+			c_lumbini = {
+				color = { 250 35 35 }
+
+				b_lumbini = {
+					province = 9109
+
+					color = { 250 35 35 }
+				}
+				b_gulmi = {
+					province = 9110
+
+					color = { 250 35 35 }
+				}
+			}
+		}
+	}
+}

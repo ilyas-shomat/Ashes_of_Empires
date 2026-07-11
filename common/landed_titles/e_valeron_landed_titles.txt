@@ -1,0 +1,2645 @@
+e_valeron = {
+	color =  { 143 12 1 }
+
+	capital = c_roma
+
+	definite_form = yes
+
+	k_croatia = {
+		color = { 122 46 58 }
+
+		capital = c_zadar # Zadar
+
+		cultural_names = {
+			name_list_roman = cn_dalmatia
+		}
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:croatian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_dalmatia = {
+			color = { 162 53 53 }
+
+			capital = c_zadar # Zadar
+
+			c_zadar = {
+				color = { 162 53 53 }
+
+				#capital = 465 # Zadar
+
+				#italian = "Zara"
+				#greek = "Diadora"
+				#roman = "Diadora"
+
+				cultural_names = {
+					name_list_roman = cn_diadora
+					name_list_greek = cn_diadora
+					name_list_italian = cn_zara
+					name_list_cisalpine = cn_zara
+					name_list_sicilian = cn_zara
+					name_list_sardinian = cn_zara
+				}
+
+				b_zadar = {
+					province = 465
+
+					color = { 162 53 53 }
+				}
+				b_nin = {
+					province = 3545
+
+					color = { 162 53 53 }
+				}
+				b_biograd = {
+					province = 3547
+
+					color = { 162 53 53 }
+				}
+				b_obrovac = {
+					province = 3546
+
+					color = { 162 53 53 }
+				}
+			}
+			c_knin = {
+				color = { 168 76 44 }
+
+				#capital = 3548 # Knin
+
+				b_knin = {
+					province = 3548 # Knin
+
+					color = { 168 76 44 }
+				}
+				b_bribir = {
+					province = 3549
+
+					color = { 168 76 44 }
+				}
+				b_sibenik = {
+					province = 3550
+
+					color = { 168 76 44 }
+				}
+			}
+			c_cetina = {
+				color = { 150 80 45 }
+
+				#capital = 3551 # Sinj
+
+				#italian = "Spalato"
+				#greek = "Spalathos"
+				#roman = "Spalato"
+
+				cultural_names = {
+					name_list_roman = cn_spalato
+					name_list_italian = cn_spalato
+					name_list_cisalpine = cn_spalato
+					name_list_sicilian = cn_spalato
+					name_list_sardinian = cn_spalato
+					name_list_greek = cn_spalathos
+				}
+
+				b_sinjcroat = {
+					province = 3551
+
+					color = { 150 80 45 }
+				}
+				b_split = {
+					province = 467
+
+					color = { 150 80 45 }
+				}
+				b_solin = {
+					province = 3552
+
+					color = { 150 80 45 }
+				}
+			}
+		}
+
+		d_croatia = {
+			color = { 115 40 52 }
+
+			capital = c_gacka # Senj
+
+			c_gacka = {
+				color = { 115 40 52 }
+
+				#capital = 2523 # Rijeka
+
+				b_senj = {
+					province = 464
+
+					color = { 115 40 52 }
+				}
+				b_brinje = {
+					province = 3540
+
+					color = { 115 40 52 }
+				}
+				b_rijeka = {
+					province = 2523
+
+					color = { 115 40 52 }
+				}
+			}
+			c_lika = {
+				color = { 95 25 40 }
+
+				#capital = 3543 # Kaseg
+
+				b_kaseg = {
+					province = 3543
+
+					color = { 95 25 40 }
+				}
+				b_bag = {
+					province = 3542
+
+					color = { 95 25 40 }
+				}
+				b_udbina = {
+					province = 3544
+
+					color = { 95 25 40 }
+				}
+				b_dreznik  = {
+					province = 3541
+
+					color = { 95 25 40 }
+				}
+			}
+			c_cherso = {
+				color = { 115 35 85 }
+
+				#capital = 2521 # Cres / Cherso
+
+				b_cres = {
+					province = 2521
+
+					color = { 115 35 85 }
+				}
+				b_krk = {
+					province = 459
+
+					color = { 115 35 85 }
+				}
+			}
+			c_modrus = {
+				color = { 90 40 60 }
+
+				#capital = 3539 # Modrus
+
+				b_modrus = {
+					province = 3539
+
+					color = { 90 40 60 }
+				}
+				b_okic = {
+					province = 3537
+
+					color = { 90 40 60 }
+				}
+				b_dubovac = {
+					province = 3536
+
+					color = { 90 40 60 }
+				}
+				b_topusko = {
+					province = 3538
+
+					color = { 90 40 60 }
+				}
+			}
+		}
+
+		d_slavonia = {
+			color = { 130 30 60 }
+
+			#capital = 461 # Zagreb
+
+			cultural_names = {
+				name_list_roman = cn_pannonia
+				name_list_greek = cn_pannonia
+			}
+
+			c_zagreb = {
+				color = { 130 30 60 }
+
+				#capital = 461 # Zagreb
+
+				cultural_names = {
+					name_list_roman = cn_andautonia
+					name_list_greek = cn_andautonia
+				}
+
+				b_zagreb = {
+					province = 461
+
+					color = { 130 30 60 }
+				}
+				b_cazma = {
+					province = 3533
+
+					color = { 130 30 60 }
+				}
+				b_samobor = {
+					province = 3534
+
+					color = { 130 30 60 }
+				}
+				b_sisak = {
+					province = 3535
+
+					color = { 130 30 60 }
+				}
+			}
+			c_zagorje = {
+				color = { 160 20 50 }
+
+				#capital = 458 # Krapina
+
+				b_krapina = {
+					province = 458 # Krapina
+
+					color = { 160 20 50 }
+				}
+				b_garestin = { # Original name of Varazdin
+					province = 460
+
+					color = { 160 20 50 }
+				}
+				b_krizevci = {
+					province = 462
+
+					color = { 160 20 50 }
+				}
+				b_koprivnica = {
+					province = 3531
+
+					color = { 160 20 50 }
+				}
+				b_verevce = {
+					province = 3532
+
+					color = { 160 20 50 }
+				}
+			}
+			c_pozega = {
+				color = { 120 30 45 }
+
+				#capital = 3529 # Pozega
+
+				b_pozega = {
+					province = 3529
+
+					color = { 120 30 45 }
+				}
+				b_kutina = {
+					province = 3528
+
+					color = { 120 30 45 }
+				}
+				b_brod = {
+					province = 3530
+
+					color = { 120 30 45 }
+				}
+			}
+			c_vukovar = {
+				color = { 190 60 95 }
+
+				b_vakovo = {
+					province = 3610
+
+					color = { 190 60 95 }
+				}
+				b_osijek = {
+					province = 3609
+
+					color = { 190 60 95 }
+				}
+				b_orahovica = {
+					province = 3608
+
+					color = { 190 60 95 }
+				}
+			}
+		}
+
+		d_bosna = {	#AKA Upper Bosnia
+			color = { 194 115 115 }
+
+			capital = c_rama # Visoki
+
+			c_rama = {
+				color = { 194 105 125 }
+
+				#capital = 3527 # Visoki
+
+				b_visoki = {
+					province = 3527
+
+					color = { 194 115 115 }
+				}
+				b_prozor = {
+					province = 504
+
+					color = { 194 115 115 }
+				}
+				b_vranduk = {
+					province = 3524
+
+					color = { 194 115 115 }
+				}
+				b_bobovac = {
+					province = 3525
+
+					color = { 194 115 115 }
+				}
+				b_travnik = {
+					province = 3526
+
+					color = { 194 115 115 }
+				}
+			}
+			c_donjikraji = {
+				color = { 175 90 115 }
+
+				#capital = 3507 # Jajce
+
+				b_jajce = {
+					province = 3507
+
+					color = { 175 90 115 }
+				}
+				b_kljucnasani = {
+					province = 3504
+
+					color = { 175 90 115 }
+				}
+				b_greben = {
+					province = 3505
+
+					color = { 175 90 115 }
+				}
+				b_kotorvaros = {
+					province = 3506
+
+					color = { 175 90 115 }
+				}
+				b_sokol = {
+					province = 3508
+
+					color = { 175 90 115 }
+				}
+			}
+			c_vhrbosna = {
+				color = { 150 105 125 }
+
+				#capital = 3567 # Vhrbosna - Modern Sarajevo. Probably.
+
+				b_vhrbosna = {
+					province = 3567
+
+					color = { 150 105 125 }
+				}
+				b_olovo= {
+					province = 3564
+
+					color = { 150 105 125 }
+				}
+				b_kuclat = {
+					province = 3565
+
+					color = { 150 105 125 }
+				}
+				b_srebrenica = {
+					province = 3566
+
+					color = { 150 105 125 }
+				}
+				b_rogatica = {
+					province = 3568
+
+					color = { 150 105 125 }
+				}
+			}
+			c_pset = {
+				color = { 135 55 65 }
+
+				#capital = 3522 # Bihac
+
+				b_bihac = {
+					province = 3522
+
+					color = { 135 55 65 }
+				}
+				b_krupa = {
+					province = 3521
+
+					color = { 135 55 65 }
+				}
+				b_pset = {
+					province = 3523
+
+					color = { 135 55 65 }
+				}
+			}
+		}
+
+		d_lower_bosna = {
+			color = { 180 85 120 }
+
+			capital = c_soli # Soli
+
+			c_soli = {
+				color = { 170 80 125 }
+
+				#capital = 3510 # Soli - Modern Tuzla
+
+				cultural_names = {
+					name_list_roman = cn_salines
+					name_list_greek = cn_salines
+					name_list_hungarian = cn_so
+					name_list_turkish = cn_tuzla	#A bit out of period, but you never know!
+				}
+
+				b_soli = {
+					province = 3510
+
+					color = { 170 80 125 }
+				}
+				b_bijeljina = {
+					province = 3509
+
+					color = { 170 80 125 }
+				}
+				b_zvornik = {
+					province = 3511
+
+					color = { 170 80 125 }
+				}
+			}
+			c_usora = {
+				color = { 170 70 100 }
+
+				#capital = 3513 # Srebrenik
+
+				b_srebrenik = {
+					province = 3513
+
+					color = { 170 70 100 }
+				}
+				b_usora = {	#Actually Doboj: Usora is a river.
+					province = 463
+
+					color = { 170 70 100 }
+				}
+				b_maglaj = {
+					province = 3514
+
+					color = { 170 70 100 }
+				}
+
+				b_tolisa = {
+					province = 3512
+
+					color = { 170 70 100 }
+				}
+			}
+			c_vodica = {	#Actually Krajina.
+				color = { 130 10 20 }
+
+				#capital = 3519 # Vodicevo
+
+				b_vodicevo = {
+					province = 3519
+
+					color = { 130 10 20 }
+				}
+				b_dubica = {
+					province = 3518
+
+					color = { 130 10 20 }
+				}
+			}
+			c_vrbas = {
+				color = { 125 20 90 }
+
+				#capital = 3516 # Banja Luka (though the name is anachronistic, there were various settlements on or near the site)
+
+				b_banjaluka = {
+					province = 3516
+
+					color = { 125 20 90 }
+				}
+				b_gradiska = {
+					province = 3515
+
+					color = { 125 20 90 }
+				}
+				b_glaz = {
+					province = 3517
+
+					color = { 125 20 90 }
+				}
+			}
+		}
+
+		d_usora = {	#Actually Zachlumia
+			color = { 170 70 100 }
+
+			capital = c_zachlumia # Blagaj
+
+			cultural_names = {
+				name_list_serbian = cn_zahumlje
+				name_list_croatian = cn_zahumlje
+				name_list_bosnian = cn_zahumlje
+			}
+
+			c_zachlumia = {
+				color = { 210 80 90 }
+
+				#capital = 466 # Blagaj
+
+				cultural_names = {
+					name_list_serbian = cn_zahumlje
+					name_list_croatian = cn_zahumlje
+					name_list_bosnian = cn_zahumlje
+				}
+
+				b_blagaj = {
+					province = 466
+
+					color = { 210 80 90 }
+				}
+				b_nevesinje = {
+					province = 3561
+
+					color = { 210 80 90 }
+				}
+				b_drijeva = {
+					province = 3562
+
+					color = { 210 80 90 }
+				}
+				b_kljuc = {
+					province = 3563
+
+					color = { 210 80 90 }
+				}
+				b_mostar = {
+					province = 3558
+
+					color = { 210 80 90 }
+				}
+			}
+			c_zelengora = {
+				color = { 195 70 125 }
+
+				b_gacko = {
+					province = 3560
+
+					color = { 195 70 125 }
+				}
+				b_konjic = {
+					province = 3557
+
+					color = { 195 70 125 }
+				}
+				b_obalj = {
+					province = 3559
+
+					color = { 195 70 125 }
+				}
+			}
+			c_zavrsje = {
+				color = { 220 130 100 }
+
+				#capital = 3501 # Hlivno
+
+				cultural_names = {
+					name_list_roman = cn_emotha
+					name_list_greek = cn_emotha
+				}
+				#roman = "Emotha"
+				#greek = "Emotha"
+
+				b_hlivno = {
+					province = 3501
+
+					color = { 220 130 100 }
+				}
+				b_glamoc = {
+					province = 3500
+
+					color = { 220 130 100 }
+				}
+				b_duvno = {
+					province = 3502
+
+					color = { 220 130 100 }
+				}
+				b_imotski = {
+					province = 3503
+
+					color = { 220 130 100 }
+				}
+			}
+			c_pagania = {
+				color = { 180 110 50 }
+
+				#capital = 3555 # Mokro
+
+				b_mokro = {
+					province = 3555
+
+					color = { 180 110 50 }
+				}
+				b_omis = {
+					province = 3553
+
+					color = { 180 110 50 }
+				}
+				b_hvar = {
+					province = 3556
+
+					color = { 180 110 50 }
+				}
+			}
+		}
+
+		d_ragusa = {
+			color = { 170 11 30 }
+
+			capital = c_ragusa # Ragusa / Dubrovnik
+
+			c_ragusa = {
+				color = { 170 11 30 }
+
+				#capital = 468 # Ragusa / Dubrovnik
+
+				b_ragusa = {
+					province = 468
+
+					color = { 170 11 30 }
+				}
+				b_ston = {
+					province = 3569
+
+					color = { 170 11 30 }
+				}
+			}
+		}
+	}
+
+	k_sicily = {
+		color = { 180 160 80 }
+
+		capital = c_palermo #	Palermo
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:italian
+						culture = culture:norman
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_sicily = {
+			color = { 155 254 86 }
+
+			capital = c_palermo # Palermo
+
+			cultural_names = {
+				name_list_bedouin = cn_siqilliya
+				name_list_levantine = cn_siqilliya
+				name_list_egyptian = cn_siqilliya
+				name_list_maghrebi = cn_siqilliya
+				name_list_andalusian = cn_siqilliya
+				name_list_yemeni = cn_siqilliya
+				name_list_carthaginian = cn_sicilia
+			}
+
+			c_palermo = {
+				color = { 155 254 86 }
+
+				cultural_names = {
+					name_list_bedouin = cn_balarm
+					name_list_levantine = cn_balarm
+					name_list_egyptian = cn_balarm
+					name_list_maghrebi = cn_balarm
+					name_list_andalusian = cn_balarm
+					name_list_yemeni = cn_balarm
+					name_list_carthaginian = cn_panormus 
+				}
+
+				b_palermo = {
+					province = 2635
+
+					color = { 155 254 86 }
+
+					cultural_names = {
+						name_list_bedouin = cn_balarm
+						name_list_levantine = cn_balarm
+						name_list_egyptian = cn_balarm
+						name_list_maghrebi = cn_balarm
+						name_list_andalusian = cn_balarm
+						name_list_yemeni = cn_balarm
+						name_list_carthaginian = cn_panormus
+					}
+				}
+				b_trapani = {
+					province = 2636
+
+					color = { 155 254 86 }
+
+					cultural_names = { 
+						name_list_carthaginian = cn_lilybaeum 
+					}
+				}
+				b_calatafimi = {
+					province = 2645
+
+					color = { 155 254 86 }
+				}
+				b_mazara = {
+					province = 2644
+
+					color = { 155 254 86 }
+				}
+			}
+			c_messina = {
+				color = { 160 210 100 }
+
+				b_messina = {
+					province = 2633
+
+					color = { 160 210 100 }
+				}
+				b_cefalu = {
+					province = 2634
+
+					color = { 160 210 100 }
+				}
+				b_catania = {
+					province = 2639
+
+					color = { 160 210 100 }
+				}
+			}
+			c_siracusa = {
+				color = { 115 195 85 }
+
+				cultural_names = {
+					name_list_bedouin = cn_sarqusa
+					name_list_levantine = cn_sarqusa
+					name_list_egyptian = cn_sarqusa
+					name_list_maghrebi = cn_sarqusa
+					name_list_andalusian = cn_sarqusa
+					name_list_yemeni = cn_sarqusa
+				}
+
+				b_syracusa = {
+					province = 2638
+
+					color = { 115 195 85 }
+
+					cultural_names = {
+						name_list_bedouin = cn_sarqusa
+						name_list_levantine = cn_sarqusa
+						name_list_egyptian = cn_sarqusa
+						name_list_maghrebi = cn_sarqusa
+						name_list_andalusian = cn_sarqusa
+						name_list_yemeni = cn_sarqusa
+					}
+				}
+				b_lentini = {
+					province = 2643
+
+					color = { 115 195 85 }
+				}
+				b_caltagirone = {
+					province = 2642
+
+					color = { 115 195 85 }
+				}
+			}
+			c_agrigento = {
+				color = { 125 230 110 }
+
+				cultural_names = {
+					name_list_bedouin = cn_qasriyana
+					name_list_levantine = cn_qasriyana
+					name_list_egyptian = cn_qasriyana
+					name_list_maghrebi = cn_qasriyana
+					name_list_andalusian = cn_qasriyana
+					name_list_yemeni = cn_qasriyana
+					name_list_greek = cn_enna
+				}
+
+				b_castrogiovanni = { # Castrogiovanni
+					province = 2640
+
+					color = { 125 230 110 }
+
+					cultural_names = {
+						name_list_bedouin = cn_qasriyana
+						name_list_levantine = cn_qasriyana
+						name_list_egyptian = cn_qasriyana
+						name_list_maghrebi = cn_qasriyana
+						name_list_andalusian = cn_qasriyana
+						name_list_yemeni = cn_qasriyana
+						name_list_greek = cn_enna
+					}
+				}
+				b_agricento = { # Grigenti
+					province = 2637
+
+					color = { 125 230 110 }
+				}
+				b_caltanisetta = { #Caltanissetta
+					province = 2641
+
+					color = { 125 230 110 }
+				}
+			}
+			c_malta = {
+				color = { 120 255 60 }
+
+				cultural_names = {
+					name_list_carthaginian = cn_maleth
+				}
+
+				b_malta = {
+					province = 2646
+
+					color = { 120 255 60 }
+
+					cultural_names = {
+						name_list_carthaginian = cn_maleth
+					}
+				}
+			}
+		}
+
+		d_benevento = {
+			color = { 209 170 75 }
+
+			capital = c_benevento # Benevento
+
+			c_benevento = {
+				color = { 189 150 55 }
+
+				b_benevento = {
+					province = 2609
+
+					color = { 189 150 55 }
+				}
+				b_alife = {
+					province = 2669
+
+					color = { 189 150 55 }
+				}
+				b_isernia = {
+					province = 2607
+
+					color = { 189 150 55 }
+				}
+				b_melfi = {
+					province = 2615
+
+					color = { 189 150 55 }
+				}
+				b_ariano = {
+					province = 8757
+
+					color = { 189 150 55 }
+				}
+			}
+			c_foggia = {
+				color = { 169 150 45 }
+
+				b_lucera = {
+					province = 2610
+
+					color = { 169 150 45 }
+				}
+				b_larino = {
+					province = 2605
+
+					color = { 169 150 45 }
+				}
+				b_vieste = {
+					province = 8758
+
+					color = { 169 150 45 }
+				}
+			}
+		}
+
+		d_capua = {
+			color = { 240 209 100 }
+
+			capital = c_capua # Capua
+
+			c_capua = {
+				color = { 240 209 100 }
+
+				b_capua = {
+					province = 2606
+
+					color = { 240 209 100 }
+				}
+				b_gaeta = {
+					province = 2593
+
+					color = { 240 209 100 }
+				}
+				b_cassino = {
+					province = 2602
+
+					color = { 240 209 100 }
+				}
+			}
+			c_napoli = {
+				color = { 230 225 90 }
+
+				b_napoli = {
+					province = 2608
+
+					color = { 230 225 90 }
+				}
+				b_amalfi = {
+					province = 2611
+
+					color = { 230 225 90 }
+				}
+				b_aversa = {
+					province = 8756
+
+					color = { 230 225 90 }
+				}
+			}
+		}
+
+		d_apulia = {
+			color = { 167 172 63 }
+
+			capital = c_apulia # Trani
+
+			c_apulia = {
+				color = { 152 157 48 }
+
+				b_trani = {
+					province = 2619
+
+					color = { 152 157 48 }
+				}
+				b_siponto = {
+					province = 2614
+
+					color = { 152 157 48 }
+				}
+				b_venosa = {
+					province = 2618
+
+					color = { 152 157 48 }
+				}
+				b_acerenza = {
+					province = 2617
+
+					color = { 152 157 48 }
+				}
+			}
+			c_bari = {
+				color = { 167 182 83 }
+
+				b_bari = {
+					province = 2623
+
+					color = { 167 182 83 }
+				}
+				b_matera = {
+					province = 2624
+
+					color = { 167 182 83 }
+				}
+				b_taranto = {
+					province = 2621
+
+					color = { 167 182 83 }
+				}
+			}
+			c_lecce = {
+				color = { 187 172 83 }
+
+				b_lecce = {
+					province = 8755
+
+					color = { 187 172 83 }
+				}
+				b_brindisi = {
+					province = 2622
+
+					color = { 187 172 83 }
+				}
+				b_orlanto = {
+					province = 2620
+
+					color = { 187 172 83 }
+				}
+			}
+		}
+
+		d_salerno = {
+			color = { 245 194 199 }
+
+			capital = c_salerno # Salerno
+
+			c_salerno = {
+				color = { 245 194 199 }
+
+				b_salerno = {
+					province = 2612
+
+					color = { 245 194 199 }
+				}
+				b_maratea = {
+					province = 2613
+
+					color = { 245 194 199 }
+				}
+				b_potenza = {
+					province = 2616
+
+					color = { 245 194 199 }
+				}
+				b_policastro = {
+					province = 8754
+
+					color = { 245 194 199 }
+				}
+			}
+			c_camarda = {
+				color = { 250 215 205 }
+
+				b_camarda = {
+					province = 2631
+
+					color = { 250 215 205 }
+				}
+				b_stigliano = {
+					province = 2632
+
+					color = { 250 215 205 }
+				}
+			}
+		}
+
+		d_calabria = {
+			color = { 170 142 70 }
+
+			capital = c_reggio_calabria # Reggio
+
+			c_reggio_calabria = {
+				color = { 165 150 95 }
+
+				b_reggio_calabria = {
+					province = 2627
+
+					color = { 165 150 95 }
+				}
+				b_squilluce = {
+					province = 2626
+
+					color = { 165 150 95 }
+				}
+				b_tropea = {
+					province = 8751
+
+					color = { 165 150 95 }
+				}
+			}
+			c_cosenza = {
+				color = { 170 132 80 }
+
+				b_cosenza = {
+					province = 2628
+
+					color = { 170 132 80 }
+				}
+				b_castrovillari = {
+					province = 2630
+
+					color = { 170 132 80 }
+				}
+				b_belvedere = {
+					province = 8752
+
+					color = { 170 132 80 }
+				}
+			}
+			c_rossano = {
+				color = { 150 125 80 }
+
+				b_rossano = {
+					province = 2629
+
+					color = { 150 125 80 }
+				}
+				b_cotrone = { #Crotone
+					province = 2625
+
+					color = { 150 125 80 }
+				}
+				b_catanzaro = {
+					province = 8753
+
+					color = { 150 125 80 }
+				}
+			}
+		}
+	}
+
+	k_italy = {
+		color = { 244 227 160 }
+
+		capital = c_lombardia # Pavia
+
+		can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				faith = { religion_tag = christianity_religion }
+			}
+		}
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:italian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		d_friuli = {
+			color = { 170 255 170 }
+
+			capital = c_aquileia
+
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = { has_cultural_pillar = heritage_central_germanic } # Unruoch of Friuli
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+
+			c_aquileia = {
+				color = { 170 255 170 }
+
+				b_aquileia = {
+					province = 2508
+
+					color = { 170 255 170 }
+				}
+				b_trieste = {
+					province = 2514
+
+					color = { 170 255 170 }
+				}
+				b_udine = {
+					province = 2510
+
+					color = { 170 255 170 }
+				}
+				b_grado = {
+					province = 2507
+
+					color = { 170 255 170 }
+				}
+			}
+
+			c_friuli = {
+				color = { 155 255 175 }
+
+				b_caorle = {
+					province = 2512
+
+					color = { 155 255 175 }
+				}
+				b_pordenone = {
+					province = 2513
+
+					color = { 155 255 175 }
+				}
+				b_portogruaro = {
+					province = 8766
+
+					color = { 155 255 175 }
+				}
+			}
+			c_gorz = {
+				color = { 180 255 200 }
+
+				cultural_names = {
+					name_list_swabian = cn_gorz
+					name_list_swabian = cn_gorz
+					name_list_franconian = cn_gorz
+					name_list_bavarian = cn_gorz
+					name_list_saxon = cn_gorz
+				}
+
+				b_gorizia = {
+					province = 2516
+
+					color = { 180 255 200 }
+				}
+				b_triglavski = { #Tricorno
+					province = 2515
+
+					color = { 180 255 200 }
+				}
+			}
+		}
+
+		d_verona = {
+			color = { 145 240 205 }
+
+			capital = c_verona # Verona
+
+			c_verona = {
+				color = { 150 245 210 }
+
+				b_verona = {
+					province = 2501
+
+					color = { 150 245 210 }
+				}
+				b_lessinia = {
+					province = 2502
+
+					color = { 150 245 210 }
+				}
+				b_garda = {
+					province = 2496
+
+					color = { 150 245 210 }
+				}
+			}
+
+			c_treviso = {
+				color = { 160 225 210 }
+
+				b_treviso = {
+					province = 2505
+
+					color = { 160 225 210 }
+				}
+				b_ceneta = {
+					province = 2511
+
+					color = { 160 225 210 }
+				}
+				b_vicenza = {
+					province = 2500
+
+					color = { 160 225 210 }
+				}
+			}
+
+			c_padua = {
+				color = { 130 215 190 }
+
+				b_padua = {
+					province = 2503
+
+					color = { 130 215 190 }
+				}
+				b_lonigo = {
+					province = 2509
+
+					color = { 130 215 190 }
+				}
+				b_montagnana = {
+					province = 2666
+
+					color = { 130 215 190 }
+				}
+				b_este = {
+					province = 8765
+
+					color = { 130 215 190 }
+				}
+			}
+
+			c_polesine = {
+				color = { 145 230 225 }
+
+				b_rovigo = {
+					province = 2525
+
+					color = { 145 230 225 }
+				}
+				b_adria = {
+					province = 2524
+
+					color = { 145 230 225 }
+				}
+			}
+		}
+
+		d_piedmonte = {
+			color = { 191 158 158 }
+
+			capital = c_monferrato #Asti
+
+			c_monferrato = {
+				color = { 195 160 160 }
+
+				b_asti = {
+					province = 2469
+
+					color = { 195 160 160 }
+				}
+				b_alba_di_monferrato = {
+					province = 2467
+
+					color = { 195 160 160 }
+				}
+				b_acqui = {
+					province = 2468
+
+					color = { 195 160 160 }
+				}
+			}
+
+			c_turin = {
+				color = { 195 115 135 }
+
+				b_turin = {
+					province = 2041
+
+					color = { 195 115 135 }
+				}
+				b_chieri = {
+					province = 2045
+
+					color = { 195 115 135 }
+				}
+				b_santhia = {
+					province = 8764
+
+					color = { 195 115 135 }
+				}
+			}
+
+			c_novara = {
+				color = { 195 140 130 }
+
+				b_novara = {
+					province = 2471
+
+					color = { 195 140 130 }
+				}
+				b_biella = {
+					province = 2473
+
+					color = { 195 140 130 }
+				}
+				b_vercelli = {
+					province = 2470
+
+					color = { 195 140 130 }
+				}
+			}
+
+			c_cuneo = {
+				color = { 195 130 145 }
+
+				b_cuneo = {
+					province = 2043
+
+					color = { 195 130 145 }
+				}
+				b_saluzzo = {
+					province = 2044
+
+					color = { 195 130 145 }
+				}
+				b_mondovi = {
+					province = 8763
+
+					color = { 195 130 145 }
+				}
+			}
+
+			c_canavese = {
+				color = { 115 25 45 }
+
+				b_ivrea = {
+					province = 2040
+
+					color = { 115 25 45 }
+				}
+				b_pinerolo = {
+					province = 2042
+
+					color = { 115 25 45 }
+				}
+				b_canavese = {
+					province = 2456
+
+					color = { 115 25 45 }
+				}
+			}
+		}
+
+		d_lombardia = {
+			color = { 180 115 200 }
+
+			capital = c_lombardia # Lombardia
+
+			c_lombardia = {
+				color = { 185 120 205 }
+
+				b_milano = {
+					province = 2482
+
+					color = { 185 120 205 }
+				}
+				b_monza = {
+					province = 2481
+
+					color = { 185 120 205 }
+				}
+				b_gallarate = {
+					province = 2480
+
+					color = { 185 120 205 }
+				}
+				b_varese = {
+					province = 2479
+
+					color = { 185 120 205 }
+				}
+			}
+			c_brescia = {
+				color = { 170 150 190 }
+
+				b_brescia = {
+					province = 2494
+
+					color = { 170 150 190 }
+				}
+				b_bergamo = {
+					province = 2493
+
+					color = { 170 150 190 }
+				}
+				b_chiari = {
+					province = 8762
+
+					color = { 170 150 190 }
+				}
+			}
+			c_como = {
+				color = { 240 175 255 }
+
+				b_como = {
+					province = 2477
+
+					color = { 240 175 255 }
+				}
+				b_pombia = {
+					province = 2472
+
+					color = { 240 175 255 }
+				}
+				b_bellinzona = {
+					province = 2478
+
+					color = { 240 175 255 }
+				}
+			}
+			c_trent = {
+				color = { 250 150 220 }
+
+				b_trento = {
+					province = 2499
+
+					color = { 250 150 220 }
+				}
+				b_bolzano = {
+					province = 2498
+
+					color = { 250 150 220 }
+				}
+				b_val_camonica = {	#Riva AKA Riva del Garda
+					province = 2495
+
+					color = { 250 150 220 }
+				}
+				b_tirano = {
+					province = 8761
+
+					color = { 250 150 220 }
+				}
+			}
+
+			c_pavia = {
+				color = { 200 155 255 }
+
+				b_pavia = {
+					province = 2475
+
+					color = { 200 155 255 }
+				}
+				b_lodi = {
+					province = 2476
+
+					color = { 200 155 255 }
+				}
+				b_vigevano = {
+					province = 2474
+
+					color = { 200 155 255 }
+				}
+			}
+			c_cremona = {
+				color = { 220 160 210 }
+
+				b_cremona = {
+					province = 2491
+
+					color = { 220 160 210 }
+				}
+				b_roncaglia = {
+					province = 2489
+
+					color = { 220 160 210 }
+				}
+				b_crema = {
+					province = 2492
+
+					color = { 220 160 210 }
+				}
+			}
+
+			c_parma = {
+				color = { 255 160 195 }
+
+
+				b_parma = {
+					province = 2532
+
+					color = { 255 160 195 }
+				}
+				b_florentiola = {
+					province = 2490
+
+					color = { 255 160 195 }
+				}
+				b_piacenza = {
+					province = 2488
+
+					color = { 255 160 195 }
+				}
+			}
+			c_tortona = {
+				color = { 170 105 195 }
+
+				b_tortona = {
+					province = 2483
+
+					color = { 170 105 195 }
+				}
+				b_voghera = {
+					province = 2487
+
+					color = { 170 105 195 }
+				}
+			}
+		}
+
+		d_genoa = {
+			color = { 244 141 120 }
+
+			capital = c_genoa # Genoa
+
+			c_genoa = {
+				color = { 244 141 120 }
+
+				b_genoa = {
+					province = 2466
+
+					color = { 244 141 120 }
+				}
+				b_monaco = {
+					province = 2022
+
+					color = { 244 141 120 }
+				}
+				b_savona = {
+					province = 2465
+
+					color = { 244 141 120 }
+				}
+			}
+
+			c_luni = {
+				color = { 215 120 130 }
+
+				b_luni = {
+					province = 2531
+
+					color = { 215 120 130 }
+				}
+				b_chiavari = {
+					province = 2485
+
+					color = { 215 120 130 }
+				}
+			}
+		}
+
+		d_emilia = {
+			color = { 225 180 180 }
+
+			capital = c_modena # Modena
+
+			c_modena = {
+				color = { 230 185 185 }
+
+				b_modena = {
+					province = 2540
+
+					color = { 230 185 185 }
+				}
+				b_canossa = {
+					province = 2535
+
+					color = { 230 185 185 }
+				}
+				b_reggio_emilia = {
+					province = 2534
+
+					color = { 230 185 185 }
+				}
+				b_cento = {
+					province = 2541
+
+					color = { 230 185 185 }
+				}
+			}
+			c_mantua = {
+				color = { 215 175 205 }
+
+				b_mantua = {
+					province = 2497
+
+					color = { 215 175 205 }
+				}
+				b_guastalla = {
+					province = 2530
+
+					color = { 215 175 205 }
+				}
+				b_brescello = {
+					province = 2533
+
+					color = { 215 175 205 }
+				}
+			}
+		}
+
+		d_istria = {
+			color = { 75 110 105 }
+
+			c_pula = {
+				color = { 75 110 105 }
+
+				b_pula = {
+					province = 2518
+
+					color = { 75 110 105 }
+				}
+				b_piran = {
+					province = 2519
+
+					color = { 75 110 105 }
+				}
+				b_pazin = {
+					province = 2520
+
+					color = { 75 110 105 }
+				}
+				b_labin = {
+					province = 2522
+
+					color = { 75 110 105 }
+				}
+			}
+		}
+
+        d_krain = {
+			color = { 95 120 100 }
+
+			capital = c_kranj # Kranj
+
+			c_kranj = {
+				color = { 95 120 100 }
+
+				cultural_names = {
+					name_list_swabian = cn_krain
+					name_list_swabian = cn_krain
+					name_list_franconian = cn_krain
+					name_list_bavarian = cn_krain
+					name_list_saxon = cn_krain
+				}
+
+				b_kranj = {
+					province = 3100
+
+					color = { 95 120 100 }
+
+					cultural_names = {
+						name_list_swabian = cn_krainburg
+						name_list_swabian = cn_krainburg
+						name_list_franconian = cn_krainburg
+						name_list_bavarian = cn_krainburg
+						name_list_saxon = cn_krainburg
+					}
+				}
+				b_krsko = {
+					province = 3102
+
+					color = { 95 120 100 }
+				}
+				b_kamnik = {
+					province = 3101
+
+					color = { 95 120 100 }
+				}
+			}
+			c_ljubljana = {
+				color = { 90 125 115 }
+
+				b_ljubljana = {
+					province = 3096
+
+					color = { 90 125 115 }
+				}
+				b_dobovec = {
+					province = 3097
+
+					color = { 90 125 115 }
+				}
+				b_rudolfswerde = {
+					province = 3098
+
+					color = { 90 125 115 }
+				}
+				b_ribnica = {
+					province = 3095
+
+					color = { 90 125 115 }
+				}
+			}
+		}
+
+		d_steyermark = {
+			color = { 120 100 100 }
+
+			capital = c_graz #Graz
+
+			c_graz = {
+				color = { 120 100 100 }
+
+				b_graz = {
+					province = 3117
+
+					color = { 120 100 100 }
+				}
+				b_koflach = {
+					province = 3111
+
+					color = { 120 100 100 }
+				}
+				b_kapfenberg = {
+					province = 3118
+
+					color = { 120 100 100 }
+				}
+				b_leoben = {
+					province = 3110
+
+					color = { 120 100 100 }
+				}
+				b_feldbach = {
+					province = 3116
+
+					color = { 120 100 100 }
+				}
+			}
+			c_pitten = {
+				color = { 145 110 110 }
+
+				b_pitten = {
+					province = 3092
+
+					color = { 145 110 110 }
+				}
+				b_oberwart = {
+					province = 3120
+
+					color = { 145 110 110 }
+				}
+			}
+			c_liebnitz = {
+				color = { 115 90 90 }
+
+				b_liebnitz = {
+					province = 3109
+
+					color = { 115 90 90 }
+				}
+				b_maribor = {
+					province = 3103
+
+					color = { 115 90 90 }
+				}
+				b_windische_buhel = {
+					province = 3106
+
+					color = { 115 90 90 }
+				}
+			}
+			c_murzzuschlag = {
+				color = { 140 120 120 }
+
+				b_murzzuschlag = {
+					province = 3121
+
+					color = { 140 120 120 }
+				}
+				b_ostfurstenfeld = {
+					province = 3119
+
+					color = { 140 120 120 }
+				}
+			}
+			c_karnten = {
+				color = { 100 105 120 }
+
+				b_klagenfurt = {
+					province = 3105
+
+					color = { 100 105 120 }
+				}
+				b_sankt_veit = {
+					province = 3113
+
+					color = { 100 105 120 }
+				}
+				b_wolfsberg = {
+					province = 3108
+
+					color = { 100 105 120 }
+				}
+			}
+			c_villach = {
+				color = { 95 115 120 }
+
+				b_villach = {
+					province = 3099
+
+					color = { 95 115 120 }
+				}
+				b_feldkirchen = {
+					province = 3127
+
+					color = { 95 115 120 }
+				}
+				b_spittal = {
+					province = 3083
+
+					color = { 95 115 120 }
+				}
+			}
+		}
+
+		d_venice = {
+			color = { 34 137 126 }
+
+			capital = c_venezia # Venice
+
+			c_venezia = {
+				color = { 40 143 132 }
+
+				b_venezia = {
+					province = 2517
+
+					color = { 40 143 132 }
+				}
+			}
+			c_veneto = {
+				color = { 40 143 132 }
+
+				b_mestre = {
+					province = 2506
+
+					color = { 40 143 132 }
+				}
+				b_chioggia = {
+					province = 2504
+
+					color = { 40 143 132 }
+				}
+				b_malamacco = {
+					province = 8767
+
+					color = { 40 143 132 }
+				}
+			}
+		}
+	}
+
+	k_sardinia = {	#Sardinia & Corsica
+		color = { 210 165 255 }
+
+		capital = c_cagliari # Cagliari
+
+		cultural_names = {
+			name_list_catalan = cn_sardenya_i_corsega
+			name_list_greek = cn_sardhnia_kai_thn_korsikn
+			name_list_italian = cn_sardegna_e_corsica
+			name_list_cisalpine = cn_sardegna_e_corsica
+			name_list_sicilian = cn_sardegna_e_corsica
+			name_list_sardinian = cn_sardegna_e_corsica
+		}
+
+		d_corsica = {
+			color = { 200 200 250 }
+
+			capital = c_ajaccio # Ajaccio
+
+			c_ajaccio = {
+				color = { 200 200 250 }
+
+				b_ajaccio = {
+					province = 2650
+
+					color = { 200 200 250 }
+				}
+				b_calvi = {
+					province = 2649
+
+					color = { 200 200 250 }
+				}
+			}
+			c_bastia = {
+				color = { 226 248 251 }
+
+				b_bastia = {
+					province = 2647
+
+					color = { 226 248 251 }
+				}
+				b_corte = {
+					province = 2648
+
+					color = { 226 248 251 }
+				}
+			}
+			c_vecchio = {
+				color = { 205 230 235 }
+
+				b_bonifacio = {
+					province = 2652
+
+					color = { 205 230 235 }
+				}
+				b_vecchio = {
+					province = 2651
+
+					color = { 205 230 235 }
+				}
+			}
+		}
+
+		d_sardinia = {
+			color = { 217 159 255 }
+
+			capital = c_cagliari # Cagliari
+
+			cultural_names = {
+				name_list_carthaginian = cn_sardinia
+			}
+			
+
+			c_cagliari = {
+				color = { 220 160 250 }
+
+				cultural_names = {
+					name_list_carthaginian = cn_caralis
+				}
+
+				b_cagliari = {
+					province = 2653
+
+					color = { 220 160 250 }
+
+					cultural_names = {
+						name_list_carthaginian = cn_caralis
+				}
+
+				}
+				b_iglesias = {
+					province = 2654
+
+					color = { 220 160 250 }
+				}
+				b_samassi = {
+					province = 2660
+
+					color = { 220 160 250 }
+				}
+			}
+			c_arborea = {
+				color = { 200 185 250 }
+
+				b_oristano = {
+					province = 2659
+
+					color = { 200 185 250 }
+				}
+				b_isili = {
+					province = 2661
+
+					color = { 200 185 250 }
+				}
+			}
+			c_gallura = {
+				color = { 195 175 225 }
+
+				cultural_names = {
+					name_list_carthaginian = cn_tibia
+				}
+
+				b_olbia = {
+					province = 2658
+
+					color = { 195 175 225 }
+				}
+				b_galtelli = {
+					province = 2657
+
+					color = { 195 175 225 }
+				}
+			}
+			c_logudoro = {
+				color = { 170 182 225 }
+
+				b_sassari = {
+					province = 2662
+
+					color = { 170 182 225 }
+				}
+				b_alghero = {
+					province = 2665
+
+					color = { 170 182 225 }
+				}
+				b_porto_torres = {
+					province = 2664
+
+					color = { 170 182 225 }
+				}
+				b_ardara = {
+					province = 2663
+
+					color = { 170 182 225 }
+				}
+			}
+			c_tortoli = {
+				color = { 180 170 180 }
+
+				b_tortoli = {
+					province = 2656
+
+					color = { 180 170 180 }
+				}
+				b_carbonara = {
+					province = 2655
+
+					color = { 180 170 180 }
+				}
+			}
+		}
+	}
+
+	k_romagna = {
+		color = { 215 141 152 }
+
+		capital = c_roma # Rome
+
+		can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				faith = { religion_tag = christianity_religion }
+			}
+		}
+
+		cultural_names = {
+			name_list_greek = cn_ravenna
+		}
+
+		d_romagna = {
+			color = { 244 180 130 }
+
+			capital = c_ravenna # Ravenna
+
+			c_ravenna = {
+				color = { 229 165 115 }
+
+				b_ravenna = {
+					province = 2546
+
+					color = { 229 165 115 }
+				}
+				b_imola = {
+					province = 2549
+
+					color = { 229 165 115 }
+				}
+				b_forli = {
+					province = 2548
+
+					color = { 229 165 115 }
+				}
+				b_rimini = {
+					province = 2547
+
+					color = { 229 165 115 }
+				}
+			}
+			c_bologna = {
+				color = { 209 145 95 }
+
+				b_bologna = {
+					province = 2542
+
+					color = { 209 145 95 }
+				}
+				b_cona = {
+					province = 2529
+
+					color = { 209 145 95 }
+				}
+				b_monte_sole = {
+					province = 2550
+
+					color = { 209 145 95 }
+				}
+			}
+			c_ferrara = {
+				color = { 219 125 85 }
+
+				b_ferrara = {
+					province = 2527
+
+					color = { 219 125 85 }
+				}
+				b_pomposa = {
+					province = 2526
+
+					color = { 219 125 85 }
+				}
+				b_comacchio = {
+					province = 2528
+
+					color = { 219 125 85 }
+				}
+			}
+			c_casentino = {
+				color = { 209 125 105 }
+
+				b_casentino = {
+					province = 2553
+
+					color = { 209 125 105 }
+				}
+				b_montefeltro = {
+					province = 2552
+
+					color = { 209 125 105 }
+				}
+				b_camaldoli = {
+					province = 2551
+
+					color = { 209 125 105 }
+				}
+			}
+		}
+
+		d_ancona = {
+			color = { 240 240 190 }
+
+			capital = c_ancona # Ancona
+
+			c_ancona = {
+				color = { 245 245 195 }
+
+				b_ancona = {
+					province = 2594
+
+					color = { 245 245 195 }
+				}
+				b_cagli = {
+					province = 2583
+
+					color = { 245 245 195 }
+				}
+				b_gubbio = {
+					province = 2582
+
+					color = { 245 245 195 }
+				}
+				b_camerino = {
+					province = 2587
+
+					color = { 245 245 195 }
+				}
+			}
+			c_urbino = {
+				color = { 240 225 150 }
+
+				b_urbino = {
+					province = 2555
+
+					color = { 240 225 150 }
+				}
+				b_civitas_castelli = {
+					province = 2584
+
+					color = { 240 225 150 }
+				}
+				b_pesaro = {
+					province = 2556
+
+					color = { 240 225 150 }
+				}
+			}
+			c_fermo = {
+				color = { 210 210 175 }
+
+				b_fermo = {
+					province = 2598
+
+					color = { 210 210 175 }
+				}
+				b_ascoli_piceno = {
+					province = 2597
+
+					color = { 210 210 175 }
+				}
+				b_macerata = {
+					province = 2599
+
+					color = { 210 210 175 }
+				}
+			}
+		}
+
+		d_spoleto = {
+			color = { 217 182 153 }
+
+			capital = c_spoleto # Spoleto
+
+			c_spoleto = {
+				color = { 197 162 133 }
+
+				b_spoleto = {
+					province = 2585
+
+					color = { 197 162 133 }
+				}
+				b_assissi = { #Assisi
+					province = 2581
+
+					color = { 197 162 133 }
+				}
+				b_terni = {
+					province = 2586
+
+					color = { 197 162 133 }
+				}
+			}
+			c_orvieto = {
+				color = { 197 172 163 }
+
+				b_orvieto = {
+					province = 2568
+
+					color = { 197 172 163 }
+				}
+				b_perugia = {
+					province = 2566
+
+					color = { 197 172 163 }
+				}
+			}
+			c_teramo = {
+				color = { 227 152 133 }
+
+				b_teramo = {
+					province = 2596
+
+					color = { 227 152 133 }
+				}
+				b_atri = {
+					province = 2595
+
+					color = { 227 152 133 }
+				}
+			}
+			c_lanciano = {
+				color = { 167 102 103 }
+
+				b_lanciano = {
+					province = 2604
+
+					color = { 167 102 103 }
+				}
+				b_cluieli = { #Chieti
+					province = 2603
+
+					color = { 167 102 103 }
+				}
+				b_agnone = {
+					province = 8759
+
+					color = { 167 102 103 }
+				}
+			}
+
+			c_abruzzi = {
+				color = { 157 132 123 }
+
+				b_avezzano = {
+					province = 2600
+
+					color = { 157 132 123 }
+				}
+				b_rieti = {
+					province = 2588
+
+					color = { 157 132 123 }
+				}
+			}
+		}
+
+		d_latium = {
+			color = { 254 245 160 }
+
+			capital = c_roma # Rome
+
+			c_roma = {
+				color = { 242 233 156 }
+
+				b_roma = {
+					province = 2575
+
+					color = { 242 233 156 }
+				}
+				b_ostia = {
+					province = 2576
+
+					color = { 242 233 156 }
+				}
+				b_vaticano = {
+					province = 2577
+
+					color = { 242 233 156 }
+				}
+				b_palo = {
+					province = 2578
+
+					color = { 242 233 156 }
+				}
+				b_paterno = {
+					province = 2574
+
+					color = { 242 233 156 }
+				}
+				b_farfa = {
+					province = 2579
+
+					color = { 242 233 156 }
+				}
+			}
+
+			c_viterbo = {
+				color = { 212 203 116 }
+
+				b_viterbo = {
+					province = 2572
+
+					color = { 212 203 116 }
+				}
+				b_sutri = {
+					province = 2573
+
+					color = { 212 203 116 }
+				}
+				b_civitavecchia = {
+					province = 2571
+
+					color = { 212 203 116 }
+				}
+			}
+
+			c_tivoli = {
+				color = { 242 253 136 }
+
+				b_tivoli = {
+					province = 2589
+
+					color = { 242 253 136 }
+				}
+				b_velletri = {
+					province = 2590
+
+					color = { 242 253 136 }
+				}
+				b_segni = {
+					province = 2591
+
+					color = { 242 253 136 }
+				}
+				b_terracina = {
+					province = 2592
+
+					color = { 242 253 136 }
+				}
+			}
+		}
+
+		d_toscana = {
+			color = { 222 186 25 }
+
+			capital = c_firenze # Firenze
+
+			c_firenze = {
+				color = { 232 190 25 }
+
+				b_firenze = {
+					province = 2543
+
+					color = { 232 190 25 }
+				}
+				b_impruneta = {
+					province = 2559
+
+					color = { 232 190 25 }
+				}
+				b_empoli = {
+					province = 2563
+
+					color = { 232 190 25 }
+				}
+				b_volterra = {
+					province = 2558
+
+					color = { 232 190 25 }
+				}
+			}
+			c_lucca = {
+				color = { 235 210 65 }
+
+				b_lucca = {
+					province = 2537
+
+					color = { 235 210 65 }
+				}
+				b_pistorja = { #Pistoia
+					province = 2538
+
+					color = { 235 210 65 }
+				}
+				b_prato = {
+					province = 2545
+
+					color = { 235 210 65 }
+				}
+			}
+			c_arezzo = {
+				color = { 230 155 15 }
+
+				b_arezzo = {
+					province = 2554
+
+					color = { 230 155 15 }
+				}
+				b_vallombrosa = {
+					province = 2544
+
+					color = { 230 155 15 }
+				}
+				b_cortona = {
+					province = 2564
+
+					color = { 230 155 15 }
+				}
+			}
+			c_siena = {
+				color = { 205 175 25 }
+
+				b_siena = {
+					province = 2560
+
+					color = { 205 175 25 }
+				}
+				b_montalcino = {
+					province = 2567
+
+					color = { 205 175 25 }
+				}
+				b_chiusi = {
+					province = 2565
+
+					color = { 205 175 25 }
+				}
+				b_asciano = {
+					province = 8760
+
+					color = { 205 175 25 }
+				}
+			}
+			c_orbetello = {
+				color = { 250 210 5 }
+
+				b_orbetello = {
+					province = 2569
+
+					color = { 250 210 5 }
+				}
+				b_soana = {
+					province = 2570
+
+					color = { 250 210 5 }
+				}
+				b_grosseto = {
+					province = 2562
+
+					color = { 250 210 5 }
+				}
+			}
+		}
+
+		d_pisa = {
+			color = { 180 186 30 }
+
+			capital = c_pisa #Pisa
+
+			c_pisa = {
+				color = { 180 186 30 }
+
+				b_pisa = {
+					province = 2536
+
+					color = { 180 186 30 }
+				}
+				b_livorno = {
+					province = 2557
+
+					color = { 180 186 30 }
+				}
+				b_piombino = {
+					province = 2561
+
+					color = { 180 186 30 }
+				}
+			}
+		}
+	}
+}

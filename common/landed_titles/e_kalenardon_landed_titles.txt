@@ -1,0 +1,2695 @@
+e_kalenardon = {	#Kievan Rus
+	color = { 50 150 55 }
+
+	capital = c_kiev # Kiev
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_east_slavic }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	cultural_names = {
+		name_list_norse = cn_gardariki
+		name_list_swedish = cn_gardariki
+		name_list_danish = cn_gardariki
+		name_list_norwegian = cn_gardariki
+	}
+
+	k_ruthenia = {
+		color = { 70 150 90 }
+
+		capital = c_kiev # Kiev
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_east_slavic }
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+
+		d_kiev = {
+			color = { 52 120 69 }
+
+			capital = c_kiev # Kiev
+
+			cultural_names = {
+				name_list_norse = cn_konugardr_NORSE
+				name_list_swedish = cn_konugard_SWE
+				name_list_norwegian = cn_konugard_NORDAN
+				name_list_danish = cn_konugard_NORDAN
+				name_list_polish = cn_kijow
+				name_list_lithuanian = cn_kijevas
+			}
+
+			c_kiev = {
+				color = { 53 105 66 }
+
+				cultural_names = {
+					name_list_norse = cn_konugardr_NORSE
+					name_list_swedish = cn_konugard_SWE
+					name_list_norwegian = cn_konugard_NORDAN
+					name_list_danish = cn_konugard_NORDAN
+					name_list_polish = cn_kijow
+					name_list_lithuanian = cn_kijevas
+				}
+
+				b_kiev = {
+					province = 547
+
+					color = { 70 150 90 }
+
+					cultural_names = {
+						name_list_norse = cn_konugardr_NORSE
+						name_list_swedish = cn_konugard_SWE
+						name_list_norwegian = cn_konugard_NORDAN
+						name_list_danish = cn_konugard_NORDAN
+						name_list_polish = cn_kijow
+						name_list_lithuanian = cn_kijevas
+					}
+				}
+				b_vyshgorod = {
+					province = 5082
+
+					color = { 70 150 90 }
+				}
+				b_bilhorod = {
+					province = 5083
+
+					color = { 70 150 90 }
+				}
+				b_yuriev = {
+					province = 5084
+
+					color = { 70 150 90 }
+				}
+				b_kaniv = {
+					province = 5085
+
+					color = { 70 150 90 }
+				}
+				b_zdvyzhen = {
+					province = 5086
+
+					color = { 70 150 90 }
+				}
+			}
+			c_zhytomyr = {
+				color = { 120 190 130 }
+
+				cultural_names = {
+					name_list_polish = cn_zytomierz
+				}
+
+				b_zhytomyr = {
+					province = 5087
+
+					color = { 120 190 130 }
+
+					cultural_names = {
+						name_list_polish = cn_zytomierz
+					}
+				}
+				b_mezhybozhe = {
+					province = 5088
+
+					color = { 120 190 130 }
+				}
+				b_rastovets = {
+					province = 5089
+
+					color = { 120 190 130 }
+				}
+			}
+			c_zvyahel = {
+				color = { 70 183 89 }
+
+				cultural_names = {
+					name_list_polish = cn_zwiahel
+				}
+
+				b_zvyahel = {
+					province = 5091
+
+					color = { 70 183 89 }
+
+					cultural_names = {
+						name_list_polish = cn_zytomierz
+					}
+				}
+				b_kolodiazhen = {
+					province = 5092
+
+					color = { 70 183 89 }
+				}
+				b_chortolisy = {
+					province = 5093
+
+					color = { 70 183 89 }
+				}
+				b_horodnytsia = {
+					province = 5094
+
+					color = { 70 183 89 }
+				}
+			}
+			c_chornobyl = {
+				color = { 52 156 80 }
+
+				cultural_names = {
+					name_list_polish = cn_czarnobyl
+				}
+
+				b_chornobyl = {
+					province = 5095
+
+					color = { 52 156 80 }
+
+					cultural_names = {
+						name_list_polish = cn_czarnobyl
+					}
+				}
+				b_ivankiv = {
+					province = 5096
+
+					color = { 52 156 80 }
+				}
+				b_radynka = {
+					province = 5097
+
+					color = { 52 156 80 }
+				}
+			}
+			c_ushytsia = {
+				color = { 163 201 106 }
+
+				cultural_names = {
+					name_list_polish = cn_uszyca
+					 name_list_vlach = cn_usita
+				}
+
+				b_ushytsia = {
+					province = 5098
+
+					color = { 163 201 106 }
+
+					cultural_names = {
+						name_list_polish = cn_uszyca
+						 name_list_vlach = cn_usita
+					}
+				}
+				b_vinnytsia = {
+					province = 5099
+
+					color = { 163 201 106 }
+				}
+				b_yampil = {
+					province = 5100
+
+					color = { 163 201 106 }
+				}
+			}
+			c_korsun = {
+				color = { 125 201 106 }
+
+				cultural_names = {
+					name_list_polish = cn_korsun
+				}
+
+				b_korsun = {
+					province = 544
+
+					color = { 125 201 106 }
+
+					cultural_names = {
+						name_list_polish = cn_korsun
+					}
+				}
+				b_malaia_skvirka = {
+					province = 5090
+
+					color = { 125 201 106 }
+				}
+				b_haisyn = {
+					province = 5101
+
+					color = { 125 201 106 }
+				}
+			}
+		}
+
+		d_turov = {
+			color = { 129 163 28 }
+
+			capital = c_turov # Turov
+
+			cultural_names = {
+				name_list_polish = cn_turow
+				name_list_lithuanian = cn_turava
+			}
+
+			c_turov = {
+				color = { 110 140 20 }
+
+				cultural_names = {
+					name_list_polish = cn_turow
+					name_list_lithuanian = cn_turava
+				}
+
+				b_turov = {
+					province = 552
+
+					color = { 110 140 20 }
+
+					cultural_names = {
+						name_list_polish = cn_turow
+						name_list_lithuanian = cn_turava
+					}
+				}
+				b_sarny = {
+					province = 5102
+
+					color = { 110 140 20 }
+				}
+				b_selo = {
+					province = 5103
+
+					color = { 110 140 20 }
+				}
+			}
+			c_korosten = {
+				color = { 96 125 11 }
+
+				cultural_names = {
+					name_list_polish = cn_korosten
+					name_list_lithuanian = cn_korostenis
+				}
+
+				b_korosten = {
+					province = 5104
+
+					color = { 96 125 11 }
+
+					cultural_names = {
+						name_list_polish = cn_korosten
+						name_list_lithuanian = cn_korostenis
+					}
+				}
+				b_ovruch = {
+					province = 5105
+
+					color = { 96 125 11 }
+
+					cultural_names = {
+						name_list_polish = cn_owrucz
+					}
+				}
+				b_mazyr = {
+					province = 5106
+
+					color = { 96 125 11 }
+				}
+				b_naroulia = {
+					province = 5107
+
+					color = { 96 125 11 }
+				}
+				b_lelchytsy = {
+					province = 5108
+
+					color = { 96 125 11 }
+				}
+			}
+			c_dubrovytsia = {
+				color = { 81 99 28 }
+
+				cultural_names = {
+					name_list_polish = cn_dabrowica
+					name_list_lithuanian = cn_dubrovicja
+				}
+
+				b_dubrovytsia = {
+					province = 5109
+
+					color = { 81 99 28 }
+
+					cultural_names = {
+						name_list_polish = cn_dabrowica
+						name_list_lithuanian = cn_dubrovicja
+					}
+				}
+				b_stepan = {
+					province = 5110
+
+					color = { 81 99 28 }
+				}
+				b_liubeshiv = {
+					province = 5111
+
+					color = { 81 99 28 }
+				}
+			}
+		}
+
+		d_pereyaslavl = {
+			color = { 37 143 71 }
+
+			capital = c_pereyaslavl # Pereyaslavl
+
+			c_pereyaslavl = {
+				color = { 22 115 52 }
+
+				b_pereyaslavl = {
+					province = 555
+
+					color = { 22 115 52 }
+				}
+				b_boryspil = {
+					province = 5178
+
+					color = { 22 115 52 }
+				}
+				b_priluk = {
+					province = 5179
+
+					color = { 22 115 52 }
+				}
+				b_zolotonosha = {
+					province = 5180
+
+					color = { 22 115 52 }
+				}
+			}
+			c_romen = {
+				color = { 4 110 38 }
+
+				b_romen = {
+					province = 5185
+
+					color = { 4 110 38 }
+				}
+				b_lokhrytsia = {
+					province = 5186
+
+					color = { 4 110 38 }
+				}
+				b_nedryhailiv = {
+					province = 5187
+
+					color = { 4 110 38 }
+				}
+				b_sumy = {
+					province = 5188
+
+					color = { 4 110 38 }
+				}
+			}
+		}
+
+		d_chernigov = {
+			color = { 150 235 91 }
+
+			capital = c_chernigov # Chernigov
+
+			c_chernigov = {
+				color = { 121 189 74 }
+
+				b_chernigov = {
+					province = 554
+
+					color = { 121 189 74 }
+				}
+				b_lyubech = {
+					province = 553
+
+					color = { 121 189 74 }
+				}
+				b_gomel = {
+					province = 5200
+
+					color = { 121 189 74 }
+				}
+				b_unenezh = {
+					province = 5201
+
+					color = { 121 189 74 }
+				}
+				b_surazichi = {
+					province = 5202
+
+					color = { 121 189 74 }
+				}
+			}
+			c_starodub = {
+				color = { 106 156 72 }
+
+				b_starodub = {
+					province = 5203
+
+					color = { 106 156 72 }
+				}
+				b_trubetsk = {
+					province = 5204
+
+					color = { 106 156 72 }
+				}
+				b_debryansk = {
+					province = 576
+
+					color = { 106 156 72 }
+				}
+				b_mglin = {
+					province = 5205
+
+					color = { 106 156 72 }
+				}
+			}
+			c_novgorod_seversky = {
+				color = { 108 135 2 }
+
+				b_novgorod_seversky = {
+					province = 567
+
+					color = { 108 135 2 }
+				}
+				b_borzna = {
+					province = 5191
+
+					color = { 108 135 2 }
+				}
+				b_glukhov = {
+					province = 5192
+
+					color = { 108 135 2 }
+				}
+			}
+			c_putyvl = {
+				color = { 140 165 40 }
+
+				b_putyvl = {
+					province = 5193
+
+					color = { 140 165 40 }
+				}
+				b_vyr = {
+					province = 5194
+
+					color = { 140 165 40 }
+				}
+				b_konotop = {
+					province = 5195
+
+					color = { 140 165 40 }
+				}
+			}
+			c_kursk = {
+				color = { 130 180 55 }
+
+				b_kursk = {
+					province = 5196
+
+					color = { 130 180 55 }
+				}
+				b_rylsk = {
+					province = 5197
+
+					color = { 130 180 55 }
+				}
+				b_sudzha = {
+					province = 5198
+
+					color = { 130 180 55 }
+				}
+				b_oboyan = {
+					province = 5199
+
+					color = { 130 180 55 }
+				}
+			}
+		}
+
+		d_karachev = {
+			color = { 96 184 20 }
+
+			capital = c_karachev # Karachev
+
+			c_karachev = {
+				color = { 82 165 10 }
+
+				b_karachev = {
+					province = 5209
+
+					color = { 82 165 10 }
+				}
+				b_krom = {
+					province = 5210
+
+					color = { 82 165 10 }
+				}
+				b_oryol = {
+					province = 5211
+
+					color = { 82 165 10 }
+				}
+			}
+			c_kozelsk = {
+				color = { 99 198 42 }
+
+				b_kozelsk = {
+					province = 5212
+
+					color = { 99 198 42 }
+				}
+				b_vorotynsk = {
+					province = 5213
+
+					color = { 99 198 42 }
+				}
+				b_belev = {
+					province = 5214
+
+					color = { 99 198 42 }
+				}
+			}
+			c_sevsk = {
+				color = { 73 128 27 }
+
+				b_sevsk = {
+					province = 5206
+
+					color = { 73 128 27 }
+				}
+				b_ust-livny = {
+					province = 5207
+
+					color = { 73 128 27 }
+				}
+				b_lokot = {
+					province = 5208
+
+					color = { 73 128 27 }
+				}
+			}
+		}
+
+		d_novosil = {
+			color = { 180 201 36 }
+
+			capital = c_novosil # Novosil
+
+			c_novosil = {
+				color = { 158 176 38 }
+
+				b_novosil = {
+					province = 5215
+
+					color = { 158 176 38 }
+				}
+				b_mtensk = {
+					province = 5216
+
+					color = { 158 176 38 }
+				}
+			}
+			c_odoyev = {
+				color = { 138 156 16 }
+
+				b_odoyev = {
+					province = 5217
+
+					color = { 138 156 16 }
+				}
+				b_suvorov = {
+					province = 5218
+
+					color = { 138 156 16 }
+				}
+			}
+		}
+	}
+
+	k_white_rus = {
+		color = { 180 205 170 }
+
+		capital = c_polotsk # Polotsk
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_east_slavic }
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+
+		d_pinsk = {
+			color = { 200 185 170 }
+
+			capital = c_pinsk # Pinsk
+
+			cultural_names = {
+				name_list_lithuanian = cn_pinskas
+				name_list_polish = cn_pinsk_PLN
+			}
+
+			c_pinsk = {
+				color = { 173 158 142 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_pinskas
+					name_list_polish = cn_pinsk_PLN
+				}
+
+				b_pinsk = {
+					province = 548
+
+					color = { 173 158 142 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_pinskas
+						name_list_polish = cn_pinsk_PLN
+					}
+				}
+				b_lahishyn = {
+					province = 5112
+
+					color = { 173 158 142 }
+				}
+				b_luninets = {
+					province = 5113
+
+					color = { 173 158 142 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_luniecas
+						name_list_polish = cn_luniniec
+					}
+				}
+			}
+			c_slutsk = {
+				color = { 181 157 132 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_sluckas
+					name_list_polish = cn_sluck
+				}
+
+				b_slutsk = {
+					province = 5114
+
+					color = { 181 157 132 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_sluckas
+						name_list_polish = cn_sluck
+					}
+				}
+				b_zhytkavichy = {
+					province = 5115
+
+					color = { 181 157 132 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_zytkavicai
+						name_list_polish = cn_zydkowicze
+					}
+				}
+				b_mikashevichy = {
+					province = 5116
+
+					color = { 181 157 132 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_mikasevicai
+						name_list_polish = cn_mikaszewicze
+					}
+				}
+			}
+			c_kletsk = {
+				color = { 161 148 135 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_kleckas
+					name_list_polish = cn_kleck
+				}
+
+				b_kletsk = {
+					province = 5117
+
+					color = { 161 148 135 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_kleckas
+						name_list_polish = cn_kleck
+					}
+				}
+				b_baranovichi = {
+					province = 5118
+
+					color = { 161 148 135 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_baranoviciai
+						name_list_polish = cn_baranowicze
+					}
+				}
+			}
+			c_babruysk = {
+				color = { 138 123 107 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_babruiskas
+					name_list_polish = cn_bobrujsk
+				}
+
+				b_babruysk = {
+					province = 5119
+
+					color = { 138 123 107 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_babruiskas
+						name_list_polish = cn_bobrujsk
+					}
+				}
+				b_zhlobin = {
+					province = 5120
+
+					color = { 138 123 107 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_zlobinas
+						name_list_polish = cn_zlobin
+					}
+				}
+				b_kalinkavichy = {
+					province = 5121
+
+					color = { 138 123 107 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_kalinkavicai
+						name_list_polish = cn_kalinkowicze
+					}
+				}
+				b_rechytsa = {
+					province = 5122
+
+					color = { 138 123 107 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_recyca
+						name_list_polish = cn_reczyca
+					}
+				}
+			}
+		}
+
+		d_minsk = {
+			color = { 160 205 150 }
+
+			capital = c_minsk # Minsk
+
+			cultural_names = {
+				name_list_lithuanian = cn_minskas
+				name_list_polish = cn_minsk_PLN
+			}
+
+			c_minsk = {
+				color = { 122 158 114 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_minskas
+					name_list_polish = cn_minsk_PLN
+				}
+
+				b_minsk = {
+					province = 550
+
+					color = { 122 158 114 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_minskas
+						name_list_polish = cn_minsk_PLN
+					}
+				}
+				b_lahoysk = {
+					province = 5123
+
+					color = { 122 158 114 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_lahoiskas
+						name_list_polish = cn_lohojsk
+					}
+				}
+				b_zaslawye = {
+					province = 5124
+
+					color = { 122 158 114 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_zaslavlis
+						name_list_polish = cn_zaslaw
+					}
+				}
+				b_maladzyechna = {
+					province = 5125
+
+					color = { 122 158 114 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_maladecina
+						name_list_polish = cn_molodeczno
+					}
+				}
+				b_barysaw = {
+					province = 5126
+
+					color = { 122 158 114 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_barysavas
+						name_list_polish = cn_borysow
+					}
+				}
+			}
+			c_orsha = {
+				color = { 100 140 91 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_orsa_LIT
+					name_list_polish = cn_orsza
+				}
+
+				b_orsha = {
+					province = 5127
+
+					color = { 100 140 91 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_orsa_LIT
+						name_list_polish = cn_orsza
+					}
+				}
+				b_drutsk = {
+					province = 5128
+
+					color = { 100 140 91 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_druckas
+						name_list_polish = cn_druck
+					}
+				}
+			}
+		}
+
+		d_polotsk = {
+			color = { 160 225 225 }
+
+			capital = c_polotsk # Polotsk
+
+			cultural_names = {
+				name_list_lithuanian = cn_polockas
+				name_list_polish = cn_polock
+				name_list_swedish = cn_pallteskja
+				name_list_norse = cn_pallteskja
+				name_list_danish = cn_pallteskja
+				name_list_norwegian = cn_pallteskja
+			}
+
+			c_polotsk = {
+				color = { 127 184 184 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_polockas
+					name_list_polish = cn_polock
+					name_list_swedish = cn_pallteskja
+					name_list_norse = cn_pallteskja
+					name_list_danish = cn_pallteskja
+					name_list_norwegian = cn_pallteskja
+				}
+
+				b_polotsk = {
+					province = 5129
+
+					color = { 127 184 184 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_polockas
+						name_list_polish = cn_polock
+						name_list_swedish = cn_pallteskja
+						name_list_norse = cn_pallteskja
+						name_list_danish = cn_pallteskja
+						name_list_norwegian = cn_pallteskja
+					}
+				}
+				b_drysa = {
+					province = 5130
+
+					color = { 127 184 184 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_drisa
+						name_list_polish = cn_dryssa
+					}
+				}
+				b_myory = {
+					province = 5131
+
+					color = { 127 184 184 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_merai
+						name_list_polish = cn_miory
+					}
+				}
+			}
+			c_lukoml = {
+				color = { 104 173 173 }
+
+				cultural_names = {
+					name_list_polish = cn_lukoml
+				}
+
+				b_lukoml = {
+					province = 934
+
+					color = { 104 173 173 }
+
+					cultural_names = {
+						name_list_polish = cn_lukoml
+					}
+				}
+				b_vetrino = {
+					province = 5132
+
+					color = { 104 173 173 }
+				}
+				b_hlybokaye = {
+					province = 5133
+
+					color = { 104 173 173 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_glubokas
+						name_list_polish = cn_glebokie
+					}
+				}
+			}
+			c_vitebsk = {
+				color = { 71 173 173 }
+
+				cultural_names = {
+					name_list_lithuanian = cn_vitebskas
+					name_list_polish = cn_witebsk
+				}
+
+				b_vitebsk = {
+					province = 5134
+
+					color = { 71 173 173 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_vitebskas
+						name_list_polish = cn_witebsk
+					}
+				}
+				b_haradok = {
+					province = 5135
+
+					color = { 71 173 173 }
+
+					cultural_names = {
+						name_list_lithuanian = cn_haradokas
+						name_list_polish = cn_horodek
+					}
+				}
+			}
+		}
+
+		d_smolensk = {
+			color = { 173 147 181 }
+
+			capital = c_smolensk # Smolensk
+
+			c_smolensk = {
+				color = { 146 124 153 }
+
+				b_smolensk = {
+					province = 568
+
+					color = { 146 124 153 }
+				}
+				b_dorogobyzh = {
+					province = 5219
+
+					color = { 146 124 153 }
+				}
+				b_mstislavl = {
+					province = 551
+
+					color = { 146 124 153 }
+				}
+				b_yelnya = {
+					province = 5220
+
+					color = { 146 124 153 }
+				}
+				b_vyazma = {
+					province = 569
+
+					color = { 146 124 153 }
+				}
+			}
+			c_gnezdovo = {
+				color = { 157 143 161 }
+
+				b_gnezdovo = {
+					province = 5221
+
+					color = { 157 143 161 }
+				}
+				b_velizh = {
+					province = 5222
+
+					color = { 157 143 161 }
+				}
+				b_dukhovshchina = {
+					province = 5223
+
+					color = { 157 143 161 }
+				}
+			}
+			c_roslavl = {
+				color = { 126 99 133 }
+
+				b_roslavl = {
+					province = 933
+
+					color = { 126 99 133 }
+				}
+				b_klimavichy = {
+					province = 5224
+
+					color = { 126 99 133 }
+				}
+				b_cherykaw = {
+					province = 5225
+
+					color = { 126 99 133 }
+				}
+			}
+			c_mozhaysk = {
+				color = { 101 89 105 }
+
+				b_mozhaysk = {
+					province = 587
+
+					color = { 101 89 105 }
+				}
+				b_lotoshino = {
+					province = 5226
+
+					color = { 101 89 105 }
+				}
+				b_zubstov = {
+					province = 5227
+
+					color = { 101 89 105 }
+				}
+			}
+			c_toropets = {
+				color = { 163 125 176 }
+
+				b_toropets = {
+					province = 5170
+
+					color = { 163 125 176 }
+				}
+				b_andreapol = {
+					province = 5171
+
+					color = { 163 125 176 }
+				}
+				b_ozerski = {
+					province = 5172
+
+					color = { 163 125 176 }
+				}
+			}
+		}
+	}
+
+	k_opolye = { #Vladimir
+		color = { 87 144 50 }
+
+		capital = c_yaroslavl # Yaroslavl
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_east_slavic }
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+
+		d_opolye = {
+			color = { 100 168 56 }
+
+			capital = c_yaroslavl # Yaroslavl
+
+			c_yaroslavl = {
+				color = { 97 144 40 }
+
+				cultural_names = {
+					name_list_norse = cn_timerovo
+					name_list_swedish = cn_timerovo
+					name_list_norwegian = cn_timerovo
+					name_list_danish = cn_timerovo
+					name_list_merya = cn_timerovo
+					name_list_meshchera = cn_timerovo
+					name_list_muroma = cn_timerovo
+					name_list_mordvin = cn_timerovo
+					name_list_mari = cn_timerovo
+				}
+
+				b_yaroslavl = {
+					province = 572
+
+					color = { 87 144 50 }
+
+					cultural_names = {
+						name_list_norse = cn_timerovo
+						name_list_swedish = cn_timerovo
+						name_list_norwegian = cn_timerovo
+						name_list_danish = cn_timerovo
+						name_list_merya = cn_timerovo
+						name_list_meshchera = cn_timerovo
+						name_list_muroma = cn_timerovo
+						name_list_mordvin = cn_timerovo
+						name_list_mari = cn_timerovo
+					}
+				}
+				b_rostov = {
+					province = 574
+
+					color = { 87 144 50 }
+
+					cultural_names = {
+						name_list_merya = cn_sarskoye_gorodishche
+						name_list_meshchera = cn_sarskoye_gorodishche
+						name_list_muroma = cn_sarskoye_gorodishche
+						name_list_mordvin = cn_sarskoye_gorodishche
+						name_list_mari = cn_sarskoye_gorodishche
+					}
+				}
+				b_uglich = {
+					province = 571
+
+					color = { 87 144 50 }
+				}
+				b_mologa = {
+					province = 5176
+
+					color = { 87 144 50 }
+				}
+			}
+			c_vladimir = {
+				color = { 67 174 67 }
+
+				b_vladimir = {
+					province = 582
+
+					color = { 67 174 67 }
+				}
+				b_starodub-on-the-klyazma = {
+					province = 583
+
+					color = { 67 174 67 }
+				}
+				b_volochok = {
+					province = 5236
+
+					color = { 67 174 67 }
+				}
+				b_sudogda = {
+					province = 5237
+
+					color = { 67 174 67 }
+				}
+				b_yegoryevsk = {
+					province = 5238
+
+					color = { 67 174 67 }
+				}
+			}
+			c_suzdal = {
+				color = { 23 135 60 }
+
+				b_suzdal = {
+					province = 5239
+
+					color = { 23 135 60 }
+				}
+				b_yuryev = {
+					province = 5240
+
+					color = { 23 135 60 }
+				}
+				b_pereyaslavl_zalessky = {
+					province = 573
+
+					color = { 23 135 60 }
+				}
+				b_ivanovo = {
+					province = 5241
+
+					color = { 23 135 60 }
+				}
+				b_gavrilovskoye = {
+					province = 5242
+
+					color = { 23 135 60 }
+				}
+			}
+			c_tver = {
+				color = { 50 102 50 }
+
+				b_tver = {
+					province = 5173
+
+					color = { 50 102 50 }
+				}
+				b_volok_lamsky = {
+					province = 5174
+
+					color = { 50 102 50 }
+				}
+				b_klin = {
+					province = 5243
+
+					color = { 50 102 50 }
+				}
+				b_kashin = {
+					province = 5175
+
+					color = { 50 102 50 }
+				}
+			}
+			c_moskva = {
+				color = { 10 150 10 }
+
+				b_moskva = {
+					province = 575
+
+					color = { 10 150 10 }
+				}
+				b_kolomna = {
+					province = 578
+
+					color = { 10 150 10 }
+				}
+				b_dmitrov = {
+					province = 570
+
+					color = { 10 150 10 }
+				}
+				b_naro-fominsk = {
+					province = 5244
+
+					color = { 10 150 10 }
+				}
+				b_serpukhov = {
+					province = 5245
+
+					color = { 10 150 10 }
+				}
+			}
+		}
+
+		d_ryazan = {
+			color = { 75 110 41 }
+
+			capital = c_ryazan # Ryazan
+
+			c_ryazan = {
+				color = { 60 95 25 }
+
+				b_ryazan = {
+					province = 580
+
+					color = { 60 95 25 }
+				}
+				b_pereyaslavl_ryazanski = {
+					province = 5228
+
+					color = { 60 95 25 }
+				}
+				b_rostislavl = {
+					province = 5229
+
+					color = { 60 95 25 }
+				}
+				b_vaskina_polyana = {
+					province = 5253
+
+					color = { 60 95 25 }
+				}
+				b_klepiki = {
+					province = 5230
+
+					color = { 60 95 25 }
+				}
+			}
+			c_tula = {
+				color = { 101 110 45 }
+
+				b_tula = {
+					province = 5231
+
+					color = { 101 110 45 }
+				}
+				b_yelets = {
+					province = 5232
+
+					color = { 101 110 45 }
+				}
+				b_pronsk = {
+					province = 577
+
+					color = { 101 110 45 }
+				}
+			}
+			c_murom = {
+				color = { 100 130 50 }
+
+				b_murom = {
+					province = 581
+
+					color = { 100 130 50 }
+				}
+				b_gorodets-meshchyorsky = {
+					province = 5233
+
+					color = { 100 130 50 }
+				}
+				b_vyksa = {
+					province = 5234
+
+					color = { 100 130 50 }
+				}
+				b_pavlovo = {
+					province = 5235
+
+					color = { 100 130 50 }
+				}
+			}
+		}
+
+		d_nizhny_novgorod = {
+			color = { 10 171 90 }
+
+			capital = c_nizhny_novgorod # Nizhny Novgorod
+
+			cultural_names = {
+				name_list_russian = cn_nizhny_novgorod
+			}
+
+			c_nizhny_novgorod = {
+				color = { 6 145 75 }
+
+				cultural_names = {
+					name_list_russian = cn_nizhny_novgorod
+				}
+
+				b_nizhny_novgorod = {
+					province = 584
+
+					color = { 6 145 75 }
+
+					cultural_names = {
+						name_list_russian = cn_nizhny_novgorod
+					}
+				}
+				b_gorodets = {
+					province = 585
+
+					color = { 6 145 75 }
+				}
+				b_kineshma = {
+					province = 5246
+
+					color = { 6 145 75 }
+				}
+				b_makariev = {
+					province = 5256
+
+					color = { 6 145 75 }
+				}
+			}
+			c_plyos = {
+				color = { 5 85 35 }
+
+				b_plyos = {
+					province = 5247
+
+					color = { 5 85 35 }
+				}
+				b_shuya = {
+					province = 5248
+
+					color = { 5 85 35 }
+				}
+				b_sol_vilikaya = {
+					province = 5249
+
+					color = { 5 85 35 }
+				}
+			}
+			c_manturovo = {
+				color = { 10 105 60 }
+
+				b_manturovo = {
+					province = 5250
+
+					color = { 10 105 60 }
+				}
+				b_kostroma = {
+					province = 5251
+
+					color = { 10 105 60 }
+				}
+				b_galich_mersky = {
+					province = 586
+
+					color = { 10 105 60 }
+				}
+				b_chukhloma = {
+					province = 5252
+
+					color = { 10 105 60 }
+				}
+			}
+		}
+
+		d_martyuba = {
+			color = { 56 55 97 }
+
+			capital = c_martyuba
+
+			c_martyuba = {
+				color = { 56 55 97 }
+
+				b_urzen = {
+					province = 589
+
+					color = { 56 55 97 }
+				}
+				b_vetluga = {
+					province = 5473
+
+					color = { 56 55 97 }
+				}
+				b_vokhma = {
+					province = 5474
+
+					color = { 56 55 97 }
+				}
+			}
+			c_cykma = {
+				color = { 56 82 88 }
+
+				b_cykma = {
+					province = 5470
+
+					color = { 56 82 88 }
+				}
+				b_semenov = {
+					province = 5471
+
+					color = { 56 82 88 }
+				}
+				b_luch = {
+					province = 5472
+
+					color = { 56 82 88 }
+				}
+			}
+        }
+	}
+
+    k_pontic_steppe = {
+		color = { 85 40 5 }
+
+		capital = c_odessa # Odessa
+
+		cultural_names = {
+			name_list_russian = cn_zaporizhia
+			name_list_polish = cn_dzikie_pola
+			name_list_lithuanian = cn_dykra
+			name_list_hungarian = cn_etelkoz
+			name_list_anglo_saxon = cn_new_england
+			name_list_english = cn_new_england
+		}
+
+		d_yedisan = {	#Karayedisan
+			color = { 156 82 22 }
+
+			capital = c_cherkassy
+
+			cultural_names = {
+				name_list_franconian = cn_jedisan
+				name_list_saxon = cn_jedisan
+				name_list_swabian = cn_jedisan
+				name_list_bavarian = cn_jedisan
+				name_list_polish = cn_jedysan
+				name_list_vlach = cn_edisan
+				name_list_greek = cn_borysthenes
+			}
+
+			c_cherkassy = {
+				color = { 125 80 18 }
+
+				b_cherkassy = {
+					province = 5263
+
+					color = { 125 80 18 }
+				}
+				b_sacacatce = {
+					province = 5264
+
+					color = { 125 80 18 }
+				}
+				b_kashan = {
+					province = 5265
+
+					color = { 125 80 18 }
+				}
+				b_pervomaisk = {
+					province = 5266
+
+					color = { 125 80 18 }
+				}
+			}
+			c_ladyzyn = {
+				color = { 165 110 18 }
+
+				b_ladyzyn = {
+					province = 5257
+
+					color = { 165 110 18 }
+				}
+				b_birzula = {
+					province = 5258
+
+					color = { 165 110 18 }
+				}
+				b_liubashivka = {
+					province = 5259
+
+					color = { 165 110 18 }
+				}
+			}
+			c_uman = {
+				color = { 105 60 10 }
+
+				b_yary = {
+					province = 5260
+
+					color = { 105 60 10 }
+				}
+				b_buky = {
+					province = 5261
+
+					color = { 105 60 10 }
+				}
+				b_uman = {
+					province = 5262
+
+					color = { 105 60 10 }
+				}
+			}
+			c_dnipro = {
+				color = { 100 65 37 }
+
+				b_dnipro = {
+					province = 5274
+
+					color = { 100 65 37 }
+				}
+
+				b_salmacatce = {
+					province = 5275
+
+					color = { 100 65 37 }
+				}
+			}
+		}
+
+		d_kizilyedisan = {
+			color = { 117 49 0 }
+
+			capital = c_odessa # Odessa
+
+			cultural_names = {
+				name_list_franconian = cn_south_jedisan
+				name_list_saxon = cn_south_jedisan
+				name_list_swabian = cn_south_jedisan
+				name_list_bavarian = cn_south_jedisan
+				name_list_polish = cn_south_jedysan
+				name_list_vlach = cn_south_edisan
+				name_list_greek = cn_south_borysthenes
+			}
+
+			c_odessa = {
+				color = { 137 69 13 }
+
+				cultural_names = {
+					name_list_greek = cn_olbia
+				}
+
+				b_okachiv = {
+					province = 543
+
+					color = { 137 69 13 }
+				}
+				b_tiraspol = {
+					province = 5267
+
+					color = { 137 69 13 }
+				}
+				b_odessa = {
+					province = 5268
+
+					color = { 137 69 13 }
+				}
+				b_olbia_ETEL = {
+					province = 542
+
+					color = { 137 69 13 }
+				}
+			}
+			c_kherson = {
+				color = { 125 90 65 }
+
+				b_kherson = {
+					province = 5269
+
+					color = { 125 90 65 }
+				}
+				b_kazanka = {
+					province = 5270
+
+					color = { 125 90 65 }
+				}
+				b_voznessensk = {
+					province = 5271
+
+					color = { 125 90 65 }
+				}
+			}
+			c_lower_dniepr = {
+				color = { 183 125 94 }
+
+				b_beryslav = {
+					province = 5272
+
+					color = { 183 125 94 }
+				}
+				b_nikopol = {
+					province = 5273
+
+					color = { 183 125 94 }
+				}
+			}
+		}
+
+		d_levedia = {
+			color = { 210 160 69 }
+
+			capital = c_samar
+
+			cultural_names = {
+				name_list_greek = cn_scythia
+			}
+			
+			c_samar = {
+				color = { 180 180 90 }
+
+				b_samar = {
+					province = 556
+
+					color = { 180 180 90 }
+				}
+				b_karlivka = {
+					province = 5282
+
+					color = { 180 180 90 }
+				}
+				b_kharka = {
+					province = 565
+
+					color = { 180 180 90 }
+				}
+				b_bohodukhiv = {
+					province = 5283
+
+					color = { 180 180 90 }
+				}
+			}
+			c_bakhmut = {
+				color = { 150 100 20 }
+
+				b_bakhmut = {
+					province = 564
+
+					color = { 150 100 20 }
+				}
+				b_tor = {
+					province = 5322
+
+					color = { 150 100 20 }
+				}
+				b_volcha = {
+					province = 5323
+
+					color = { 150 100 20 }
+				}
+			}
+			c_lozova = {
+				color = { 130 70 0 }
+				
+				b_lozova = {
+					province = 5320
+
+					color = { 130 70 0 }
+				}
+				b_pokrovsk = {
+					province = 5321
+
+					color = { 130 70 0 }
+				}
+			}
+			c_hradyzk = {
+				color = { 50 102 67 }
+
+				b_hradyzk = {
+					province = 5181
+
+					color = { 50 102 67 }
+				}
+				b_akhtyr = {
+					province = 5182
+
+					color = { 50 102 67 }
+				}
+				b_myrhorod = {
+					province = 5183
+
+					color = { 50 102 67 }
+				}
+				b_poltava = {
+					province = 5184
+
+					color = { 50 102 67 }
+				}
+			}
+			c_voin = {
+				color = { 98 146 103 }
+
+				b_voin = {
+					province = 5189
+
+					color = { 98 146 103 }
+				}
+				b_lubny = {
+					province = 5190
+
+					color = { 98 146 103 }
+				}
+			}
+		}
+		
+		d_red_levedia = {
+			color = { 196 140 49 }
+
+			capital = c_khortytsia # Khortytsia
+
+			cultural_names = {
+				name_list_greek = cn_southscythia
+			}
+			
+			c_khortytsia = {
+				color = { 180 130 50 }
+
+				cultural_names = {
+					name_list_greek = cn_hygreis
+				}
+
+				b_khortytsia = {
+					province = 557
+
+					color = { 180 130 50 }
+				}
+				b_mariupol = {
+					province = 5280
+
+					color = { 180 130 50 }
+				}
+				b_kutur-ogly = {
+					province = 5281
+
+					color = { 180 130 50 }
+				}
+				b_donetsk = {
+					province = 5324
+
+					color = { 180 130 50 }
+				}
+			}
+			c_oleshye = {
+				color = { 200 130 40 }
+
+				cultural_names = {
+					name_list_greek = cn_oleshia
+				}
+
+				b_oleshye = {
+					province = 558
+
+					color = { 200 130 40 }
+				}
+				b_kakovka = {
+					province = 5278
+
+					color = { 200 130 40 }
+				}
+				b_kyzyl_jar = {
+					province = 5279
+
+					color = { 200 130 40 }
+				}
+			}
+		}
+
+		d_don_valley = {
+			color = { 227 201 98 }
+
+			capital = c_sarysyn
+
+			c_sarysyn = {
+				color = { 91 95 25 }
+
+				b_sarysyn = {
+					province = 595
+
+					color = { 91 95 25 }
+				}
+				b_frolovo = {
+					province = 5293
+
+					color = { 91 95 25 }
+				}
+				b_kamyshin = {
+					province = 5294
+
+					color = { 91 95 25 }
+				}
+				b_yelan = {
+					province = 5295
+
+					color = { 91 95 25 }
+				}
+			}
+			c_golden_hills = {
+				color = { 205 175 85 }
+
+				b_golden_hills = {
+					province = 5290
+
+					color = { 205 175 85 }
+				}
+				b_siyahtepe = {
+					province = 5291
+
+					color = { 205 175 85 }
+				}
+				b_ust-donvokhi = {
+					province = 5292
+
+					color = { 205 175 85 }
+				}
+				b_kazarki = {
+					province = 594
+
+					color = { 205 175 85 }
+				}
+			}
+			c_kazanskaya = {
+				color = { 236 200 105 }
+
+				b_kazanskaya = {
+					province = 5287
+
+					color = { 236 200 105 }
+				}
+				b_boguchar = {
+					province = 5325
+
+					color = { 236 200 105 }
+				}
+			}
+			c_millerovo = {
+				color = { 185 150 70 }
+
+				b_millerovo = {
+					province = 5326
+
+					color = { 185 150 70 }
+				}
+				b_podgornye = {
+					province = 5327
+
+					color = { 185 150 70 }
+				}
+			}
+		}
+
+		d_tana = {
+			color = { 195 170 35 }
+
+			capital = c_tana
+
+			cultural_names = {
+				name_list_greek = cn_tanais
+			}
+
+			c_tana = {
+				color = { 215 190 55 }
+
+				cultural_names = {
+					name_list_greek = cn_tanais
+				}
+
+				b_tana = {
+					province = 596
+
+					cultural_names = {
+						name_list_greek = cn_tanais
+					}
+
+					color = { 215 190 55 }
+				}
+				b_taganrog = {
+					province = 563
+
+					color = { 215 190 55 }
+				}
+			}
+			c_kuzeytorg = {
+				color = { 240 230 60 }
+
+				cultural_names = {
+					name_list_greek = cn_tanais
+				}
+
+				b_kuzeytorg = {
+					province = 5328
+
+					color = { 240 230 60 }
+				}
+				b_ivanovskoye = {
+					province = 5329
+
+					color = { 240 230 60 }
+				}
+			}
+		}
+
+		d_crimea = {
+			color = { 153 60 74 }
+
+			capital = c_kerch # Kerch
+
+			c_kerch = {
+				color = { 124 52 63 }
+
+				b_kerch = {
+					province = 562
+
+					color = { 124 52 63 }
+				}
+				b_chersonesus = {
+					province = 560
+
+					color = { 124 52 63 }
+				}
+				b_theodosia = {
+					province = 561
+
+					color = { 124 52 63 }
+				}
+			}
+			c_kalos_limen = {
+				color = { 110 32 44 }
+
+				cultural_names = {
+					name_list_greek = cn_kerkinitis
+					name_list_russian = cn_kozlov
+				}
+
+				b_kerkinitis = {
+					province = 5276
+
+					color = { 110 32 44 }
+
+					cultural_names = {
+						name_list_greek = cn_kerkinitis
+						name_list_russian = cn_kozlov
+					}
+				}
+
+				b_kalos_limen = {
+					province = 559
+
+					color = { 110 32 44 }
+				}
+			}
+			c_perekop = {
+				color = { 105 56 64 }
+
+				cultural_names = {
+					name_list_greek = cn_scythian_neapolis
+				}
+
+				b_aqmescit = {
+					province = 5330
+
+					color = { 110 32 44 }
+
+					cultural_names = {
+						name_list_greek = cn_scythian_neapolis
+					}
+				}
+
+				b_perekop = {
+					province = 5277
+
+					cultural_names = {
+						name_list_greek = cn_taphros
+					}
+
+					color = { 105 56 64 }
+				}
+
+				b_dzhankoi = {
+					province = 5331
+
+					color = { 105 56 64 }
+				}
+			}
+		}
+	}
+
+    k_mordvinia = {
+		color = { 38 66 71 }
+
+		capital = c_cheboksary
+
+		d_mordvinia = {
+			color = { 26 46 50 }
+
+			capital = c_cheboksary
+
+			c_cheboksary = {
+				color = { 44 44 65 }
+
+				b_cheboksary = {
+					province = 590
+
+					color = { 44 44 65 }
+				}
+				b_urmary = {
+					province = 5363
+
+					color = { 44 44 65 }
+				}
+				b_tzyvil = {
+					province = 5364
+
+					color = { 44 44 65 }
+				}
+				b_alatyr = {
+					province = 5365
+
+					color = { 44 44 65 }
+				}
+			}
+			c_lachyk-uba = {
+				color = { 36 36 50 }
+
+				b_lachyk-uba = {
+					province = 5359
+
+					color = { 36 36 50 }
+				}
+				b_morchansk = {
+					province = 5360
+
+					color = { 36 36 50 }
+
+					cultural_names = {
+						name_list_mordvin = cn_tumolaj
+						name_list_merya = cn_tumolaj
+						name_list_meshchera = cn_tumolaj
+						name_list_mari = cn_tumolaj
+						name_list_muroma = cn_tumolaj
+					}
+				}
+			}
+			c_rakcha = {
+				color = { 25 30 78 }
+
+				b_rakcha = {
+					province = 5362
+
+					color = { 25 30 78 }
+				}
+				b_chatzk = {
+					province = 5361
+
+					color = { 25 30 78 }
+				}
+			}
+		}
+
+		d_saran = {
+			color = { 0 25 15 }
+
+			capital = c_saran
+
+			c_saran = {
+				color = { 0 35 25 }
+
+				b_saran = {
+					province = 5383
+
+					color = { 0 35 25 }
+				}
+				b_vorona = {
+					province = 5386
+
+					color = { 0 35 25 }
+				}
+				b_kachma = {
+					province = 5385
+
+					color = { 0 35 25 }
+				}
+			}
+			c_serdosk = {
+				color = { 35 78 60 }
+
+				cultural_names = {
+					name_list_mordvin = cn_sedvel
+					name_list_merya = cn_sedvel
+					name_list_meshchera = cn_sedvel
+					name_list_mari = cn_sedvel
+					name_list_muroma = cn_sedvel
+				}
+
+				b_serdosk = {
+					province = 5384
+
+					color = { 35 78 60 }
+
+					cultural_names = {
+						name_list_mordvin = cn_sedvel
+						name_list_merya = cn_sedvel
+						name_list_meshchera = cn_sedvel
+						name_list_mari = cn_sedvel
+						name_list_muroma = cn_sedvel
+					}
+				}
+				b_kirsanov = {
+					province = 5387
+
+					color = { 35 78 60 }
+
+					cultural_names = {
+						name_list_mordvin = cn_vernakuzo
+						name_list_merya = cn_vernakuzo
+						name_list_meshchera = cn_vernakuzo
+						name_list_mari = cn_vernakuzo
+						name_list_muroma = cn_vernakuzo
+					}
+				}
+			}
+			c_kozlov = {
+				color = { 11 60 49 }
+
+				cultural_names = {
+					name_list_mordvin = cn_sirevel_e
+					name_list_merya = cn_sirevel_e
+					name_list_meshchera = cn_sirevel_e
+					name_list_mari = cn_sirevel_e
+					name_list_muroma = cn_sirevel_e
+				}
+
+				b_kozlov = {
+					province = 5357
+
+					color = { 11 60 49 }
+
+					cultural_names = {
+						name_list_mordvin = cn_sirevel_e
+						name_list_merya = cn_sirevel_e
+						name_list_meshchera = cn_sirevel_e
+						name_list_mari = cn_sirevel_e
+						name_list_muroma = cn_sirevel_e
+					}
+				}
+				b_oranienburg = {
+					province = 5358
+
+					color = { 11 60 49 }
+				}
+			}
+		}
+
+		d_voronezh = {
+			color = { 26 52 24 }
+
+			capital = c_voronezh
+
+			cultural_names = {
+				name_list_mordvin = cn_voronej
+				name_list_merya = cn_voronej
+				name_list_meshchera = cn_voronej
+				name_list_mari = cn_voronej
+				name_list_muroma = cn_voronej
+			}
+
+			c_voronezh = {
+				color = { 26 42 34 }
+
+				cultural_names = {
+					name_list_mordvin = cn_voronej
+					name_list_merya = cn_voronej
+					name_list_meshchera = cn_voronej
+					name_list_mari = cn_voronej
+					name_list_muroma = cn_voronej
+				}
+
+				b_voronezh = {
+					province = 5350
+
+					color = { 26 52 24 }
+
+					cultural_names = {
+						name_list_mordvin = cn_voronej
+						name_list_merya = cn_voronej
+						name_list_meshchera = cn_voronej
+						name_list_mari = cn_voronej
+						name_list_muroma = cn_voronej
+					}
+				}
+				b_usman = {
+					province = 5352
+
+					color = { 26 52 24 }
+				}
+				b_lipetsk = {
+					province = 5351
+
+					color = { 26 52 24 }
+				}
+			}
+			c_karatayak = {
+				color = { 56 42 24 }
+
+				b_karatayak = {
+					province = 5371
+
+					color = { 56 42 24 }
+				}
+				b_pavlovsk = {
+					province = 5373
+
+					color = { 56 42 24 }
+
+					cultural_names = {
+						name_list_mordvin = cn_varakavir
+						name_list_merya = cn_varakavir
+						name_list_meshchera = cn_varakavir
+						name_list_mari = cn_varakavir
+						name_list_muroma = cn_varakavir
+					}
+				}
+				b_babrov = {
+					province = 5372
+
+					color = { 56 42 24 }
+
+					cultural_names = {
+						name_list_mordvin = cn_tundokev
+						name_list_merya = cn_tundokev
+						name_list_meshchera = cn_tundokev
+						name_list_mari = cn_tundokev
+						name_list_muroma = cn_tundokev
+					}
+				}
+			}
+			c_oskol = {
+				color = { 66 62 44 }
+
+				b_oskol = {
+					province = 566
+
+					color = { 66 62 44 }
+				}
+				b_chally-kala = {
+					province = 5284
+
+					color = { 66 62 44 }
+				}
+			}
+			c_khursa = {
+				color = { 60 75 40 }
+
+				b_khursa = {
+					province = 5286
+
+					color = { 60 75 40 }
+				}
+				b_khorysdan = {
+					province = 5285
+
+					color = { 60 75 40 }
+				}
+			}
+		}
+
+		d_chuvashia = {
+			color = { 50 40 76 }
+
+			capital = c_saratov
+
+			cultural_names = {
+				name_list_turkish = cn_burtasia
+			}
+
+			c_saratov = {
+				color = { 71 31 61 }
+
+				cultural_names = {
+					name_list_bolghar = cn_saratau
+					name_list_khazar = cn_saratau
+					name_list_turkish = cn_saratau
+					name_list_cuman = cn_saratau
+					name_list_mordvin = cn_saratau
+					name_list_merya = cn_saratau
+					name_list_meshchera = cn_saratau
+					name_list_mari = cn_saratau
+					name_list_muroma = cn_saratau
+				}
+
+				b_saratov = {
+					province = 592
+
+					color = { 71 31 61 }
+
+					cultural_names = {
+						name_list_bolghar = cn_saratau
+						name_list_khazar = cn_saratau
+						name_list_turkish = cn_saratau
+						name_list_cuman = cn_saratau
+						name_list_mordvin = cn_saratau
+						name_list_merya = cn_saratau
+						name_list_meshchera = cn_saratau
+						name_list_mari = cn_saratau
+						name_list_muroma = cn_saratau
+					}
+				}
+				b_hanbalik = {
+					province = 5369
+
+					color = { 71 31 61 }
+				}
+				b_uza = {
+					province = 5370
+
+					color = { 71 31 61 }
+				}
+			}
+			c_penza = {
+				color = { 50 40 76 }
+
+				cultural_names = {
+					name_list_turkish = cn_burtas
+				}
+
+				b_penza = {
+					province = 5366
+
+					color = { 50 40 76 }
+
+					cultural_names = {
+						name_list_turkish = cn_burtas
+					}
+				}
+				b_saransk = {
+					province = 579
+
+					color = { 50 40 76 }
+				}
+				b_insara = {
+					province = 5367
+
+					color = { 50 40 76 }
+				}
+				b_chechkeiev = {
+					province = 5368
+
+					color = { 50 40 76 }
+
+					cultural_names = {
+						name_list_mordvin = cn_insaravar
+						name_list_merya = cn_insaravar
+						name_list_meshchera = cn_insaravar
+						name_list_mari = cn_insaravar
+						name_list_muroma = cn_insaravar
+					}
+				}
+			}
+			c_atkarsk = {
+				color = { 95 65 74 }
+
+				b_atkarsk = {
+					province = 5509
+
+					color = { 95 65 74 }
+				}
+				b_peschanka = {
+					province = 5508
+
+					color = { 95 65 74 }
+				}
+				b_tersa = {
+					province = 5410
+
+					color = { 95 65 74 }
+				}
+			}
+			c_petrovsk = {
+				color = { 32 53 69 }
+
+				cultural_names = {
+					name_list_mordvin = cn_sijabije
+					name_list_merya = cn_sijabije
+					name_list_meshchera = cn_sijabije
+					name_list_mari = cn_sijabije
+					name_list_muroma = cn_sijabije
+				}
+
+				b_petrovsk = {
+					province = 5390
+
+					color = { 32 53 69 }
+
+					cultural_names = {
+						name_list_mordvin = cn_sijabije
+						name_list_merya = cn_sijabije
+						name_list_meshchera = cn_sijabije
+						name_list_mari = cn_sijabije
+						name_list_muroma = cn_sijabije
+					}
+				}
+				b_treliaka = {
+					province = 5391
+
+					color = { 32 53 69 }
+				}
+				b_alchanka = {
+					province = 5392
+
+					color = { 32 53 69 }
+				}
+			}
+			c_ashli = {
+				color = { 96 52 80 }
+
+				b_ashli = {
+					province = 614
+
+					color = { 96 52 80 }
+				}
+				b_simbirsk = {
+					province = 591
+
+					color = { 96 52 80 }
+				}
+				b_banja = {
+					province = 5411
+
+					color = { 96 52 80 }
+				}
+            }
+		}
+
+		d_khopyor = {
+			color = { 46 52 24 }
+
+			capital = c_khopyor
+
+			c_khopyor = {
+				color = { 74 70 33 }
+
+				b_khopyor = {
+					province = 593
+
+					color = { 74 70 33 }
+				}
+				b_bychok = {
+					province = 5380
+
+					color = { 74 70 33 }
+				}
+				b_kriucha = {
+					province = 5381
+
+					color = { 74 70 33 }
+				}
+				b_manina = {
+					province = 5382
+
+					color = { 74 70 33 }
+				}
+			}
+			c_tuluchezeva = {
+				color = { 40 58 40 }
+
+				b_tuluchezeva = {
+					province = 5374
+
+					color = { 40 58 40 }
+				}
+				b_lejlotka = {
+					province = 5375
+
+					color = { 40 58 40 }
+				}
+				b_trotskhoper = {
+					province = 5376
+
+					color = { 40 58 40 }
+				}
+			}
+			c_balachev = {
+				color = { 95 70 59 }
+
+				b_balachev = {
+					province = 5377
+
+					color = { 95 70 59 }
+				}
+				b_khoper = {
+					province = 5378
+
+					color = { 95 70 59 }
+				}
+				b_viazovka = {
+					province = 5379
+
+					color = { 95 70 59 }
+				}
+			}
+		}
+
+		d_tambov = {
+			color = { 0 38 18 }
+
+			capital = c_tambov
+
+			c_tambov = {
+				color = { 14 52 32 }
+
+				b_tambov = {
+					province = 5353
+
+					color = { 14 52 32 }
+				}
+				b_szava = {
+					province = 5354
+
+					color = { 14 52 32 }
+				}
+			}
+			c_matya = {
+				color = { 0 35 15 }
+
+				b_matya = {
+					province = 5356
+
+					color = { 0 35 15 }
+				}
+				b_plavitza = {
+					province = 5355
+
+					color = { 0 35 15 }
+				}
+			}
+			c_durovka = {
+				color = { 35 60 60 }
+
+				b_durovka = {
+					province = 5388
+
+					color = { 35 60 60 }
+				}
+				b_kolychev = {
+					province = 5389
+
+					color = { 35 60 60 }
+				}
+				b_repnoye = {
+					province = 5498
+
+					color = { 35 60 60 }
+				}
+			}
+		}
+	}
+}

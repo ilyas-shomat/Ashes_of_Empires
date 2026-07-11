@@ -1,0 +1,24 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Packaged mod archives (the source remains tracked)
+*.zip
+*.7z
+*.rar
+
+# Local mod installation links and launcher-generated files
+*.mod.link
