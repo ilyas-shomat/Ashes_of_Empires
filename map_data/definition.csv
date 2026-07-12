@@ -13650,76 +13650,138 @@
 
 ### Dutchy
 ### Count
-13548;156;151;151;Tir-Azrakar;x;
-13549;156;151;152;Velmiran;x;
-13550;156;151;153;Dar-Kharos;x;
-13551;156;151;154;Belzun;x;
+13558;156;151;151;Varethor;x;
+13559;156;151;152;Dar-Kelun;x;
+13560;156;151;153;Tir-Mazir;x;
+13561;156;151;154;Orvanel;x;
 ### Count
-13552;156;151;155;Tor-Oreth;x;
-13553;156;151;156;Sarvazan;x;
+13562;156;151;155;Belkaris;x;
+13563;156;151;156;Sarven;x;
 ### Count
-13554;156;151;157;Nemereth;x;
-13555;156;151;158;Kar-Ilar;x;
-13556;156;151;159;Val-Zereth;x;
+13564;156;151;157;Kharunor;x;
+13565;156;151;158;Val-Ezrel;x;
+13566;156;151;159;Merath;x;
 
 ### Dutchy
 ### Count
-13548;156;152;151;Tir-Azrakar;x;
-13549;156;152;152;Velmiran;x;
-13550;156;152;153;Dar-Kharos;x;
-13551;156;152;154;Belzun;x;
+13567;156;152;151;Zarvalen;x;
+13568;156;152;152;Tir-Kharun;x;
+13569;156;152;153;Calvaren;x;
+13570;156;152;154;Noreth;x;
 ### Count
-13552;156;152;155;Tor-Oreth;x;
-13553;156;152;156;Sarvazan;x;
+13571;156;152;155;Dar-Melun;x;
+13572;156;152;156;Belzareth;x;
 ### Count
-13554;156;152;157;Nemereth;x;
-13555;156;152;158;Kar-Ilar;x;
-13556;156;152;159;Val-Zereth;x;
-13557;156;152;160;Marvor;x;
+13573;156;152;157;Tor-Irav;x;
+13574;156;152;158;Selmara;x;
+13575;156;152;159;Karveth;x;
+13576;156;152;160;Azrun;x;
 
 ### Dutchy
 ### Count
-13548;156;153;151;Tir-Azrakar;x;
-13549;156;153;152;Velmiran;x;
+13577;156;153;151;Itharaz;x;
+13578;156;153;152;Velravan;x;
 ### Count
-13550;156;153;153;Dar-Kharos;x;
-13551;156;153;154;Belzun;x;
-13552;156;153;155;Tor-Oreth;x;
+13579;156;153;153;Dar-Zareth;x;
+13580;156;153;154;Kharvelon;x;
+13581;156;153;155;Orzarin;x;
 ### Count
-13553;156;153;156;Sarvazan;x;
-13554;156;153;157;Nemereth;x;
-13555;156;153;158;Kar-Ilar;x;
+13582;156;153;156;Tir-Belun;x;
+13583;156;153;157;Marvazar;x;
+13584;156;153;162;Calvereth;x;
 ### Count
-13556;156;153;159;Val-Zereth;x;
-13557;156;153;160;Marvor;x;
-13557;156;153;161;Marvor;x;
+13585;156;153;159;Nemrath;x;
+13586;156;153;160;Val-Sarun;x;
+13587;156;153;161;Beloran;x;
 
 ### Dutchy
 ### Count
-13548;156;154;151;Tir-Azrakar;x;
-13549;156;154;152;Velmiran;x;
-13550;156;154;153;Dar-Kharos;x;
-13551;156;154;154;Belzun;x;
+13588;156;154;151;Tir-Velzaran;x;
+13589;156;154;152;Dar-Orveth;x;
+13590;156;154;153;Kharzun;x;
+13591;156;154;154;Belvaraz;x;
 ### Count
-13552;156;154;155;Tor-Oreth;x;
-13553;156;154;156;Sarvazan;x;
-13554;156;154;157;Nemereth;x;
-13555;156;154;158;Kar-Ilar;x;
+13592;156;154;155;Tor-Ilun;x;
+13593;156;154;156;Sarzeth;x;
+13594;156;154;157;Velzeth;x;
+13595;156;154;158;Arvenor;x;
 ### Count
-13556;156;154;159;Val-Zereth;x;
-13557;156;154;160;Marvor;x;
-13557;156;154;161;Marvor;x;
+13596;156;154;159;Calmarun;x;
+13597;156;154;160;Zarvakan;x;
+13598;156;154;161;Meruzan;x;
 
 ### Dutchy
 ### Count
-13548;156;155;151;Tir-Azrakar;x;
-13549;156;155;152;Velmiran;x;
-13550;156;155;153;Dar-Kharos;x;
-13551;156;155;154;Belzun;x;
+13599;156;155;151;Nemerazar;x;
+13600;156;155;152;Tir-Orzun;x;
+13601;156;155;153;Dar-Kaleth;x;
+13602;156;155;154;Belzarin;x;
 ### Count
-13552;156;155;155;Tor-Oreth;x;
-13553;156;155;156;Sarvazan;x;
+13603;156;155;155;Kharoth;x;
+13604;156;155;156;Sarvanel;x;
 ### Count
-13554;156;155;157;Nemereth;x;
-13555;156;155;158;Kar-Ilar;x;
-13556;156;155;159;Val-Zereth;x;
+13605;156;155;157;Val-Meraz;x;
+13606;156;155;158;Orvelun;x;
+13607;156;155;159;Talzeth;x;
+
+
+### Kingdom
+
+### Dutchy
+### Count
+13608;157;151;151;Avarzeth;x;
+13609;157;151;152;Tir-Navar;x;
+13610;157;151;153;Belzunor;x;
+13611;157;151;154;Dar-Varin;x;
+### Count
+13612;157;151;155;Kharazel;x;
+13613;157;151;156;Sarvelar;x;
+### Count
+13614;157;151;157;Ormaren;x;
+13615;157;151;158;Val-Kharun;x;
+13616;157;151;159;Merzath;x;
+
+### Dutchy
+### Count
+13617;157;152;151;Calzareth;x;
+13618;157;152;152;Dar-Ivar;x;
+13619;157;152;153;Tor-Belzar;x;
+13620;157;152;154;Nemeroth;x;
+### Count
+13621;157;152;155;Arvakan;x;
+13622;157;152;156;Selvarin;x;
+### Count
+13623;157;152;157;Karzeth;x;
+13624;157;152;158;Velaroth;x;
+13625;157;152;159;Tir-Meral;x;
+
+### Dutchy
+### Count
+13626;157;153;151;Zarvelun;x;
+13627;157;153;152;Belrath;x;
+13628;157;153;153;Dar-Azren;x;
+13629;157;153;154;Kharorin;x;
+13630;157;153;155;Orvaren;x;
+13631;157;153;156;Tir-Selun;x;
+### Count
+13632;157;153;157;Marzaran;x;
+13633;157;153;158;Calvar;x;
+13634;157;153;159;Nemeraz;x;
+### Count
+13635;157;153;160;Val-Ireth;x;
+13636;157;153;161;Sarvakan;x;
+
+### Dutchy
+### Count
+13637;157;154;151;Ilarazan;x;
+13638;157;154;152;Dar-Vorun;x;
+13639;157;154;153;Belzavel;x;
+### Count
+13640;157;154;154;Tor-Kharin;x;
+13641;157;154;155;Velmara;x;
+13642;157;154;156;Arzunor;x;
+13643;157;154;157;Kharval;x;
+### Count
+13644;157;154;158;Tir-Orval;x;
+13645;157;154;159;Marzun;x;
+13646;157;154;160;Selvaren;x;
