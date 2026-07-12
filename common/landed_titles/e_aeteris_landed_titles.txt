@@ -1132,15 +1132,15 @@ e_aeteris = {
                 color = { 154 152 151 }
 
                 b_val_zareth = {
-                    province = 13479
+                    province = 13477
                     color = { 154 152 160 }
                 }
                 b_calvenor = {
-                    province = 13480
+                    province = 13478
                     color = { 154 152 161 }
                 }
                 b_rethar = {
-                    province = 13481
+                    province = 13479
                     color = { 154 152 162 }
                 }
             }
@@ -1148,19 +1148,19 @@ e_aeteris = {
                 color = { 154 152 151 }
 
                 b_dar_volen = {
-                    province = 13482
+                    province = 13480
                     color = { 154 152 151 }
                 }
                 b_malrath = {
-                    province = 13483
+                    province = 13481
                     color = { 154 152 152 }
                 }
                 b_tir_ezran = {
-                    province = 13484
+                    province = 13482
                     color = { 154 152 153 }
                 }
                 b_khoravel = {
-                    province = 13485
+                    province = 13483
                     color = { 154 152 154 }
                 }
             }
@@ -1168,19 +1168,19 @@ e_aeteris = {
                 color = { 154 152 151 }
 
                 b_selmiran = {
-                    province = 13486
+                    province = 13484
                     color = { 154 152 155 }
                 }
                 b_arzeth = {
-                    province = 13487
+                    province = 13485
                     color = { 154 152 156 }
                 }
                 b_tor_varen = {
-                    province = 13488
+                    province = 13486
                     color = { 154 152 157 }
                 }
                 b_nemel = {
-                    province = 13489
+                    province = 13487
                     color = { 154 152 158 }
                 }
             }
@@ -1193,19 +1193,19 @@ e_aeteris = {
                 color = { 154 153 151 }
 
                 b_kharazeth = {
-                    province = 13490
+                    province = 13488
                     color = { 154 153 159 }
                 }
                 b_ilaros = {
-                    province = 13491
+                    province = 13489
                     color = { 154 153 160 }
                 }
                 b_dar_merun = {
-                    province = 13492
+                    province = 13490
                     color = { 154 153 161 }
                 }
                 b_veloran = {
-                    province = 13493
+                    province = 13491
                     color = { 154 153 162 }
                 }
             }
@@ -1213,19 +1213,19 @@ e_aeteris = {
                 color = { 154 153 151 }
 
                 b_zarvel = {
-                    province = 13494
+                    province = 13492
                     color = { 154 153 151 }
                 }
                 b_tir_callar = {
-                    province = 13495
+                    province = 13493
                     color = { 154 153 152 }
                 }
                 b_ormiran = {
-                    province = 13496
+                    province = 13494
                     color = { 154 153 153 }
                 }
                 b_calzeth = {
-                    province = 13497
+                    province = 13495
                     color = { 154 153 154 }
                 }
             }
@@ -1238,27 +1238,27 @@ e_aeteris = {
                 color = { 154 154 151 }
 
                 b_dar_zarvel = {
-                    province = 13500
+                    province = 13496
                     color = { 154 154 157 }
                 }
                 b_velmoran = {
-                    province = 13501
+                    province = 13497
                     color = { 154 154 158 }
                 }
                 b_kharisar = {
-                    province = 13502
+                    province = 13498
                     color = { 154 154 159 }
                 }
                 b_tir_aveth = {
-                    province = 13503
+                    province = 13499
                     color = { 154 154 160 }
                 }
                 b_belravan = {
-                    province = 13504
+                    province = 13500
                     color = { 154 154 161 }
                 }
                 b_orzeth = {
-                    province = 13505
+                    province = 13501
                     color = { 154 154 162 }
                 }
             }
@@ -1266,15 +1266,15 @@ e_aeteris = {
                 color = { 154 154 151 }
 
                 b_nemirath = {
-                    province = 13506
+                    province = 13502
                     color = { 154 154 151 }
                 }
                 b_kar_velzar = {
-                    province = 13507
+                    province = 13503
                     color = { 154 154 152 }
                 }
                 b_sarvelon = {
-                    province = 13508
+                    province = 13504
                     color = { 154 154 153 }
                 }
             }
@@ -1282,16 +1282,12 @@ e_aeteris = {
                 color = { 154 154 151 }
 
                 b_taloren = {
-                    province = 13509
+                    province = 13505
                     color = { 154 154 154 }
                 }
                 b_dar_khavir = {
-                    province = 13510
+                    province = 13506
                     color = { 154 154 155 }
-                }
-                b_rethzaran = {
-                    province = 13511
-                    color = { 154 154 156 }
                 }
             }
         }
@@ -1303,19 +1299,19 @@ e_aeteris = {
                 color = { 154 155 151 }
 
                 b_avelzoran = {
-                    province = 13512
+                    province = 13507
                     color = { 154 155 157 }
                 }
                 b_tir_mereth = {
-                    province = 13513
+                    province = 13508
                     color = { 154 155 158 }
                 }
                 b_calravan = {
-                    province = 13514
+                    province = 13509
                     color = { 154 155 159 }
                 }
                 b_vorlath = {
-                    province = 13515
+                    province = 13510
                     color = { 154 155 160 }
                 }
             }
@@ -1323,19 +1319,19 @@ e_aeteris = {
                 color = { 154 155 151 }
 
                 b_belzeth = {
-                    province = 13516
+                    province = 13511
                     color = { 154 155 161 }
                 }
                 b_dar_orven = {
-                    province = 13517
+                    province = 13512
                     color = { 154 155 162 }
                 }
                 b_kharelan = {
-                    province = 13518
+                    province = 13513
                     color = { 154 155 151 }
                 }
                 b_selrath = {
-                    province = 13519
+                    province = 13514
                     color = { 154 155 152 }
                 }
             }
@@ -1343,15 +1339,15 @@ e_aeteris = {
                 color = { 154 155 151 }
 
                 b_zarimel = {
-                    province = 13520
+                    province = 13515
                     color = { 154 155 153 }
                 }
                 b_tor_velar = {
-                    province = 13521
+                    province = 13516
                     color = { 154 155 154 }
                 }
                 b_arzuneth = {
-                    province = 13522
+                    province = 13517
                     color = { 154 155 155 }
                 }
             }
