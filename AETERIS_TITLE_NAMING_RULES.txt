@@ -39,7 +39,7 @@ counties normally use the compound frontier register.
 ------------------
 
 Preferred consonants:
-  b, d, f, g, h, k, kh, l, m, n, r, s, sh, t, v, y, z
+  b, d, f, g, h, k, kh, l, m, n, r, s, t, v, y, z
 
 Use sparingly:
   c (always a hard k-like sound), th, ph
@@ -54,8 +54,13 @@ Common vowel movement:
   a-a, a-e, a-i, e-a, e-i, o-a, o-e, u-a
 
 Most names should alternate consonants and vowels. Permit at most one marked
-cluster per name: kh, sh, th, nd, ld, rn, rz, or rv. This keeps the Iranian-
+cluster per name: kh, th, nd, ld, rn, rz, or rv. This keeps the Iranian-
 Turkic color without losing the smooth Numenorean cadence.
+
+Orthographic simplification:
+  Replace every lowercase "sh" sequence with "s" in generated title names and
+  CK3 title keys. For example, Mardesh becomes Mardes and mardesh becomes
+  mardes. Do not introduce a new lowercase "sh" sequence after this pass.
 
 Stress should usually fall on the first or penultimate syllable:
   VA-lo-ras, re-THA-nor, TOR-va-zan, SE-lkar.
@@ -142,7 +147,7 @@ Barony / settlement:
 
 Draw inspiration from sound features, not from whole words or living names:
 
-  - Use kh, sh, z, v, and final -r/-n/-d in moderation.
+  - Use kh, z, v, and final -r/-n/-d in moderation.
   - Use open a vowels beside narrower e/i vowels.
   - Allow endings reminiscent of -dar, -zar, -mir, -van, or -stan only after
     changing both their form and their implied meaning: e.g. -daran, -zarel,
