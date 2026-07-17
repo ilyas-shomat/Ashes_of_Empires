@@ -373,7 +373,7 @@ e_aeteris = {
 		}
 	}
 
-    k_temp_1 = {
+    k_elorvar = {
 
         color = { 142 146 150 }
 	    capital = c_tir-valen 
@@ -775,7 +775,7 @@ e_aeteris = {
         }
     }
 
-    k_arvelor = {
+    k_arvelas = {
         color = { 158 163 168 }
         capital = c_calreth
 
@@ -1078,8 +1078,7 @@ e_aeteris = {
         }
     }
 
-
-    k_avelzoran = {
+    k_avelzar = {
         color = { 116 122 128 }
         capital = c_itharion
 
@@ -1354,7 +1353,7 @@ e_aeteris = {
         }
     }
 
-    k_karvelor = {
+    k_karvelan = {
         color = { 137 139 141 }
         capital = c_karvelor
 
@@ -1584,7 +1583,7 @@ e_aeteris = {
         }
     }
 
-    k_varethor = {
+    k_varentas = {
         color = { 153 156 159 }
         capital = c_varethor
 
@@ -1875,7 +1874,7 @@ e_aeteris = {
         }
     }
 
-    k_avarzeth = {
+    k_avaret = {
         color = { 111 115 119 }
         capital = c_avarzeth
 
@@ -2104,5 +2103,4 @@ e_aeteris = {
             }
         }
     }
-
 }
