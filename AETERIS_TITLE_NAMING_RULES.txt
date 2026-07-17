@@ -61,6 +61,8 @@ Orthographic simplification:
   Replace every lowercase "sh" sequence with "s" in generated title names and
   CK3 title keys. For example, Mardesh becomes Mardes and mardesh becomes
   mardes. Do not introduce a new lowercase "sh" sequence after this pass.
+  Replace every lowercase "th" sequence with "t" as well. For example,
+  Rethanor becomes Retanor and rethanor becomes retanor.
 
 Stress should usually fall on the first or penultimate syllable:
   VA-lo-ras, re-THA-nor, TOR-va-zan, SE-lkar.

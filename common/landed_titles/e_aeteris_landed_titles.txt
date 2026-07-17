@@ -274,10 +274,10 @@ e_aeteris = {
                 
 			}
 
-            c_rethanor = {
+            c_retanor = {
 				color = { 168 179 190 }
 
-				b_rethanor = {
+				b_retanor = {
 
 					province = 13346
 					color = { 136 147 158 }
@@ -330,10 +330,10 @@ e_aeteris = {
 				}
 			}
 
-            c_malethor = {
+            c_maletor = {
 				color = { 123 131 139 }
 
-				b_malethor = {
+				b_maletor = {
 
 					province = 13354
 					color = { 53 68 83 }
@@ -376,14 +376,14 @@ e_aeteris = {
     k_elorvar = {
 
         color = { 142 146 150 }
-	    capital = c_tir-valen 
+	    capital = c_elorvar 
 
         d_tir-valen = {
 
 			color = { 148 159 170 }
-			capital = c_tir-valen 
+			capital = c_elorvar 
 
-			c_tir-valen = {
+			c_elorvar = {
 				color = { 65 83 101 }
 
 				b_tir-valen = {
@@ -426,7 +426,7 @@ e_aeteris = {
 					province = 13366
 					color = { 130 137 144 }
 				}
-                b_nareth = {
+                b_naret = {
 
 					province = 13367
 					color = { 156 174 192 }
@@ -461,7 +461,7 @@ e_aeteris = {
 					province = 13372
 					color = { 92 109 126 }
 				}
-                b_othar = {
+                b_otar = {
 
 					province = 13373
 					color = { 132 146 160 }
@@ -610,10 +610,10 @@ e_aeteris = {
 				}
             }
 
-            c_soreth = {
+            c_soret = {
 				color = { 105 111 117 }
 
-                b_soreth = {
+                b_soret = {
 
 					province = 13395
 					color = { 67 85 103 }
@@ -665,7 +665,7 @@ e_aeteris = {
 					province = 13401
 					color = { 168 182 196 }
 				}
-				b_mareth = {
+				b_maret = {
 
 					province = 13402
 					color = { 83 94 105 }
@@ -695,7 +695,7 @@ e_aeteris = {
 					province = 13405
 					color = { 64 80 96 }
 				}
-                b_sareth = {
+                b_saret = {
 
 					province = 13406
 					color = { 104 117 131 }
@@ -777,16 +777,16 @@ e_aeteris = {
 
     k_arvelas = {
         color = { 158 163 168 }
-        capital = c_calreth
+        capital = c_calret
 
-        d_zarvethor = {
+        d_zarvetor = {
             color = { 94 104 114 }
-            capital = c_calreth
+            capital = c_calret
 
-            c_calreth = {
+            c_calret = {
                 color = { 132 139 146 }
 
-                b_calreth = {
+                b_calret = {
                     province = 13417
                     color = { 141 149 157 }
                 }
@@ -810,15 +810,15 @@ e_aeteris = {
                     province = 13421
                     color = { 162 172 182 }
                 }
-                b_velrath = {
+                b_velrat = {
                     province = 13422
                     color = { 77 84 91 }
                 }
             }
-            c_rethun = {
+            c_retun = {
                 color = { 74 91 109 }
 
-                b_rethun = {
+                b_retun = {
                     province = 13423
                     color = { 103 121 139 }
                 }
@@ -867,15 +867,15 @@ e_aeteris = {
                     province = 13431
                     color = { 159 167 175 }
                 }
-                b_nemerath = {
+                b_nemerat = {
                     province = 13432
                     color = { 60 79 98 }
                 }
             }
-            c_marveth = {
+            c_marvet = {
                 color = { 178 184 190 }
 
-                b_marveth = {
+                b_marvet = {
                     province = 13433
                     color = { 100 116 132 }
                 }
@@ -908,7 +908,7 @@ e_aeteris = {
                     province = 13438
                     color = { 161 176 191 }
                 }
-                b_roveth = {
+                b_rovet = {
                     province = 13439
                     color = { 76 88 100 }
                 }
@@ -928,7 +928,7 @@ e_aeteris = {
                     province = 13442
                     color = { 57 74 91 }
                 }
-                b_belath = {
+                b_belat = {
                     province = 13443
                     color = { 97 111 125 }
                 }
@@ -940,7 +940,7 @@ e_aeteris = {
                     province = 13444
                     color = { 137 148 159 }
                 }
-                b_zarveth = {
+                b_zarvet = {
                     province = 13445
                     color = { 177 185 193 }
                 }
@@ -950,14 +950,14 @@ e_aeteris = {
                 }
             }
         }
-        d_dar_calreth = {
+        d_dar_calret = {
             color = { 84 91 98 }
-            capital = c_dar_calreth
+            capital = c_dar_calret
 
-            c_dar_calreth = {
+            c_dar_calret = {
                 color = { 75 88 101 }
 
-                b_dar_calreth = {
+                b_dar_calret = {
                     province = 13447
                     color = { 118 134 150 }
                 }
@@ -969,7 +969,7 @@ e_aeteris = {
                     province = 13449
                     color = { 73 83 93 }
                 }
-                b_tor_rethar = {
+                b_tor_retar = {
                     province = 13450
                     color = { 113 120 127 }
                 }
@@ -977,7 +977,7 @@ e_aeteris = {
                     province = 13451
                     color = { 139 157 175 }
                 }
-                b_sarveth = {
+                b_sarvet = {
                     province = 13452
                     color = { 54 69 84 }
                 }
@@ -998,10 +998,10 @@ e_aeteris = {
                     color = { 160 180 200 }
                 }
             }
-            c_talveth = {
+            c_talvet = {
                 color = { 140 150 160 }
 
-                b_talveth = {
+                b_talvet = {
                     province = 13456
                     color = { 75 92 109 }
                 }
@@ -1026,7 +1026,7 @@ e_aeteris = {
                     province = 13459
                     color = { 70 78 86 }
                 }
-                b_arveth = {
+                b_arvet = {
                     province = 13460
                     color = { 96 115 134 }
                 }
@@ -1039,14 +1039,14 @@ e_aeteris = {
                     color = { 176 189 202 }
                 }
             }
-            c_velrathan = {
+            c_velratan = {
                 color = { 95 102 110 }
 
-                b_velrathan = {
+                b_velratan = {
                     province = 13463
                     color = { 91 101 111 }
                 }
-                b_dar_ileth = {
+                b_dar_ilet = {
                     province = 13464
                     color = { 131 138 145 }
                 }
@@ -1070,7 +1070,7 @@ e_aeteris = {
                     province = 13468
                     color = { 152 161 170 }
                 }
-                b_maruzeth = {
+                b_maruzet = {
                     province = 13469
                     color = { 53 73 93 }
                 }
@@ -1080,16 +1080,16 @@ e_aeteris = {
 
     k_avelzar = {
         color = { 116 122 128 }
-        capital = c_itharion
+        capital = c_itarion
 
-        d_itharion = {
+        d_itarion = {
             color = { 140 149 158 }
-            capital = c_itharion
+            capital = c_itarion
 
-            c_itharion = {
+            c_itarion = {
                 color = { 147 164 181 }
 
-                b_itharion = {
+                b_itarion = {
                     province = 13470
                     color = { 93 110 127 }
                 }
@@ -1097,11 +1097,11 @@ e_aeteris = {
                     province = 13471
                     color = { 133 147 161 }
                 }
-                b_kar_eleth = {
+                b_kar_elet = {
                     province = 13472
                     color = { 173 184 195 }
                 }
-                b_norveth = {
+                b_norvet = {
                     province = 13473
                     color = { 88 96 104 }
                 }
@@ -1117,20 +1117,20 @@ e_aeteris = {
                     province = 13474
                     color = { 154 170 186 }
                 }
-                b_arvethor = {
+                b_arvetor = {
                     province = 13475
                     color = { 69 82 95 }
                 }
             }
         }
-        d_val_zareth = {
+        d_val_zaret = {
             color = { 162 178 194 }
-            capital = c_val_zareth
+            capital = c_val_zaret
 
-            c_val_zareth = {
+            c_val_zaret = {
                 color = { 102 116 130 }
 
-                b_val_zareth = {
+                b_val_zaret = {
                     province = 13477
                     color = { 109 119 129 }
                 }
@@ -1138,7 +1138,7 @@ e_aeteris = {
                     province = 13478
                     color = { 149 156 163 }
                 }
-                b_rethar = {
+                b_retar = {
                     province = 13479
                     color = { 50 68 86 }
                 }
@@ -1150,7 +1150,7 @@ e_aeteris = {
                     province = 13480
                     color = { 90 105 120 }
                 }
-                b_malrath = {
+                b_malrat = {
                     province = 13481
                     color = { 130 142 154 }
                 }
@@ -1170,7 +1170,7 @@ e_aeteris = {
                     province = 13484
                     color = { 111 128 146 }
                 }
-                b_arzeth = {
+                b_arzet = {
                     province = 13485
                     color = { 151 165 179 }
                 }
@@ -1184,14 +1184,14 @@ e_aeteris = {
                 }
             }
         }
-        d_kharazeth = {
+        d_kharazet = {
             color = { 96 107 118 }
-            capital = c_kharazeth
+            capital = c_kharazet
 
-            c_kharazeth = {
+            c_kharazet = {
                 color = { 83 99 115 }
 
-                b_kharazeth = {
+                b_kharazet = {
                     province = 13488
                     color = { 132 151 170 }
                 }
@@ -1223,7 +1223,7 @@ e_aeteris = {
                     province = 13494
                     color = { 108 123 138 }
                 }
-                b_calzeth = {
+                b_calzet = {
                     province = 13495
                     color = { 148 160 172 }
                 }
@@ -1248,7 +1248,7 @@ e_aeteris = {
                     province = 13498
                     color = { 129 146 163 }
                 }
-                b_tir_aveth = {
+                b_tir_avet = {
                     province = 13499
                     color = { 169 183 197 }
                 }
@@ -1256,15 +1256,15 @@ e_aeteris = {
                     province = 13500
                     color = { 84 95 106 }
                 }
-                b_orzeth = {
+                b_orzet = {
                     province = 13501
                     color = { 124 132 140 }
                 }
             }
-            c_nemirath = {
+            c_nemirat = {
                 color = { 64 82 100 }
 
-                b_nemirath = {
+                b_nemirat = {
                     province = 13502
                     color = { 150 169 188 }
                 }
@@ -1301,7 +1301,7 @@ e_aeteris = {
                     province = 13507
                     color = { 86 104 122 }
                 }
-                b_tir_mereth = {
+                b_tir_meret = {
                     province = 13508
                     color = { 126 141 156 }
                 }
@@ -1309,15 +1309,15 @@ e_aeteris = {
                     province = 13509
                     color = { 166 178 190 }
                 }
-                b_vorlath = {
+                b_vorlat = {
                     province = 13510
                     color = { 81 90 99 }
                 }
             }
-            c_belzeth = {
+            c_belzet = {
                 color = { 168 175 182 }
 
-                b_belzeth = {
+                b_belzet = {
                     province = 13511
                     color = { 107 127 147 }
                 }
@@ -1329,7 +1329,7 @@ e_aeteris = {
                     province = 13513
                     color = { 62 76 90 }
                 }
-                b_selrath = {
+                b_selrat = {
                     province = 13514
                     color = { 102 113 124 }
                 }
@@ -1345,7 +1345,7 @@ e_aeteris = {
                     province = 13516
                     color = { 168 187 206 }
                 }
-                b_arzuneth = {
+                b_arzunet = {
                     province = 13517
                     color = { 83 99 116 }
                 }
@@ -1388,7 +1388,7 @@ e_aeteris = {
                     province = 13522
                     color = { 144 159 174 }
                 }
-                b_ilareth = {
+                b_ilaret = {
                     province = 13523
                     color = { 59 71 83 }
                 }
@@ -1412,7 +1412,7 @@ e_aeteris = {
                     province = 13527
                     color = { 80 94 108 }
                 }
-                b_orveth = {
+                b_orvet = {
                     province = 13528
                     color = { 120 131 142 }
                 }
@@ -1445,11 +1445,11 @@ e_aeteris = {
                     province = 13532
                     color = { 141 154 167 }
                 }
-                b_kar_velath = {
+                b_kar_velat = {
                     province = 13533
                     color = { 56 66 76 }
                 }
-                b_belreth = {
+                b_belret = {
                     province = 13534
                     color = { 96 103 111 }
                 }
@@ -1458,10 +1458,10 @@ e_aeteris = {
                     color = { 122 140 158 }
                 }
             }
-            c_marzeth = {
+            c_marzet = {
                 color = { 156 172 188 }
 
-                b_marzeth = {
+                b_marzet = {
                     province = 13536
                     color = { 162 177 192 }
                 }
@@ -1475,14 +1475,14 @@ e_aeteris = {
                 }
             }
         }
-        d_ilarveth = {
+        d_ilarvet = {
             color = { 142 152 162 }
-            capital = c_ilarveth
+            capital = c_ilarvet
 
-            c_ilarveth = {
+            c_ilarvet = {
                 color = { 85 93 101 }
 
-                b_ilarveth = {
+                b_ilarvet = {
                     province = 13539
                     color = { 143 163 183 }
                 }
@@ -1518,7 +1518,7 @@ e_aeteris = {
                     province = 13545
                     color = { 119 135 151 }
                 }
-                b_rethaven = {
+                b_retaven = {
                     province = 13546
                     color = { 159 172 185 }
                 }
@@ -1551,7 +1551,7 @@ e_aeteris = {
                     province = 13551
                     color = { 95 107 119 }
                 }
-                b_tor_oreth = {
+                b_tor_oret = {
                     province = 13552
                     color = { 135 144 153 }
                 }
@@ -1560,10 +1560,10 @@ e_aeteris = {
                     color = { 161 181 201 }
                 }
             }
-            c_nemereth = {
+            c_nemeret = {
                 color = { 92 107 122 }
 
-                b_nemereth = {
+                b_nemeret = {
                     province = 13554
                     color = { 76 93 110 }
                 }
@@ -1571,7 +1571,7 @@ e_aeteris = {
                     province = 13555
                     color = { 116 130 144 }
                 }
-                b_val_zereth = {
+                b_val_zeret = {
                     province = 13556
                     color = { 156 167 178 }
                 }
@@ -1585,16 +1585,16 @@ e_aeteris = {
 
     k_varentas = {
         color = { 153 156 159 }
-        capital = c_varethor
+        capital = c_varetor
 
-        d_varethor = {
+        d_varetor = {
             color = { 98 110 122 }
-            capital = c_varethor
+            capital = c_varetor
 
-            c_varethor = {
+            c_varetor = {
                 color = { 131 138 146 }
 
-                b_varethor = {
+                b_varetor = {
                     province = 13558
                     color = { 97 116 135 }
                 }
@@ -1634,7 +1634,7 @@ e_aeteris = {
                     province = 13565
                     color = { 113 125 137 }
                 }
-                b_merath = {
+                b_merat = {
                     province = 13566
                     color = { 153 162 171 }
                 }
@@ -1659,7 +1659,7 @@ e_aeteris = {
                     province = 13569
                     color = { 134 148 162 }
                 }
-                b_noreth = {
+                b_noret = {
                     province = 13570
                     color = { 174 185 196 }
                 }
@@ -1671,7 +1671,7 @@ e_aeteris = {
                     province = 13571
                     color = { 89 97 105 }
                 }
-                b_belzareth = {
+                b_belzaret = {
                     province = 13572
                     color = { 115 134 153 }
                 }
@@ -1687,7 +1687,7 @@ e_aeteris = {
                     province = 13574
                     color = { 70 83 96 }
                 }
-                b_karveth = {
+                b_karvet = {
                     province = 13575
                     color = { 110 120 130 }
                 }
@@ -1697,14 +1697,14 @@ e_aeteris = {
                 }
             }
         }
-        d_itharaz = {
+        d_itaraz = {
             color = { 154 168 182 }
-            capital = c_itharaz
+            capital = c_itaraz
 
-            c_itharaz = {
+            c_itaraz = {
                 color = { 93 104 115 }
 
-                b_itharaz = {
+                b_itaraz = {
                     province = 13577
                     color = { 51 69 87 }
                 }
@@ -1716,7 +1716,7 @@ e_aeteris = {
             c_kharvelon = {
                 color = { 119 135 152 }
 
-                b_dar_zareth = {
+                b_dar_zaret = {
                     province = 13579
                     color = { 131 143 155 }
                 }
@@ -1740,15 +1740,15 @@ e_aeteris = {
                     province = 13583
                     color = { 152 166 180 }
                 }
-                b_calvereth = {
+                b_calveret = {
                     province = 13584
                     color = { 67 78 89 }
                 }
             }
-            c_nemrath = {
+            c_nemrat = {
                 color = { 74 87 100 }
 
-                b_nemrath = {
+                b_nemrat = {
                     province = 13585
                     color = { 107 115 123 }
                 }
@@ -1773,7 +1773,7 @@ e_aeteris = {
                     province = 13588
                     color = { 88 101 114 }
                 }
-                b_dar_orveth = {
+                b_dar_orvet = {
                     province = 13589
                     color = { 128 138 148 }
                 }
@@ -1793,11 +1793,11 @@ e_aeteris = {
                     province = 13592
                     color = { 109 124 139 }
                 }
-                b_sarzeth = {
+                b_sarzet = {
                     province = 13593
                     color = { 149 161 173 }
                 }
-                b_velzeth = {
+                b_velzet = {
                     province = 13594
                     color = { 64 73 82 }
                 }
@@ -1834,7 +1834,7 @@ e_aeteris = {
                     province = 13600
                     color = { 151 170 189 }
                 }
-                b_dar_kaleth = {
+                b_dar_kalet = {
                     province = 13601
                     color = { 66 82 98 }
                 }
@@ -1843,10 +1843,10 @@ e_aeteris = {
                     color = { 106 119 132 }
                 }
             }
-            c_kharoth = {
+            c_kharot = {
                 color = { 94 101 109 }
 
-                b_kharoth = {
+                b_kharot = {
                     province = 13603
                     color = { 146 156 166 }
                 }
@@ -1866,7 +1866,7 @@ e_aeteris = {
                     province = 13606
                     color = { 127 142 157 }
                 }
-                b_talzeth = {
+                b_talzet = {
                     province = 13607
                     color = { 167 179 191 }
                 }
@@ -1876,16 +1876,16 @@ e_aeteris = {
 
     k_avaret = {
         color = { 111 115 119 }
-        capital = c_avarzeth
+        capital = c_avarzet
 
-        d_avarzeth = {
+        d_avarzet = {
             color = { 144 155 166 }
-            capital = c_avarzeth
+            capital = c_avarzet
 
-            c_avarzeth = {
+            c_avarzet = {
                 color = { 146 163 181 }
 
-                b_avarzeth = {
+                b_avarzet = {
                     province = 13608
                     color = { 82 91 100 }
                 }
@@ -1925,20 +1925,20 @@ e_aeteris = {
                     province = 13615
                     color = { 84 100 117 }
                 }
-                b_merzath = {
+                b_merzat = {
                     province = 13616
                     color = { 124 137 150 }
                 }
             }
         }
-        d_calzareth = {
+        d_calzaret = {
             color = { 178 184 191 }
-            capital = c_calzareth
+            capital = c_calzaret
 
-            c_calzareth = {
+            c_calzaret = {
                 color = { 140 146 152 }
 
-                b_calzareth = {
+                b_calzaret = {
                     province = 13617
                     color = { 164 174 184 }
                 }
@@ -1950,7 +1950,7 @@ e_aeteris = {
                     province = 13619
                     color = { 105 123 141 }
                 }
-                b_nemeroth = {
+                b_nemerot = {
                     province = 13620
                     color = { 145 160 175 }
                 }
@@ -1967,14 +1967,14 @@ e_aeteris = {
                     color = { 100 109 118 }
                 }
             }
-            c_karzeth = {
+            c_karzet = {
                 color = { 82 98 115 }
 
-                b_karzeth = {
+                b_karzet = {
                     province = 13623
                     color = { 126 146 166 }
                 }
-                b_velaroth = {
+                b_velarot = {
                     province = 13624
                     color = { 166 183 200 }
                 }
@@ -1995,7 +1995,7 @@ e_aeteris = {
                     province = 13626
                     color = { 121 132 143 }
                 }
-                b_belrath = {
+                b_belrat = {
                     province = 13627
                     color = { 161 169 177 }
                 }
@@ -2031,7 +2031,7 @@ e_aeteris = {
                     province = 13634
                     color = { 123 141 159 }
                 }
-                b_val_ireth = {
+                b_val_iret = {
                     province = 13635
                     color = { 163 178 193 }
                 }
